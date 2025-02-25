@@ -1,0 +1,14 @@
+NXP Software Content Register
+
+Package: mcuxsdk-middleware-bootloader
+Version: 2.7.0
+Outgoing License: BSD-3-Clause
+License File: LICENSE.txt
+Type of Content: source code
+Description and comments: 
+    The MCU bootloader is a configurable flash programming utility that operates over a serial connection on supported NXP MCUs
+    Python implementation of an ELF file reader
+Release Location: https://github.com/nxp-mcuxpresso/mcuxsdk-middleware-bootloader
+Origin: 
+    NXP (BSD-3-Clause)
+    python-msp430-tools( Version 487) written by Chris Liechti <cliechti@gmx.net> (Simplified BSD License) - http://bazaar.launchpad.net/~zsquareplusc/python-msp430-tools/trunk/view/head:/msp430/memory/elf.py

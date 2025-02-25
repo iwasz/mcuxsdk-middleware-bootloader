@@ -1,0 +1,84 @@
+#! armcc -E
+/*
+** ###################################################################
+**     Processor:           K32H844P000VMUAT
+**     Compiler:            Keil ARM C/C++ Compiler
+**     Reference manual:    K32H844RM_Rev2_Mot_External Rev. 1.1 12/2016
+**     Version:             rev. 0.1, 2016-04-22
+**     Build:               b170112
+**
+**     Abstract:
+**         Linker file for the Keil ARM C/C++ Compiler
+**
+**     Copyright (c) 2016 Freescale Semiconductor, Inc.
+**     Copyright 2016 - 2017 NXP
+**     All rights reserved.
+**     
+**     SPDX-License-Identifier: BSD-3-Clause
+**
+**     http:                 www.nxp.com
+**     mail:                 support@nxp.com
+**
+** ###################################################################
+*/
+
+/* Memory region from [0x00000000-0x00009FFF] is reserved for ROM code */
+
+#define m_interrupts_start             0x0000A000
+#define m_interrupts_size              0x00000400
+
+#define m_text_start                   0x0000A400
+#define m_text_size                    0x00015C00
+
+#define m_data_start                   0x20000000
+#define m_data_size                    0x00020000
+
+#define m_sram0_start                  0x2EFC0000
+#define m_sram0_size                   0x00040000
+
+/* Note: The size of SRAM1 is 512KB based at 0x2F00_0000 and here we keep the last 256KB of SRAM1 reserved for L2 cache,
+ * If you disable L2 cache and want to make full use of this area, you can adjust value of m_sram1_end from
+ * 0x2F03_FFFF to 0x2F07_FFFF.
+ */
+#define m_sram1_start                  0x2F000000
+#define m_sram1_end                    0x00040000
+
+/* Sizes */
+#if (defined(__stack_size__))
+  #define Stack_Size                   __stack_size__
+#else
+  #define Stack_Size                   0x0400
+#endif
+
+#if (defined(__heap_size__))
+  #define Heap_Size                    __heap_size__
+#else
+  #define Heap_Size                    0x0400
+#endif
+
+LR_m_text m_text_start m_text_size {   ; load region size_region
+  ER_m_text m_text_start m_text_size { ; load address = execution address
+    * (InRoot$$Sections)
+    .ANY (+RO)
+  }
+
+  RW_m_data m_data_start m_data_size-Stack_Size-Heap_Size { ; RW data
+    .ANY (+RW +ZI)
+  }
+  ARM_LIB_HEAP +0 EMPTY Heap_Size {    ; Heap region growing up
+  }
+  ARM_LIB_STACK m_data_start+m_data_size EMPTY -Stack_Size { ; Stack region growing down
+  }
+}
+
+LR_m_interrupts m_interrupts_start m_interrupts_size {
+  VECTOR_ROM m_interrupts_start m_interrupts_size { ; load address = execution address
+    * (RESET,+FIRST)
+  }
+}
+LR_m_interrupts_ram m_interrupts_start m_interrupts_size {
+  VECTOR_RAM m_interrupts_start m_interrupts_size { ; load address = execution address
+    .ANY (.m_interrupts_ram)
+  }
+}
+

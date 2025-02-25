@@ -1,0 +1,87 @@
+#!armclang --target=arm-arm-none-eabi -mcpu=cortex-m4 -E -x c
+/*
+** ###################################################################
+**     Processors:          LPC54S018J2MET180
+**                          LPC54S018J4MET180
+**
+**     Compiler:            Keil ARM C/C++ Compiler
+**     Reference manual:    LPC540xx/LPC54S0xx User manual Rev.0.8 5 June 2018
+**     Version:             rev. 1.2, 2017-06-08
+**     Build:               b190925
+**
+**     Abstract:
+**         Linker file for the Keil ARM C/C++ Compiler
+**
+**     Copyright 2016 Freescale Semiconductor, Inc.
+**     Copyright 2016-2019 NXP
+**     All rights reserved.
+**     
+**     SPDX-License-Identifier: BSD-3-Clause
+**
+**     http:                 www.nxp.com
+**     mail:                 support@nxp.com
+**
+** ###################################################################
+*/
+
+
+/* USB BDT size */
+#define usb_bdt_size                   0x0
+/* Sizes */
+#if (defined(__stack_size__))
+  #define Stack_Size                   __stack_size__
+#else
+  #define Stack_Size                   0x1000
+#endif
+
+#if (defined(__heap_size__))
+  #define Heap_Size                    __heap_size__
+#else
+  #define Heap_Size                    0x0
+#endif
+
+#define  m_interrupts_start            0x20000000
+#define  m_interrupts_size             0x00000400
+
+#define  m_text_start                  0x20000400
+#define  m_text_size                   0x0000FC00
+
+#define  m_usb_sram_start              0x40100000
+#define  m_usb_sram_size               0x00002000
+
+
+LR_m_text m_text_start m_text_size {   ; load region size_region
+  ER_m_text m_text_start m_text_size - Stack_Size-Heap_Size{ ; load address = execution address
+    * (InRoot$$Sections)
+    .ANY (+RO)
+    .ANY (+RW +ZI)
+  }
+  ARM_LIB_HEAP (ImageLimit(ER_m_text)) EMPTY Heap_Size {    ; Heap region growing up
+  }
+  ARM_LIB_STACK (ImageLimit(ARM_LIB_HEAP) + Stack_Size) EMPTY -Stack_Size { ; Stack region growing down
+  }
+}
+  
+LR_m_interrupts m_interrupts_start m_interrupts_size {
+  VECTOR_ROM m_interrupts_start m_interrupts_size { ; load address = execution address
+    * (.isr_vector,+FIRST)
+  }
+}
+
+LR_m_interrupts_ram m_interrupts_start m_interrupts_size {
+  VECTOR_RAM m_interrupts_start m_interrupts_size { ; load address = execution address
+    .ANY (.m_interrupts_ram)
+  }
+}
+
+LR_m_usb_bdt m_usb_sram_start usb_bdt_size {
+  ER_m_usb_bdt m_usb_sram_start UNINIT usb_bdt_size {
+    * (*m_usb_bdt)
+  }
+}
+
+LR_m_usb_ram (m_usb_sram_start + usb_bdt_size) (m_usb_sram_size - usb_bdt_size) {
+  ER_m_usb_ram (m_usb_sram_start + usb_bdt_size) UNINIT (m_usb_sram_size - usb_bdt_size) {
+    * (*m_usb_global)
+  }
+}
