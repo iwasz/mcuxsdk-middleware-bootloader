@@ -14,8 +14,9 @@ if(CONFIG_MCUX_PRJSEG_imx_kboot_common_settings)
         CX  "--diag_suppress Pa082,Pe177,Pe186,Ms014,Pa182"
     )
     mcux_add_mdk_configuration(
-        CC  "-Wunused-command-line-argument -fshort-enums -fshort-wchar -ffunction-sections -fno-common -fdata-sections -ffreestanding -fno-builtin -mthumb -fno-rtti -Wno-null-dereference -Wno-unknown-attributes -Wno-expansion-to-defined -Wparentheses-equality -Wno-invalid-noreturn -g -Oz"
+        CC  "-fshort-enums -fshort-wchar -ffunction-sections -fno-common -fdata-sections -ffreestanding -fno-builtin -mthumb -fno-rtti -Wno-null-dereference -Wno-unknown-attributes -Wno-expansion-to-defined -Wparentheses-equality -Wno-invalid-noreturn -g -Oz"
         CX  "-b -fno-common -ffunction-sections -Wunused-command-line-argument -fdata-sections -ffreestanding -fno-builtin -mthumb -fno-rtti -fno-exceptions -g -Oz"
+        LD "--library_type=microlib"
     )
     mcux_add_armgcc_configuration(
         AS  "-mthumb -D__STARTUP_CLEAR_BSS"
@@ -32,8 +33,9 @@ if(CONFIG_MCUX_PRJSEG_kinetis_kboot_common_settings)
         CX  "--diag_suppress Pa039,Pe068,Pe069,Pa082,Pe177,Pe186,Pe550,Pa050,Pe1105,Pe1305,Pa182 -e --silent --debug"
     )
     mcux_add_mdk_configuration(
-        CC  "-b -std=c99 -fshort-enums -fshort-wchar -ffunction-sections -fno-common -fdata-sections -ffreestanding -fno-builtin -mthumb -fno-rtti -Wno-null-dereference -Wno-unknown-attributes -Wno-expansion-to-defined -Wno-invalid-noreturn -g -Oz"
-        CX  "-b -fno-common -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -mthumb -fno-rtti -fno-exceptions -g -Oz"
+        CC  "-std=c99 -fshort-enums -fshort-wchar -ffunction-sections -fno-common -fdata-sections -ffreestanding -fno-builtin -mthumb -fno-rtti -Wno-unused-command-line-argument -Wno-null-dereference -Wno-unknown-attributes -Wno-expansion-to-defined -Wno-invalid-noreturn -g -Oz"
+        CX  "-fno-common -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -mthumb -fno-rtti -fno-exceptions -g -Oz"
+        LD "--library_type=microlib"
     )
     mcux_add_armgcc_configuration(
         AS  "-mthumb -D__STARTUP_CLEAR_BSS"
@@ -51,6 +53,7 @@ if(CONFIG_MCUX_PRJSEG_lpc_kboot_common_settings)
     mcux_add_mdk_configuration(
         CC  "-b -std=c99 -fshort-enums -fshort-wchar -ffunction-sections -fno-common -fdata-sections -ffreestanding -fno-builtin -mthumb -fno-rtti -Wno-null-dereference -Wno-unknown-attributes -Wno-expansion-to-defined -Wno-invalid-noreturn -g -Oz"
         CX  "-b -fno-common -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -mthumb -fno-rtti -fno-exceptions -g -Oz"
+        LD "--library_type=microlib"
     )
     mcux_add_armgcc_configuration(
         AS  "-mthumb -D__STARTUP_CLEAR_BSS"
@@ -601,9 +604,9 @@ if(CONFIG_MCUX_PRJSEG_lpcxpresso54s018_kboot_options)
         CX  ""
     )
     mcux_add_mdk_configuration(
-        AS  "--cpu Cortex-M4.fp"
-        CC  "--cpu Cortex-M4.fp -DCPU_LPC54S018 -DCPU_IS_ARM_CORTEX_M4=1 -DUSB_STACK_USE_DEDICATED_RAM=1"
-        CX  "--cpu Cortex-M4.fp"
+        AS  ""
+        CC  "-DCPU_LPC54S018 -DCPU_IS_ARM_CORTEX_M4=1 -DUSB_STACK_USE_DEDICATED_RAM=1"
+        CX  ""
     )
     mcux_add_armgcc_configuration(
         AS  "-mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb"
@@ -622,9 +625,9 @@ if(CONFIG_MCUX_PRJSEG_lpcxpresso54s018m_kboot_options)
         CX  ""
     )
     mcux_add_mdk_configuration(
-        AS  "--cpu Cortex-M4.fp"
-        CC  "--cpu Cortex-M4.fp -DCPU_LPC54S018M -DCPU_IS_ARM_CORTEX_M4=1 -DUSB_STACK_USE_DEDICATED_RAM=1"
-        CX  "--cpu Cortex-M4.fp"
+        AS  ""
+        CC  "-DCPU_LPC54S018M -DCPU_IS_ARM_CORTEX_M4=1 -DUSB_STACK_USE_DEDICATED_RAM=1"
+        CX  ""
     )
     mcux_add_armgcc_configuration(
         AS  "-mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb"
