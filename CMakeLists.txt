@@ -51,7 +51,7 @@ if(CONFIG_MCUX_PRJSEG_lpc_kboot_common_settings)
         CX  "--diag_suppress Pa082,Pe177,Pe550,Pe188,Pa182"
     )
     mcux_add_mdk_configuration(
-        CC  "-b -std=c99 -fshort-enums -fshort-wchar -ffunction-sections -fno-common -fdata-sections -ffreestanding -fno-builtin -mthumb -fno-rtti -Wno-null-dereference -Wno-unknown-attributes -Wno-expansion-to-defined -Wno-invalid-noreturn -g -Oz"
+        CC  "-fshort-enums -fshort-wchar -ffunction-sections -fno-common -fdata-sections -ffreestanding -fno-builtin -mthumb -fno-rtti -Wno-null-dereference -Wno-unknown-attributes -Wno-expansion-to-defined -Wno-invalid-noreturn -g -Oz"
         CX  "-b -fno-common -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -mthumb -fno-rtti -fno-exceptions -g -Oz"
         LD "--library_type=microlib"
     )
