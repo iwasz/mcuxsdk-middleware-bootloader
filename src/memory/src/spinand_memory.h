@@ -121,7 +121,7 @@ enum
 };
 
 #define MAGIC_NUMBER_SPINAND_PRECFG \
-    (0xcf9 | (kNandImgOption_Tag << 8) & (kNandImgOption_Tag << 8))
+    (0xcf9 | ((kNandImgOption_Tag << 8) & (kNandImgOption_Tag << 8)))
 
 ////////////////////////////////////////////////////////////////////////////////
 // Prototypes
