@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2015 Freescale Semiconductor, Inc.
- * Copyright 2018-2020 NXP
+ * Copyright 2018-2020, 2025 NXP
  *
  * SPDX-License-Identifier: BSD-3-Clause
  */
@@ -199,8 +199,13 @@ void enable_autobaud_pin_irq(uint32_t instance, pin_irq_callback_t func)
             INPUTMUX_Deinit(INPUTMUX);
             // Initialize PINT
             PINT_Init(UART0_RX_PINT_BASE);
+#if defined(PINT_USE_SIMPLE_CALLBACK) && PINT_USE_SIMPLE_CALLBACK
+            // Setup Pin Interrupt x for falling edge
+            PINT_PinInterruptConfig(UART0_RX_PINT_BASE, UART0_RX_PINT_INT_TYPE, kPINT_PinIntEnableFallEdge);
+#else
             // Setup Pin Interrupt x for falling edge
             PINT_PinInterruptConfig(UART0_RX_PINT_BASE, UART0_RX_PINT_INT_TYPE, kPINT_PinIntEnableFallEdge, NULL);
+#endif
 #endif
             s_pin_irq_func[0] = func;
             break;
