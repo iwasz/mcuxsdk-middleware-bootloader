@@ -35,8 +35,11 @@ extern "C"
     status_t ocotp_init(OCOTP_Type *base);
 
     //!@brief Program OCOTP
+#if BL_FEATURE_OCOTP_REDLOCK
+    status_t ocotp_program_once(OCOTP_Type *base, uint32_t index, uint32_t *src, uint32_t lengthInBytes, bool lock);
+#else
     status_t ocotp_program_once(OCOTP_Type *base, uint32_t index, uint32_t *src, uint32_t lengthInBytes);
-
+#endif
     //!@brief Read OCOTP
     status_t ocotp_read_once(OCOTP_Type *base, uint32_t index, uint32_t *dst, uint32_t lengthInBytes);
 
