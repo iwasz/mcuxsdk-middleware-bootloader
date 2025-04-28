@@ -1,5 +1,5 @@
 /*
- * Copyright 2021 NXP
+ * Copyright 2025 NXP
  * All rights reserved.
  *
  * SPDX-License-Identifier: BSD-3-Clause
@@ -29,11 +29,11 @@
 /* clang-format off */
 /* TEXT BELOW IS USED AS SETTING FOR TOOLS *************************************
 !!GlobalInfo
-product: Clocks v9.0
-processor: MKE17Z256xxx7
-package_id: MKE17Z256VLL7
+product: Clocks v16.0
+processor: MKE17Z512xxx9
+package_id: MKE17Z512VLL9
 mcu_data: ksdk2_0
-processor_version: 0.7.1
+processor_version: 0.2506.10
  * BE CAREFUL MODIFYING THIS COMMENT - IT IS YAML SETTINGS FOR TOOLS **********/
 /* clang-format on */
 

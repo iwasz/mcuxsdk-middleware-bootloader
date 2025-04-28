@@ -14,11 +14,12 @@
 /*
  * TEXT BELOW IS USED AS SETTING FOR TOOLS *************************************
 !!GlobalInfo
-product: Pins v9.0
-processor: MKE17Z256xxx7
-package_id: MKE17Z256VLL7
+product: Clocks v16.0
+processor: MKE17Z512xxx9
+package_id: MKE17Z512VLL9
 mcu_data: ksdk2_0
-processor_version: 0.10.1
+processor_version: 0.2506.10
+external_user_signals: {}
 pin_labels:
 - {pin_num: '17', pin_signal: PTE14/FTM0_FLT1/TRGMUX_OUT4, label: SW3, identifier: SW3}
 - {pin_num: '72', pin_signal: TSI1_CH5/PTA3/LPI2C0_SCL/EWM_IN/LPUART0_TX, label: SCL, identifier: SCL}
