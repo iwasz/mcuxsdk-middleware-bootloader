@@ -1,0 +1,101 @@
+# Generate signed i.MX RT bootable image
+
+To generate a bootable image for a specific memory, users need the memory map of the i.MX RT device SoC. Chapter 4, *Generate i.MX RT bootable image*, provides details for generating a bootable image. Here are the steps to generate signed i.MX RT bootable image using the elftosb utility.
+
+1.  Generate the BD file for boot image generation. The BD file content is showed in the figure below. It is also available in the release package in “<sdk\_package\>/middleware/mcu-boot/bin/Tools/bd\_file/imxrt10xx"<install\_dir\>/Tools/bd\_file/imxrt10xx” folder.
+
+```
+options {
+    flags = 0x08;
+    startAddress = 0x670000000;
+    ivtOffset = 0x1000;
+    initialLoadSize = 0x2000;
+    //DCDFilePath = "dcd.bin";
+    # Note: This is required if the cst and elftsb are not in the same folder
+    //cstFolderPath = "path/CSTFolder";
+    # Note: This is required if the default entrypoint is not the Reset_Handler
+    # Please set the entryPointAddress to base address of Vector table
+    //entryPointAddress = 0x670002000;
+}
+sources {
+    elfFile = extern(0);
+}
+constants {
+    SEC_CSF_HEADER = 20;
+    SEC_CSF_INSTALL_SRK = 21;
+    SEC_CSF_INSTALL_CSFK = 22;
+    SEC_CSF_INSTALL_NOCAK = 23;
+    SEC_CSF_AUTHENTICATE_CSF = 24;
+    SEC_CSF_INSTALL_KEY = 25;
+    SEC_CSF_AUTHENTICATE_DATA = 26;
+    SEC_CSF_INSTALL_SECRET_KEY = 27;
+    SEC_CSF_DECRYPT_DATA = 28;
+    SEC_NOP = 29;
+    SEC_SET_MID = 30;
+    SEC_SET_ENGINE = 31;
+    SEC_INIT = 32;
+    SEC_UNLOCK = 33;
+}
+section (SEC_CSF_HEADER;
+    Header_Version="4.2",
+    Header_HashAlgorithm="sha256",
+    Header_Engine="DCP",
+    Header_EngineConfiguration=0,
+    Header_CertificateFormat="x509",
+    Header_SignatureFormat="CMS")
+{
+}
+section (SEC_CSF_INSTALL_SRK;
+    InstallSRK_Table="keys/SRK_1_2_3_4_table.bin", // "valid file path"
+    InstallSRK_SourceIndex=0)
+{
+}
+section (SEC_CSF_INSTALL_CSFK;
+    InstallCSFK_File="crts/CSF1_1_sha256_2048_65537_v3_usr_crt.pem", // "valid file path"
+    InstallCSFK_CertificateFormat="x509") // "x509"
+{
+}
+section (SEC_CSF_AUTHENTICATE_CSF)
+{
+}
+section (SEC_CSF_INSTALL_KEY;
+    InstallKey_File="crts/IMG1_1_sha256_2048_65537_v3_usr_crt.pem",
+    InstallKey_VerificationIndex=0, // Accepts integer or string
+    InstallKey_TargetIndex=2) // Accepts integer or string
+{
+}
+section (SEC_CSF_AUTHENTICATE_DATA;
+    AuthenticateData_VerificationIndex=2,
+    AuthenticateData_Engine="DCP",
+    AuthenticateData_EngineConfiguration=0)
+{
+}
+section (SEC_SET_ENGINE;
+    SetEngine_HashAlgorithm = "sha256", // "sha1", "Sha256", "sha512"
+    SetEngine_Engine = "DCP", // "ANY", "SAHARA", "RTIC", "DCP", "CAAM" and "SW"
+    SetEngine_EngineConfiguration = "0") // "valid engine configuration values"
+{
+}
+section (SEC_UNLOCK;
+    Unlock_Engine = "SNVS, OCOTP", // "SRTC", "CAAM", SNVS and OCOTP
+    Unlock_features = "ZMK WRITE, SRK REVOKE")
+{
+}
+```
+
+2. Generate the i.MX RT bootable image using the elftosb utility file.
+
+Here is the example command:
+
+**Example command to generate signed boot image**
+![](../images/figure_9.png "Example command to generate signed boot image")
+
+**Example command to generate signed boot image**
+|![](../images/fig_25_2.png "Example command to generate signed boot image")
+
+After the above command, two bootable images are generated:
+
+-   ivt\_flexspi\_nor\_xip\_signed.bin
+-   ivt\_flexspi\_nor\_xip\_signed\_nopadding.bin
+
+The ivt\_flexspi\_nor\_xip\_signed\_nopadding.bin will be used to generate SB file for HyperFlashQSPI NOR Flash programming in a subsequent section.

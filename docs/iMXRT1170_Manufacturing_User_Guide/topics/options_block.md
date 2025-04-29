@@ -1,0 +1,19 @@
+# Options block
+
+The below table shows the options used to generate a bootable image for the Options block.
+
+**Supported options in the “Options” block**
+
+|Options|Description|
+|---|---|
+|Flags|Generates unsigned, signed, encrypted boot images, and plugin images:<br/> bit 2 \- Encrypted image flag <br/> bit 3 \- Signed image flag <br/> bit 4 \- Plugin image flag <br/> For example:<br/> 0x00 \- unsigned image <br/> 0x08 \- signed image <br/> 0x04 \- encrypted image \(encrypted image is always a signed image\) <br/> 0x18 \- signed plugin image|
+|startAddress|Provides the starting address of the target memory where image should be loaded by ROM.|
+|ivtOffset|Provides offset where the IVT data structure must appear in the boot image. The default is 0x400 if not specified. <br/> The valid value is 0x400 or 0x1000 for i.MX RT boot image.|
+|initialLoadSize|Defines the start of the executable image data from elf or the srec file. The default value is 0x2000 if not specified. <br/> In general, this value should be 0x1000 or 0x2000.|
+|DCDFilePath|Defines the path to DCD file. <br/> If not specified, the DCD pointer in the IVT will be set to NULL \(0\) else the dcd file contents will be loaded at offset 0x40 from ivtOffset. The dcd file size is limited to \(initialLoadSize \- ivtOffset\-0x40\).|
+|cstFolderPath|Defines the path for platform dependent CST. \(windows, linux\) <br/> If not specified, elftosb tool will search for cst executable in same path as elftosb executable.|
+|entryPointAddress|Provides the entry point address for ELF or SREC image. <br/> If not specified, ELF image uses its source image entry point address but SREC image will use default entry point address \(0\).|
+
+
+**Parent topic:**[BD file for i.MX RT bootable image generation](../topics/bd_file_for_imx_rt_bootable_image_generation.md)
+

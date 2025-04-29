@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="157.03mm"
+   height="70.199997mm"
+   id="svg5229"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="protocol_sequence_for_flashsecuritydisable.svg">
+  <metadata
+     id="metadata5353">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2069"
+     inkscape:window-height="916"
+     id="namedview5351"
+     showgrid="false"
+     inkscape:zoom="1.45385"
+     inkscape:cx="50.555197"
+     inkscape:cy="119.94042"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg5229" />
+  <defs
+     id="defs5231" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path5235"
+     d="m 21.31133,35.284693 0,209.834637"
+     style="fill:none;stroke:#000000;stroke-width:2.091;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none;stroke-miterlimit:4" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path5237"
+     d="m 471.81568,35.284693 0,209.834637"
+     style="fill:none;stroke:#000000;stroke-width:2.091;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none;stroke-miterlimit:4" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path5239"
+     d="m 389.06839,128.18024 0,23.96548 165.49458,0 0,-23.96548 -165.49458,0 z"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <text
+     id="text5241"
+     style="font-size:18px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial;font-stretch:normal;font-variant:normal;writing-mode:lr;line-height:125%"
+     y="146.13484"
+     x="388.44388"
+     xml:space="preserve"
+     sodipodi:linespacing="125%">Process command</text>
+  <text
+     id="text5243"
+     style="font-size:18px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000000;font-family:Arial;font-stretch:normal;font-variant:normal;writing-mode:lr;line-height:125%"
+     y="23.731298"
+     x="2.4980314"
+     xml:space="preserve"
+     sodipodi:linespacing="125%">Host</text>
+  <text
+     id="text5245"
+     style="font-size:18px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000000;font-family:Arial;font-stretch:normal;font-variant:normal;writing-mode:lr;line-height:125%"
+     y="22.482283"
+     x="440.90253"
+     xml:space="preserve"
+     sodipodi:linespacing="125%">Target</text>
+  <path
+     inkscape:connector-curvature="0"
+     id="path5247"
+     d="m 21.31133,57.376658 79.15637,3.35673 77.04865,3.434793 74.86288,3.434793 72.59904,3.512857 70.49132,3.59092 68.30555,3.59092"
+     style="fill:none;stroke:#000000;stroke-width:0.39031741px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path5249"
+     d="m 462.91644,73.613862 8.89924,5.074126 -9.44568,4.137365 0.54644,-9.211491 z"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path5251"
+     d="m 79.000242,51.834151 0,32.006027 355.501088,0 0,-32.006027 -355.501088,0 z"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <text
+     id="text5253"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="65.561821"
+     x="81.473869"
+     xml:space="preserve">FlashSecureDisable</text>
+  <text
+     id="text5255"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="65.075455"
+     x="204.78395"
+     xml:space="preserve">, </text>
+  <text
+     id="text5257"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="65.075455"
+     x="212.27805"
+     xml:space="preserve">with backdoor key </text>
+  <text
+     id="text5259"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="65.561821"
+     x="325.10965"
+     xml:space="preserve">0102030405060708</text>
+  <text
+     id="text5261"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="79.937004"
+     x="94.925194"
+     xml:space="preserve">0</text>
+  <text
+     id="text5263"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="79.937004"
+     x="102.41929"
+     xml:space="preserve">x</text>
+  <text
+     id="text5265"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="79.937004"
+     x="108.66436"
+     xml:space="preserve">5</text>
+  <text
+     id="text5267"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="79.937004"
+     x="116.15846"
+     xml:space="preserve">a a</text>
+  <text
+     id="text5269"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="79.937004"
+     x="134.89369"
+     xml:space="preserve">4 0</text>
+  <text
+     id="text5271"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="79.937004"
+     x="153.62894"
+     xml:space="preserve">c </text>
+  <text
+     id="text5273"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="79.937004"
+     x="163.62106"
+     xml:space="preserve">00 43 7</text>
+  <text
+     id="text5275"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="79.937004"
+     x="207.33659"
+     xml:space="preserve">b </text>
+  <text
+     id="text5277"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="79.937004"
+     x="218.57774"
+     xml:space="preserve">06 00 00 04 03 02 01 08 07 06 05</text>
+  <path
+     inkscape:connector-curvature="0"
+     id="path5279"
+     d="m 471.81568,176.11121 -79.15637,2.41997 -77.04866,2.49803 -74.78481,2.49803 -72.6771,2.5761 -70.491326,2.65416 -68.305545,2.73222"
+     style="fill:none;stroke:#000000;stroke-width:0.39031741px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path5281"
+     d="m 30.28863,186.88397 -8.9773,4.99607 9.367618,4.21542 -0.390318,-9.21149 z"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path5283"
+     d="m 65.26107,167.68036 0,32.00602 342.2303,0 0,-32.00602 -342.2303,0 z"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <text
+     id="text5289"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="196.09546"
+     x="69.763618"
+     xml:space="preserve">0</text>
+  <text
+     id="text5291"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="196.09546"
+     x="77.257713"
+     xml:space="preserve">x</text>
+  <text
+     id="text5293"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="196.09546"
+     x="83.502792"
+     xml:space="preserve">5</text>
+  <text
+     id="text5295"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="196.09546"
+     x="90.996887"
+     xml:space="preserve">a a</text>
+  <text
+     id="text5297"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="196.09546"
+     x="109.73212"
+     xml:space="preserve">4 0</text>
+  <text
+     id="text5299"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="196.09546"
+     x="128.46735"
+     xml:space="preserve">c </text>
+  <text
+     id="text5301"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="196.09546"
+     x="138.45949"
+     xml:space="preserve">00 35 78 </text>
+  <text
+     id="text5303"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="196.09546"
+     x="194.66519"
+     xml:space="preserve">a</text>
+  <text
+     id="text5305"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="196.09546"
+     x="202.15929"
+     xml:space="preserve">0 00 0</text>
+  <text
+     id="text5307"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="195.60909"
+     x="240.81258"
+     xml:space="preserve">c </text>
+  <text
+     id="text5309"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="196.09546"
+     x="252.5401"
+     xml:space="preserve">02 00 00 00 00 06 00 00 00</text>
+  <path
+     inkscape:connector-curvature="0"
+     id="path5311"
+     d="m 471.81568,97.423224 -79.15637,5.152186 -77.04866,5.07413 -74.86288,5.07413 -72.59903,5.07412 -70.491326,5.07413 -68.305545,5.15219"
+     style="fill:none;stroke:#000000;stroke-width:0.39031741px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path5313"
+     d="m 30.132503,123.3403 -8.821173,5.23025 9.523745,3.90318 -0.702572,-9.13343 z"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path5315"
+     d="m 212.64492,97.032906 0,32.006024 47.4626,0 0,-32.006024 -47.4626,0 z"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <text
+     id="text5317"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="108.66436"
+     x="219.70012"
+     xml:space="preserve">ACK</text>
+  <text
+     id="text5319"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="108.66436"
+     x="248.55412"
+     xml:space="preserve">:</text>
+  <text
+     id="text5321"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="124.90157"
+     x="212.33267"
+     xml:space="preserve">0</text>
+  <text
+     id="text5323"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="124.90157"
+     x="219.82677"
+     xml:space="preserve">x</text>
+  <text
+     id="text5325"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="124.90157"
+     x="227.32086"
+     xml:space="preserve">5</text>
+  <text
+     id="text5327"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="124.90157"
+     x="233.56593"
+     xml:space="preserve">a a</text>
+  <text
+     id="text5329"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="124.90157"
+     x="252.30116"
+     xml:space="preserve">1</text>
+  <path
+     inkscape:connector-curvature="0"
+     id="path5331"
+     d="m 21.31133,212.87911 79.15637,2.41997 77.04865,2.41997 74.78482,2.57609 72.6771,2.5761 70.49132,2.65416 68.30555,2.73222"
+     style="fill:none;stroke:#000000;stroke-width:0.39031741px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path5333"
+     d="m 462.83838,223.65187 8.9773,4.918 -9.36762,4.21543 0.39032,-9.13343 z"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path5335"
+     d="m 237.83429,204.44826 0,31.92796 47.4626,0 0,-31.92796 -47.4626,0 z"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <text
+     id="text5337"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="216.07971"
+     x="245.87483"
+     xml:space="preserve">ACK</text>
+  <text
+     id="text5339"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="216.07971"
+     x="273.35315"
+     xml:space="preserve">:</text>
+  <text
+     id="text5341"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="232.31693"
+     x="238.38074"
+     xml:space="preserve">0</text>
+  <text
+     id="text5343"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="232.31693"
+     x="244.62581"
+     xml:space="preserve">x</text>
+  <text
+     id="text5345"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="232.31693"
+     x="252.11992"
+     xml:space="preserve">5</text>
+  <text
+     id="text5347"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="232.31693"
+     x="259.61398"
+     xml:space="preserve">a a</text>
+  <text
+     id="text5349"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="232.31693"
+     x="278.34924"
+     xml:space="preserve">1</text>
+  <text
+     id="text4800-1"
+     style="font-size:13.73917294px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+     y="179.42091"
+     x="171.82515"
+     xml:space="preserve">Generic Response: </text>
+</svg>

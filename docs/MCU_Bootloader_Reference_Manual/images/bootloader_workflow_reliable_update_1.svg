@@ -1,0 +1,1375 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="5.8104839in"
+   height="6.4661527in"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="bootloader_workflow_reliable_update2.svg"
+   style="shape-rendering:crispEdges">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.3695247"
+     inkscape:cx="261.47178"
+     inkscape:cy="290.97687"
+     inkscape:document-units="in"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0.2"
+     fit-margin-left="0.2"
+     fit-margin-right="0.2"
+     fit-margin-bottom="0.2"
+     inkscape:window-width="1846"
+     inkscape:window-height="1053"
+     inkscape:window-x="1985"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     units="in"
+     showborder="true"
+     borderlayer="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-107.74609,-249.16596)">
+    <g
+       id="g3714"
+       transform="translate(125.74609,267.16596)">
+      <text
+         id="text3716"
+         style="font-style:normal;font-weight:normal;font-size:14.63557911px;font-family:Calibri;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="13.839266"
+         x="0.079975843"
+         xml:space="preserve"> </text>
+      <path
+         id="path3718"
+         d="M 0,0"
+         style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3720"
+         d="m 42.353746,97.046738 36.137863,0 c 5.985333,0 10.841358,-4.863647 10.841358,-10.858375 0,-5.99473 -4.856025,-10.858377 -10.841358,-10.858377 0,0 0,0 0,0 l 0,0 -36.137863,0 c -5.985333,0 -10.841359,4.863647 -10.841359,10.858377 0,5.994728 4.856026,10.858375 10.841359,10.858375 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3722"
+         d="m 42.353746,97.046738 36.137863,0 c 5.985333,0 10.841358,-4.863647 10.841358,-10.858375 0,-5.99473 -4.856025,-10.858377 -10.841358,-10.858377 0,0 0,0 0,0 l 0,0 -36.137863,0 c -5.985333,0 -10.841359,4.863647 -10.841359,10.858377 0,5.994728 4.856026,10.858375 10.841359,10.858375 z"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text3724"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="88.073494"
+         x="36.217838"
+         xml:space="preserve">Enter Bootloader</text>
+      <path
+         id="path3726"
+         d="m 60.422677,97.046738 0,9.689592"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3728"
+         d="m 62.64365,106.17079 -2.220973,4.44892 -2.220972,-4.44892 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3730"
+         d="m 31.512387,110.61971 0,28.95567 57.82058,0 0,-28.95567 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3732"
+         d="m 31.512387,139.57538 57.82058,0 0,-28.95567 -57.82058,0 z"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text3734"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="127.2843"
+         x="41.638515"
+         xml:space="preserve">Init hardware</text>
+      <path
+         id="path3736"
+         d="m 31.512387,155.86294 0,27.14595 57.82058,0 0,-27.14595 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3738"
+         d="m 31.512387,183.00889 57.82058,0 0,-27.14595 -57.82058,0 z"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text3740"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="171.32104"
+         x="39.229324"
+         xml:space="preserve">Init flash driver</text>
+      <path
+         id="path3742"
+         d="m 60.422677,139.57538 0,12.40418"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3744"
+         d="m 62.64365,151.41403 -2.220973,4.44891 -2.220972,-4.44891 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3746"
+         d="m 31.512387,197.03428 0,24.43135 57.82058,0 0,-24.43135 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3748"
+         d="m 31.512387,221.46563 57.82058,0 0,-24.43135 -57.82058,0 z"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text3750"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="207.51564"
+         x="36.217838"
+         xml:space="preserve">Load user</text>
+      <text
+         id="text3752"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="207.51564"
+         x="65.128128"
+         xml:space="preserve">-</text>
+      <text
+         id="text3754"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="207.51564"
+         x="66.93502"
+         xml:space="preserve">config</text>
+      <text
+         id="text3756"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="214.75456"
+         x="54.286766"
+         xml:space="preserve">data</text>
+      <path
+         id="path3758"
+         d="m 60.422677,183.00889 0,10.14202"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3760"
+         d="m 62.64365,192.58537 -2.220973,4.44891 -2.220972,-4.44891 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3762"
+         d="m 31.512387,237.07455 0,30.08675 57.82058,0 0,-30.08675 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3764"
+         d="m 31.512387,267.1613 57.82058,0 0,-30.08675 -57.82058,0 z"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text3766"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="242.50372"
+         x="36.820137"
+         xml:space="preserve">Configure clocks</text>
+      <text
+         id="text3768"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="250.3459"
+         x="35.61554"
+         xml:space="preserve">Init microseconds </text>
+      <text
+         id="text3770"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="257.58481"
+         x="36.820137"
+         xml:space="preserve">driver</text>
+      <text
+         id="text3772"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="257.58481"
+         x="53.082172"
+         xml:space="preserve">,</text>
+      <text
+         id="text3774"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="257.58481"
+         x="54.889065"
+         xml:space="preserve">memory </text>
+      <text
+         id="text3776"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="257.58481"
+         x="79.583275"
+         xml:space="preserve">&amp; </text>
+      <text
+         id="text3778"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="265.42697"
+         x="35.61554"
+         xml:space="preserve">property interface</text>
+      <path
+         id="path3780"
+         d="m 60.422677,221.46563 0,11.72554"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3782"
+         d="m 62.64365,232.62563 -2.220973,4.44892 -2.220972,-4.44892 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3784"
+         d="m 31.512387,280.50805 0,24.65757 57.82058,0 0,-24.65757 z"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3786"
+         d="m 31.512387,305.16562 57.82058,0 0,-24.65757 -57.82058,0 z"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text3788"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="287.14371"
+         x="48.866089"
+         xml:space="preserve">Reliable </text>
+      <text
+         id="text3790"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="294.98587"
+         x="34.410946"
+         xml:space="preserve">application update </text>
+      <text
+         id="text3792"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="302.22479"
+         x="47.059196"
+         xml:space="preserve">if needed</text>
+      <path
+         id="path3794"
+         d="m 60.422677,267.1613 0,9.46338"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3796"
+         d="m 62.64365,276.05914 -2.220973,4.44891 -2.220972,-4.44891 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3798"
+         d="m 31.512387,319.07791 0,28.95567 57.82058,0 0,-28.95567 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3800"
+         d="m 31.512387,348.03358 57.82058,0 0,-28.95567 -57.82058,0 z"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text3802"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="327.56104"
+         x="56.093666"
+         xml:space="preserve">Init </text>
+      <text
+         id="text3804"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="335.4032"
+         x="34.410946"
+         xml:space="preserve">UARTn</text>
+      <text
+         id="text3806"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="335.4032"
+         x="55.491367"
+         xml:space="preserve">,</text>
+      <text
+         id="text3808"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="335.4032"
+         x="57.29826"
+         xml:space="preserve">CANn</text>
+      <text
+         id="text3810"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="335.4032"
+         x="74.162598"
+         xml:space="preserve">,</text>
+      <text
+         id="text3812"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="335.4032"
+         x="75.96949"
+         xml:space="preserve">SPI</text>
+      <text
+         id="text3814"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="343.24533"
+         x="42.843117"
+         xml:space="preserve">n</text>
+      <text
+         id="text3816"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="343.24533"
+         x="45.854603"
+         xml:space="preserve">,</text>
+      <text
+         id="text3818"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="343.24533"
+         x="47.661495"
+         xml:space="preserve">I</text>
+      <text
+         id="text3820"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="343.24533"
+         x="49.468388"
+         xml:space="preserve">2</text>
+      <text
+         id="text3822"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="343.24533"
+         x="53.082172"
+         xml:space="preserve">Cn</text>
+      <text
+         id="text3824"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="343.24533"
+         x="61.514343"
+         xml:space="preserve">, </text>
+      <text
+         id="text3826"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="343.24533"
+         x="65.128128"
+         xml:space="preserve">USB</text>
+      <path
+         id="path3828"
+         d="m 60.422677,305.16562 0,10.02892"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3830"
+         d="m 62.64365,314.62899 -2.220973,4.44892 -2.220972,-4.44892 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text3832"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="355.31021"
+         x="69.94651"
+         xml:space="preserve">Use the enabledPeripherals field </text>
+      <text
+         id="text3834"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="363.15237"
+         x="71.151108"
+         xml:space="preserve">in user config data to enable </text>
+      <text
+         id="text3836"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="363.15237"
+         x="153.66588"
+         xml:space="preserve">(</text>
+      <text
+         id="text3838"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="363.15237"
+         x="156.07509"
+         xml:space="preserve">or </text>
+      <text
+         id="text3840"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="370.39127"
+         x="69.94651"
+         xml:space="preserve">not</text>
+      <text
+         id="text3842"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="370.39127"
+         x="78.980972"
+         xml:space="preserve">) </text>
+      <text
+         id="text3844"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="370.39127"
+         x="82.594757"
+         xml:space="preserve">UARTn </text>
+      <text
+         id="text3846"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="370.39127"
+         x="105.48207"
+         xml:space="preserve">(</text>
+      <text
+         id="text3848"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="370.39127"
+         x="107.89127"
+         xml:space="preserve">or CANn or SPIn or </text>
+      <text
+         id="text3850"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="378.23343"
+         x="97.049911"
+         xml:space="preserve">I</text>
+      <text
+         id="text3852"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="378.23343"
+         x="98.856804"
+         xml:space="preserve">2</text>
+      <text
+         id="text3854"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="378.23343"
+         x="102.47059"
+         xml:space="preserve">Cn or USB</text>
+      <text
+         id="text3856"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="378.23343"
+         x="133.18777"
+         xml:space="preserve">)</text>
+      <path
+         id="path3858"
+         d="m 31.512387,401.08128 28.91029,-21.71676 28.91029,21.71676 -28.91029,21.71675 z"
+         style="fill:#b5cb85;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3860"
+         d="m 31.512387,401.08128 28.91029,-21.71676 28.91029,21.71676 -28.91029,21.71675 z"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text3862"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="399.34695"
+         x="45.854603"
+         xml:space="preserve">Is BootPin </text>
+      <text
+         id="text3864"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="406.58588"
+         x="46.456902"
+         xml:space="preserve">asserted</text>
+      <text
+         id="text3866"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="406.58588"
+         x="71.151108"
+         xml:space="preserve">?</text>
+      <path
+         id="path3868"
+         d="m 60.422677,348.03358 0,27.44756"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3870"
+         d="m 62.64365,374.91561 -2.220973,4.44891 -2.220972,-4.44891 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3872"
+         d="m 31.512387,462.61207 28.91029,-21.71674 28.91029,21.71674 -28.91029,21.71676 z"
+         style="fill:#b5cb85;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3874"
+         d="m 31.512387,462.61207 28.91029,-21.71674 28.91029,21.71674 -28.91029,21.71676 z"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text3876"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="456.65506"
+         x="50.672981"
+         xml:space="preserve">Is user </text>
+      <text
+         id="text3878"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="464.49719"
+         x="45.252304"
+         xml:space="preserve">application </text>
+      <text
+         id="text3880"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="472.33936"
+         x="51.877579"
+         xml:space="preserve">valid</text>
+      <text
+         id="text3882"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="472.33936"
+         x="65.128128"
+         xml:space="preserve">?</text>
+      <path
+         id="path3884"
+         d="m 60.422677,422.79803 0,14.21392"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3886"
+         d="m 62.64365,436.4464 -2.220973,4.44893 -2.220972,-4.44893 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3888"
+         d="m 56.319524,427.9633 0,7.72905 8.206306,0 0,-7.72905 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text3890"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="433.73181"
+         x="56.093666"
+         xml:space="preserve">No</text>
+      <path
+         id="path3892"
+         d="m 147.15355,433.65641 28.91029,-21.71676 28.91028,21.71676 -28.91028,21.71675 z"
+         style="fill:#b5cb85;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3894"
+         d="m 147.15355,433.65641 28.91029,-21.71676 28.91028,21.71676 -28.91028,21.71675 z"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text3896"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="427.69937"
+         x="173.54172"
+         xml:space="preserve">Is </text>
+      <text
+         id="text3898"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="435.54153"
+         x="160.89346"
+         xml:space="preserve">direct boot </text>
+      <text
+         id="text3900"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="443.3837"
+         x="167.51874"
+         xml:space="preserve">valid</text>
+      <text
+         id="text3902"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="443.3837"
+         x="180.76929"
+         xml:space="preserve">?</text>
+      <path
+         id="path3904"
+         d="m 89.332967,462.61207 10.841363,0 0,-28.95566 43.10193,0"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3906"
+         d="m 142.71161,431.43195 4.44194,2.22446 -4.44194,2.18675 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3908"
+         d="m 92.269169,464.15789 0,7.72904 11.067221,0 0,-7.72904 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text3910"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="469.92639"
+         x="92.231529"
+         xml:space="preserve">Yes</text>
+      <path
+         id="path3912"
+         d="m 31.512387,513.2845 0,32.57513 57.82058,0 0,-32.57513 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3914"
+         d="m 31.512387,545.85963 57.82058,0 0,-32.57513 -57.82058,0 z"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text3916"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="527.83771"
+         x="37.422432"
+         xml:space="preserve">Disable Timeout</text>
+      <text
+         id="text3918"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="535.07666"
+         x="47.661495"
+         xml:space="preserve">detection</text>
+      <path
+         id="path3920"
+         d="m 60.422677,484.32883 0,25.07229"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3922"
+         d="m 62.64365,508.83558 -2.220973,4.44892 -2.220972,-4.44892 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3924"
+         d="m 56.319524,494.92329 0,7.72905 8.206306,0 0,-7.72905 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text3926"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="500.6918"
+         x="56.093666"
+         xml:space="preserve">No</text>
+      <path
+         id="path3928"
+         d="m 31.512387,401.08128 -10.841359,0 0,128.49078 6.964067,0"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3930"
+         d="m 27.070442,527.34761 4.441945,2.22445 -4.441945,2.18676 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3932"
+         d="m 15.137419,461.4433 0,7.72904 11.06722,0 0,-7.72904 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text3934"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="467.51346"
+         x="15.137419"
+         xml:space="preserve">Yes</text>
+      <path
+         id="path3936"
+         d="m 147.15355,473.47045 0,36.19458 57.82057,0 0,-36.19458 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3938"
+         d="m 147.15355,509.66503 57.82057,0 0,-36.19458 -57.82057,0 z"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text3940"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="485.61072"
+         x="153.66588"
+         xml:space="preserve">Enable Timeout </text>
+      <text
+         id="text3942"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="493.45291"
+         x="150.05209"
+         xml:space="preserve">Check and enable </text>
+      <text
+         id="text3944"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="501.29504"
+         x="156.07509"
+         xml:space="preserve">Timeout value</text>
+      <path
+         id="path3946"
+         d="m 226.65684,422.79803 43.36544,-23.52648 43.36543,23.52648 -43.36543,23.52648 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3948"
+         d="m 226.65684,422.79803 43.36544,-23.52648 43.36543,23.52648 -43.36543,23.52648 z"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text3950"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="413.22156"
+         x="260.87488"
+         xml:space="preserve">Was a </text>
+      <text
+         id="text3952"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="421.06369"
+         x="253.04501"
+         xml:space="preserve">Ping packet </text>
+      <text
+         id="text3954"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="428.30264"
+         x="253.64731"
+         xml:space="preserve">received on </text>
+      <text
+         id="text3956"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="436.14481"
+         x="257.8634"
+         xml:space="preserve">UARTn</text>
+      <text
+         id="text3958"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="436.14481"
+         x="278.94382"
+         xml:space="preserve">?</text>
+      <path
+         id="path3960"
+         d="m 89.332967,529.57206 180.689313,0 0,-79.36417"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3962"
+         d="m 267.80131,450.73572 2.22097,-4.41121 2.22097,4.41121 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3964"
+         d="m 204.97412,491.56774 61.17087,0"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3966"
+         d="m 265.58033,489.34329 4.44195,2.22445 -4.44195,2.18677 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3968"
+         d="m 176.06384,455.37316 0,14.21391"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3970"
+         d="m 178.28481,469.02154 -2.22097,4.44891 -2.22097,-4.44891 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3972"
+         d="m 171.96068,460.53843 0,7.72905 8.20631,0 0,-7.72905 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text3974"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="466.30695"
+         x="171.73483"
+         xml:space="preserve">No</text>
+      <path
+         id="path3976"
+         d="m 226.65684,355.83804 43.36544,-21.71675 43.36543,21.71675 -43.36543,21.71675 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3978"
+         d="m 226.65684,355.83804 43.36544,-21.71675 43.36543,21.71675 -43.36543,21.71675 z"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text3980"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="346.26157"
+         x="260.87488"
+         xml:space="preserve">Was a </text>
+      <text
+         id="text3982"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="354.1037"
+         x="253.04501"
+         xml:space="preserve">Ping packet </text>
+      <text
+         id="text3984"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="361.34265"
+         x="253.64731"
+         xml:space="preserve">received on</text>
+      <text
+         id="text3986"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="369.18478"
+         x="261.47717"
+         xml:space="preserve">I</text>
+      <text
+         id="text3988"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="369.18478"
+         x="263.28409"
+         xml:space="preserve">2</text>
+      <text
+         id="text3990"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="369.18478"
+         x="266.89786"
+         xml:space="preserve">Cn</text>
+      <text
+         id="text3992"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="369.18478"
+         x="274.72772"
+         xml:space="preserve">?</text>
+      <path
+         id="path3994"
+         d="m 226.65684,287.06832 43.36544,-21.71675 43.36543,21.71675 -43.36543,21.71676 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3996"
+         d="m 226.65684,287.06832 43.36544,-21.71675 43.36543,21.71675 -43.36543,21.71676 z"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text3998"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="277.49182"
+         x="260.87488"
+         xml:space="preserve">Was a </text>
+      <text
+         id="text4000"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="285.33401"
+         x="253.04501"
+         xml:space="preserve">Ping packet </text>
+      <text
+         id="text4002"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="292.57291"
+         x="253.64731"
+         xml:space="preserve">received on </text>
+      <text
+         id="text4004"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="300.41507"
+         x="261.47717"
+         xml:space="preserve">SPIn</text>
+      <text
+         id="text4006"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="300.41507"
+         x="275.33002"
+         xml:space="preserve">?</text>
+      <path
+         id="path4008"
+         d="m 226.65684,225.53753 43.36544,-21.71676 43.36543,21.71676 -43.36543,21.71675 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4010"
+         d="m 226.65684,225.53753 43.36544,-21.71676 43.36543,21.71676 -43.36543,21.71675 z"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4012"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="219.58051"
+         x="260.87488"
+         xml:space="preserve">Was a </text>
+      <text
+         id="text4014"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="227.42265"
+         x="235.57838"
+         xml:space="preserve">Ping packet received on</text>
+      <text
+         id="text4016"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="235.26483"
+         x="260.27258"
+         xml:space="preserve">CANn</text>
+      <text
+         id="text4018"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="235.26483"
+         x="277.73923"
+         xml:space="preserve">?</text>
+      <path
+         id="path4020"
+         d="m 226.65684,160.38726 43.36544,-21.71674 43.36543,21.71674 -43.36543,21.71676 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4022"
+         d="m 226.65684,160.38726 43.36544,-21.71674 43.36543,21.71674 -43.36543,21.71676 z"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4024"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="154.43024"
+         x="264.48868"
+         xml:space="preserve">Has </text>
+      <text
+         id="text4026"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="162.27242"
+         x="251.84041"
+         xml:space="preserve">USB entered</text>
+      <text
+         id="text4028"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="170.11456"
+         x="248.22662"
+         xml:space="preserve">Interrupt state</text>
+      <text
+         id="text4030"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="170.11456"
+         x="287.9783"
+         xml:space="preserve">?</text>
+      <path
+         id="path4032"
+         d="m 233.88442,86.188363 36.13786,-30.765401 36.13786,30.765401 -36.13786,30.765397 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4034"
+         d="m 233.88442,86.188363 36.13786,-30.765401 36.13786,30.765401 -36.13786,30.765397 z"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4036"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="72.389175"
+         x="266.89786"
+         xml:space="preserve">IS</text>
+      <text
+         id="text4038"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="80.231339"
+         x="248.22662"
+         xml:space="preserve">Timeout Check</text>
+      <text
+         id="text4040"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="88.073494"
+         x="251.84041"
+         xml:space="preserve">Enabled and </text>
+      <text
+         id="text4042"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="95.915657"
+         x="251.84041"
+         xml:space="preserve">Has Timeout</text>
+      <text
+         id="text4044"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="103.75782"
+         x="254.8519"
+         xml:space="preserve">Occurred</text>
+      <text
+         id="text4046"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="103.75782"
+         x="281.353"
+         xml:space="preserve">?</text>
+      <path
+         id="path4048"
+         d="m 241.11199,1.1310809 0,32.5751291 57.82058,0 0,-32.5751291 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4050"
+         d="m 241.11199,33.70621 57.82058,0 0,-32.5751291 -57.82058,0 z"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4052"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="15.684321"
+         x="251.84041"
+         xml:space="preserve">Shutdown all </text>
+      <text
+         id="text4054"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="22.923241"
+         x="254.2496"
+         xml:space="preserve">peripherals</text>
+      <path
+         id="path4056"
+         d="m 335.07043,1.1310809 0,32.5751291 57.82058,0 0,-32.5751291 z"
+         style="fill:#fdefe3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4058"
+         d="m 335.07043,33.70621 57.82058,0 0,-32.5751291 -57.82058,0 z"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4060"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="15.684321"
+         x="345.19656"
+         xml:space="preserve">Jump to user </text>
+      <text
+         id="text4062"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="22.923241"
+         x="348.81036"
+         xml:space="preserve">application</text>
+      <path
+         id="path4064"
+         d="m 363.98073,268.97103 0,36.19459 57.82057,0 0,-36.19459 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4066"
+         d="m 363.98073,305.16562 57.82057,0 0,-36.19459 -57.82057,0 z"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4068"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="285.33401"
+         x="366.87927"
+         xml:space="preserve">Shutdown unused</text>
+      <text
+         id="text4070"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="292.57291"
+         x="377.72064"
+         xml:space="preserve">Peipherals</text>
+      <path
+         id="path4072"
+         d="m 429.02887,333.55574 0,34.9504 57.82058,0 0,-34.9504 z"
+         style="fill:#96afcf;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4074"
+         d="m 429.02887,368.50614 57.82058,0 0,-34.9504 -57.82058,0 z"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4076"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="349.27777"
+         x="433.73431"
+         xml:space="preserve">Enter Bootloader</text>
+      <text
+         id="text4078"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="356.51669"
+         x="437.34811"
+         xml:space="preserve">State machine</text>
+      <path
+         id="path4080"
+         d="m 270.02228,399.27155 0,-17.83337"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4082"
+         d="m 267.80131,381.96601 2.22097,-4.41122 2.22097,4.41122 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4084"
+         d="m 265.91913,384.52979 0,7.72906 8.2063,0 0,-7.72906 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4086"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="390.29831"
+         x="265.69327"
+         xml:space="preserve">No</text>
+      <path
+         id="path4088"
+         d="m 270.02228,334.12129 0,-21.45283"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4090"
+         d="m 267.80131,313.19629 2.22097,-4.41121 2.22097,4.41121 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4092"
+         d="m 265.91913,317.5698 0,7.72906 8.2063,0 0,-7.72906 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4094"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="323.33832"
+         x="265.69327"
+         xml:space="preserve">No</text>
+      <path
+         id="path4096"
+         d="m 270.02228,265.35157 0,-14.21392"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4098"
+         d="m 267.80131,251.66549 2.22097,-4.41121 2.22097,4.41121 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4100"
+         d="m 265.91913,252.41955 0,7.72905 8.2063,0 0,-7.72905 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4102"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="258.18808"
+         x="265.69327"
+         xml:space="preserve">No</text>
+      <path
+         id="path4104"
+         d="m 270.02228,203.82077 0,-17.83337"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4106"
+         d="m 267.80131,186.51523 2.22097,-4.41121 2.22097,4.41121 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4108"
+         d="m 265.91913,189.07902 0,7.72905 8.2063,0 0,-7.72905 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4110"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="194.84752"
+         x="265.69327"
+         xml:space="preserve">No</text>
+      <path
+         id="path4112"
+         d="m 270.02228,138.67052 0,-17.83338"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4114"
+         d="m 267.80131,121.36498 2.22097,-4.41122 2.22097,4.41122 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4116"
+         d="m 265.91913,123.92876 0,7.72905 8.2063,0 0,-7.72905 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4118"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="129.69727"
+         x="265.69327"
+         xml:space="preserve">No</text>
+      <path
+         id="path4120"
+         d="m 233.88442,86.188363 -18.06893,0 0,336.609667 6.96406,0"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4122"
+         d="m 222.2149,420.57357 4.44194,2.22446 -4.44194,2.18676 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4124"
+         d="m 211.71233,246.99036 0,7.72905 8.2063,0 0,-7.72905 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4126"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="252.75887"
+         x="211.48648"
+         xml:space="preserve">No</text>
+      <path
+         id="path4128"
+         d="m 270.02228,55.422962 0,-17.833375"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4130"
+         d="m 267.80131,38.117425 2.22097,-4.411215 2.22097,4.411215 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4132"
+         d="m 264.48867,40.681209 0,7.729052 11.06722,0 0,-7.729052 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4134"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="46.449718"
+         x="264.48868"
+         xml:space="preserve">Yes</text>
+      <path
+         id="path4136"
+         d="m 298.93257,17.418645 32.26057,0"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4138"
+         d="m 330.62849,15.194187 4.44194,2.224458 -4.44194,2.186757 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4140"
+         d="m 313.38771,160.38726 79.5033,0 0,104.70039"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4142"
+         d="m 395.11199,264.52211 -2.22098,4.44892 -2.22097,-4.44892 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4144"
+         d="m 336.76439,156.50389 0,7.72905 11.06723,0 0,-7.72905 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4146"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="162.27242"
+         x="336.76437"
+         xml:space="preserve">Yes</text>
+      <path
+         id="path4148"
+         d="m 313.38771,225.53753 75.62601,0"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4150"
+         d="m 388.44907,223.31307 4.44194,2.22446 -4.44194,2.18675 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4152"
+         d="m 336.76439,221.65414 0,7.72906 11.06723,0 0,-7.72906 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4154"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="227.42265"
+         x="336.76437"
+         xml:space="preserve">Yes</text>
+      <path
+         id="path4156"
+         d="m 313.38771,287.06832 46.71572,0"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4158"
+         d="m 359.53877,284.84386 4.44196,2.22446 -4.44196,2.18676 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4160"
+         d="m 336.76439,283.18495 0,7.72904 11.06723,0 0,-7.72904 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4162"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="288.95346"
+         x="336.76437"
+         xml:space="preserve">Yes</text>
+      <path
+         id="path4164"
+         d="m 313.38771,422.79803 79.5033,0 0,-113.74904"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4166"
+         d="m 390.67004,309.57683 2.22097,-4.41121 2.22098,4.41121 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4168"
+         d="m 336.76439,417.10492 0,7.72905 11.06723,0 0,-7.72905 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4170"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="422.87344"
+         x="336.76437"
+         xml:space="preserve">Yes</text>
+      <path
+         id="path4172"
+         d="m 421.8013,287.06832 36.13787,0 0,42.60405"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4174"
+         d="m 460.16014,329.10683 -2.22097,4.44891 -2.22098,-4.44891 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4176"
+         d="m 313.38771,355.83804 75.62601,0"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4178"
+         d="m 388.44907,353.61358 4.44194,2.22446 -4.44194,2.18676 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4180"
+         d="m 336.76439,351.95467 0,7.72904 11.06723,0 0,-7.72904 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4182"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="357.72318"
+         x="336.76437"
+         xml:space="preserve">Yes</text>
+      <path
+         id="path4184"
+         d="m 176.06384,411.93965 0,-394.521005 61.17086,0"
+         style="fill:none;stroke:#000000;stroke-width:0.18821804px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4186"
+         d="m 236.67005,15.194187 4.44194,2.224458 -4.44194,2.186757 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4188"
+         d="m 177.7578,402.62708 0,7.72906 11.06722,0 0,-7.72906 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06666672"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4190"
+         style="font-style:normal;font-weight:normal;font-size:6.62527466px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000;stroke-width:1.06666672"
+         y="408.3956"
+         x="177.7578"
+         xml:space="preserve">Yes</text>
+    </g>
+  </g>
+</svg>

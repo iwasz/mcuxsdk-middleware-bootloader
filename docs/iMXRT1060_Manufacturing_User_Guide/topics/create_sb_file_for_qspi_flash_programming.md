@@ -1,0 +1,67 @@
+# Create SB file for QSPI FLASH programming
+
+Here is an example to create an SB file for QSPI FLASH programming for RT1060-EVK board. The details for generating SB file for bootable image programming is available in Chapter 5.
+
+```
+# The source block assign file name to identifiers
+sources {
+ myBinFile = extern (0);
+}
+constants {
+    kAbsAddr_Start= 0x60000000;
+    kAbsAddr_Ivt = 0x60001000;
+    kAbsAddr_App = 0x60002000;
+}
+# The section block specifies the sequence of boot commands to
+# be written to the SB file
+section (0) {
+    #1. Prepare Flash option
+    # 0xc0000007 is the tag for Serial NOR parameter selection
+    # bit [31:28] Tag fixed to 0x0C
+    # bit [27:24] Option size fixed to 0
+    # bit [23:20] Flash type option
+    #             0 - QuadSPI SDR NOR
+    #             1 - QUadSPI DDR NOR
+    # bit [19:16] Query pads (Pads used for query Flash Parameters)
+    #             0 - 1
+    # bit [15:12] CMD pads (Pads used for query Flash Parameters)
+    #             0 - 1
+    # bit [11: 08] Quad Mode Entry Setting
+    #             0 - Not Configured, apply to devices:
+    #                 - With Quad Mode enabled by default or
+    #                 - Compliant with JESD216A/B or later revision
+    #             1 - Set bit 6 in Status Register 1
+    #             2 - Set bit 1 in Status Register 2
+    #             3 - Set bit 7 in Status Register 2
+    #             4 - Set bit 1 in Status Register 2 by 0x31 command
+    # bit [07: 04]  Misc. control field
+    #             3 - Data Order swapped, used for Macronix OctaFLASH devcies only
+    #             (except MX25UM51345G)
+    #             4 - Second QSPI NOR Pinmux
+    # bit [03: 00] Flash Frequency, device specific
+    load 0xc0000007 > 0x2000;
+    # Configure QSPI NOR FLASH using option a address 0x2000
+    enable flexspinor 0x2000;
+    #2 Erase flash as needed.
+    #(Here only 64KBytes are erased, need to be adjusted to the actual
+    #size of users' application)
+    erase 0x60000000..0x60010000;
+    #3. Program config block
+    # 0xf000000f is the tag to notify Flashloader to program
+    # FlexSPI NOR config block to the start of device
+    load 0xf000000f > 0x3000;
+    # Notify Flashloader to response the option at address 0x3000
+    enable flexspinor 0x3000;
+    #4. Program image
+    load myBinFile > kAbsAddr_Ivt;
+}
+
+```
+
+After the BD file is ready, the next step is to generate the boot\_image.sb file that is for MfgTool to use later. Here is the example command:
+
+**Example command to generate SB file for FlexSPI NOR programming**
+
+![](../images/rt1060_figure23.png "Example command to generate SB file for FlexSPI NOR programming")
+
+After using the above command, the boot\_image.sb is generated in the elftosb utility folder.

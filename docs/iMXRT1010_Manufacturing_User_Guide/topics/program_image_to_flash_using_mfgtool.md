@@ -1,0 +1,12 @@
+# Program Image to Flash using MfgTool
+
+Use the following steps to program a boot image into a flash device
+
+1.  Copy the boot\_image.sb file to “<mfgtool\_root\_dir\>/Profiles/device\_name/OS Firmware” folder
+2.  Change the “name” under “\[List\]” to MXRT1010-SecureBoot in cfg.ini file in <mfgtool\_root\_dir\> folder
+3.  Put the device\_name-EVK board to Serial Downloader mode by setting SW8 to “1-OFF, 2-ON, 3-OFF, 4-ON”
+4.  Power up device\_name-EVK board and insert USB cable to J9
+5.  Open MfgTool, it will show the detected device
+6.  Click “Start”, MfgTool will do manufacturing process. After completion, it will show the status. Click “Stop” and close the MfgTool
+7.  Put the device\_name-EVK board to internal boot mode and select as boot device by setting SW to “1-OFF, 2-ON, 3-ON, 4-OFF”. Then reset the device to start running application
+

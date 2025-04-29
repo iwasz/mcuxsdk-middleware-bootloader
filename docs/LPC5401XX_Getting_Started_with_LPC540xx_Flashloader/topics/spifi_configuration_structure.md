@@ -1,0 +1,331 @@
+# SPIFI configuration structure
+
+The SPIFI Configuration Option Block is organized by 4-bit unit. It is expandable, and current definition of the block is as shown in the following table. The Flashloader detects FNORCB using the read SFDP command supported by most flash devices that are JESD216\(A/B\)- compliant. However, JESD216A/B only define the dummy cycles for Quad SDR read. In order to get the dummy cycles for DDR/DTR read mode, the flashloader supports auto probing by writing test patterns to offset 0x200 on the external memory devices. To get optimal timing, the readSampleClkSrc is set to 1 in Flashloader for Flash devices that do not support external provided DQS pad input. It is set to 3 in Flashloader for flash devices that do support external provided DQS pad input, such as HyperFlash.
+
+**SPIFI Configuration Option Block**
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 15">
+<link rel=File-List href="sificonfig1_files/filelist.xml">
+<style id="table_21498_Styles">
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+.xl1521498
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Aptos Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6521498
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:7.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Aptos, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:top;
+	border:.5pt solid #3B3B3B;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6621498
+	{color:black;
+	font-size:7.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Aptos, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:top;
+	border:.5pt solid #3B3B3B;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;
+	padding-left:9px;
+	mso-char-indent-count:1;}
+.xl6721498
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#333333;
+	font-size:7.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Aptos, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:top;
+	border:.5pt solid #3B3B3B;
+	background:#EBEBEB;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl6821498
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#333333;
+	font-size:7.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Aptos, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:top;
+	border-top:.5pt solid #3B3B3B;
+	border-right:none;
+	border-bottom:.5pt solid #3B3B3B;
+	border-left:.5pt solid #3B3B3B;
+	background:#EBEBEB;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl6921498
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#333333;
+	font-size:7.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Aptos, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:top;
+	border-top:.5pt solid #3B3B3B;
+	border-right:none;
+	border-bottom:.5pt solid #3B3B3B;
+	border-left:none;
+	background:#EBEBEB;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl7021498
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:7.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Aptos, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:0;
+	text-align:left;
+	vertical-align:top;
+	border:.5pt solid #3B3B3B;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	mso-text-control:shrinktofit;}
+.xl7121498
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Aptos, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:middle;
+	border:.5pt solid #3B3B3B;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+-->
+</style>
+</head>
+
+<body>
+<!--[if !excel]>&nbsp;&nbsp;<![endif]-->
+<!--The following information was generated by Microsoft Excel's Publish as Web
+Page wizard.-->
+<!--If the same item is republished from Excel, all information between the DIV
+tags will be replaced.-->
+<!----------------------------->
+<!--START OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD -->
+<!----------------------------->
+
+<div id="table_21498" align=center x:publishsource="Excel">
+
+<table border=0 cellpadding=0 cellspacing=0 width=827 style='border-collapse:
+ collapse;table-layout:fixed;width:620pt'>
+ <col width=39 style='mso-width-source:userset;mso-width-alt:1393;width:29pt'>
+ <col width=58 style='mso-width-source:userset;mso-width-alt:2076;width:44pt'>
+ <col width=64 style='mso-width-source:userset;mso-width-alt:2275;width:48pt'>
+ <col width=86 style='mso-width-source:userset;mso-width-alt:3072;width:65pt'>
+ <col width=86 style='mso-width-source:userset;mso-width-alt:3043;width:64pt'>
+ <col width=70 style='mso-width-source:userset;mso-width-alt:2474;width:52pt'>
+ <col width=86 style='mso-width-source:userset;mso-width-alt:3043;width:64pt'>
+ <col width=129 style='mso-width-source:userset;mso-width-alt:4579;width:97pt'>
+ <col width=87 style='mso-width-source:userset;mso-width-alt:3100;width:65pt'>
+ <col width=122 style='mso-width-source:userset;mso-width-alt:4352;width:92pt'>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl6721498 width=39 style='height:14.4pt;width:29pt'>Offset</td>
+  <td class=xl6721498 width=58 style='border-left:none;width:44pt'>Field</td>
+  <td colspan=8 class=xl6821498 width=730 style='border-left:none;width:547pt'>Description</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td rowspan=3 height=285 class=xl7021498 style='height:214.2pt;border-top:
+  none'>0</td>
+  <td rowspan=3 class=xl6521498 width=58 style='border-top:none;width:44pt'>Option0</td>
+  <td colspan=8 class=xl7121498 width=730 style='border-left:none;width:547pt'>&nbsp;</td>
+ </tr>
+ <tr height=58 style='mso-height-source:userset;height:43.8pt'>
+  <td height=58 class=xl6721498 width=64 style='height:43.8pt;border-top:none;
+  border-left:none;width:48pt'>TAG [31:28]</td>
+  <td class=xl6721498 width=86 style='border-top:none;border-left:none;
+  width:65pt'>Option size [27:24]</td>
+  <td class=xl6721498 width=86 style='border-top:none;border-left:none;
+  width:64pt'>Device detection type [23:20]</td>
+  <td class=xl6721498 width=70 style='border-top:none;border-left:none;
+  width:52pt'>Quer y CMD Pad( s) [19:16]</td>
+  <td class=xl6721498 width=86 style='border-top:none;border-left:none;
+  width:64pt'>CMD Pad( s) [15:12]</td>
+  <td class=xl6721498 width=129 style='border-top:none;border-left:none;
+  width:97pt'>Quad Enable Type [11:8]</td>
+  <td class=xl6721498 width=87 style='border-top:none;border-left:none;
+  width:65pt'>Misc [11:4]</td>
+  <td class=xl6721498 width=122 style='border-top:none;border-left:none;
+  width:92pt'>Max Freq [3:0]</td>
+ </tr>
+ <tr height=208 style='height:156.0pt'>
+  <td height=208 class=xl6521498 width=64 style='height:156.0pt;border-top:
+  none;border-left:none;width:48pt'>0x0C</td>
+  <td class=xl6521498 width=86 style='border-top:none;border-left:none;
+  width:65pt'>Size in bytes<br>
+    = (Option Size + 1) * 4</td>
+  <td class=xl6521498 width=86 style='border-top:none;border-left:none;
+  width:64pt'>0 - QuadSPI SDR</td>
+  <td class=xl6521498 width=70 style='border-top:none;border-left:none;
+  width:52pt'>0 - 1</td>
+  <td class=xl6521498 width=86 style='border-top:none;border-left:none;
+  width:64pt'>0 - 1</td>
+  <td class=xl6621498 width=129 style='border-top:none;border-left:none;
+  width:97pt'>•<span style='mso-spacerun:yes'>  </span>0 - Not configured<br>
+    •<span style='mso-spacerun:yes'>  </span>1 - QE bit is bit 6 in
+  StatusReg1<br>
+    •<span style='mso-spacerun:yes'>  </span>2 - QE bit is bit 1 in
+  StatusReg2<br>
+    •<span style='mso-spacerun:yes'>  </span>3 - QE bit is in bit7 in
+  StatusReg2<br>
+    •<span style='mso-spacerun:yes'>  </span>4 - QE bit is bit 1<br>
+    in StatusReg2,enable command is 0x31</td>
+  <td class=xl6521498 width=87 style='border-top:none;border-left:none;
+  width:65pt'>0 -<br>
+    Not confi gure d</td>
+  <td class=xl6521498 width=122 style='border-top:none;border-left:none;
+  width:92pt'>Device- specific, on LPC540xx/ LPC54S0xx<br>
+    flashloader:<br>
+    •<span style='mso-spacerun:yes'>  </span>1 - 24<br>
+    MHz<br>
+    •<span style='mso-spacerun:yes'>  </span>2 - 48<br>
+    MHz<br>
+    •<span style='mso-spacerun:yes'>  </span>3 - 60<br>
+    MHz<br>
+    •<span style='mso-spacerun:yes'>  </span>4 - 80<br>
+    MHz<br>
+    •<span style='mso-spacerun:yes'>  </span>5 - 96<br>
+    MHz</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td rowspan=3 height=57 class=xl7021498 style='height:43.2pt;border-top:none'>4</td>
+  <td rowspan=3 class=xl6521498 width=58 style='border-top:none;width:44pt'>Option1
+  (Optional)</td>
+  <td colspan=8 class=xl7121498 width=730 style='border-left:none;width:547pt'>&nbsp;</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td colspan=5 height=19 class=xl6721498 width=392 style='height:14.4pt;
+  border-left:none;width:293pt'>Reserved [31:8]</td>
+  <td colspan=3 class=xl6721498 width=338 style='border-left:none;width:254pt'>Dummy
+  Cycle [7:0]</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td colspan=5 height=19 class=xl6521498 width=392 style='height:14.4pt;
+  border-left:none;width:293pt'>Reserved for future use</td>
+  <td colspan=3 class=xl6521498 width=338 style='border-left:none;width:254pt'>0
+  - Use auto-probing dummy cycle<br>
+    Others - dummy cycles provided in data sheet</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=39 style='width:29pt'></td>
+  <td width=58 style='width:44pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:64pt'></td>
+  <td width=70 style='width:52pt'></td>
+  <td width=86 style='width:64pt'></td>
+  <td width=129 style='width:97pt'></td>
+  <td width=87 style='width:65pt'></td>
+  <td width=122 style='width:92pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+
+<!----------------------------->
+<!--END OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD-->
+<!----------------------------->
+</body>
+
+</html>
+
+
+
+
+-   Tag - Fixed as 0x0C
+-   Option Size - Provide scalability for future use, the option block size equals to \(Option size + 1\) \* 4 bytes.
+-   Device Detection type - Software defined device types used for config block auto detection.
+-   Query Command Pad\(s\) - Command pads \(1/4/8\) for the SFDP command.
+-   CMD pad\(s\) - Commands pads for the Flash device \(1/4/8\). For devices that works under 1-1-4, 1-4-4, 1-1-8, or 1-8-8 mode, CMD pad\(s\) value is always 0x0. For devices that only support 4-4-4 mode for high performance, CMD pads value is 2. For devices that only support 8-8-8 mode for high performance, CMD pads value is 3.
+-   Quad Enable Type - Specify the Quad Enable sequence. Only applicable for devices that are only JESD216-compliant. This field is ignored if device supports JESD216A or later version.
+-   Misc - Specify miscellaneous mode for selected flash type.
+-   Max Frequency - The maximum work frequency for the specified flash device.
+-   Dummy Cycle - User provided dummy cycles for SDR/DDR read command.
+
+Typical use cases for SPIFI NOR Configuration Block
+
+-   QuadSPI NOR - Quad SDR Read: option0 = 0xc0000004 \(80 MHz\).
+

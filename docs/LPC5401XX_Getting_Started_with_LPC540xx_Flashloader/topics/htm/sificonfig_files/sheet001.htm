@@ -1,0 +1,164 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 15">
+<link id=Main-File rel=Main-File href="../sificonfig.htm">
+<link rel=File-List href=filelist.xml>
+<link rel=Stylesheet href=stylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.75in .7in .75in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+-->
+</style>
+<![if !supportTabStrip]><script language="JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=4) {
+   if (parent.document.readyState=="complete"
+    && parent.frames['frTabs'].document.readyState=="complete")
+   parent.fnSetActiveSheet(0);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!="frSheet")
+ window.location.replace("../sificonfig.htm");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]>
+</head>
+
+<body link="#467886" vlink="#96607D">
+
+<table border=0 cellpadding=0 cellspacing=0 width=989 style='border-collapse:
+ collapse;table-layout:fixed;width:741pt'>
+ <col width=39 style='mso-width-source:userset;mso-width-alt:1393;width:29pt'>
+ <col width=95 style='mso-width-source:userset;mso-width-alt:3384;width:71pt'>
+ <col width=57 style='mso-width-source:userset;mso-width-alt:2019;width:43pt'>
+ <col width=115 style='mso-width-source:userset;mso-width-alt:4096;width:86pt'>
+ <col width=124 style='mso-width-source:userset;mso-width-alt:4408;width:93pt'>
+ <col width=110 style='mso-width-source:userset;mso-width-alt:3896;width:82pt'>
+ <col width=111 style='mso-width-source:userset;mso-width-alt:3953;width:83pt'>
+ <col width=129 style='mso-width-source:userset;mso-width-alt:4579;width:97pt'>
+ <col width=87 style='mso-width-source:userset;mso-width-alt:3100;width:65pt'>
+ <col width=122 style='mso-width-source:userset;mso-width-alt:4352;width:92pt'>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl67 width=39 style='height:14.4pt;width:29pt'>Offset</td>
+  <td class=xl67 width=95 style='border-left:none;width:71pt'>Field</td>
+  <td colspan=8 class=xl68 width=855 style='border-left:none;width:641pt'>Description</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td rowspan=3 height=259 class=xl70 style='height:194.4pt;border-top:none'>0</td>
+  <td rowspan=3 class=xl65 width=95 style='border-top:none;width:71pt'>Option0</td>
+  <td colspan=8 class=xl71 width=855 style='border-left:none;width:641pt'>&nbsp;</td>
+ </tr>
+ <tr height=32 style='height:24.0pt'>
+  <td height=32 class=xl67 width=57 style='height:24.0pt;border-top:none;
+  border-left:none;width:43pt'>TAG [31:2<br>
+    8]</td>
+  <td class=xl67 width=115 style='border-top:none;border-left:none;width:86pt'>Option
+  size [27:24]</td>
+  <td class=xl67 width=124 style='border-top:none;border-left:none;width:93pt'>Device
+  detection type [23:20]</td>
+  <td class=xl67 width=110 style='border-top:none;border-left:none;width:82pt'>Quer
+  y CMD Pad( s) [19:16]</td>
+  <td class=xl67 width=111 style='border-top:none;border-left:none;width:83pt'>CMD
+  Pad( s) [15:12]</td>
+  <td class=xl67 width=129 style='border-top:none;border-left:none;width:97pt'>Quad
+  Enable Type [11:8]</td>
+  <td class=xl67 width=87 style='border-top:none;border-left:none;width:65pt'>Misc
+  [11:4]</td>
+  <td class=xl67 width=122 style='border-top:none;border-left:none;width:92pt'>Max
+  Freq [3:0]</td>
+ </tr>
+ <tr height=208 style='height:156.0pt'>
+  <td height=208 class=xl65 width=57 style='height:156.0pt;border-top:none;
+  border-left:none;width:43pt'>0x0C</td>
+  <td class=xl65 width=115 style='border-top:none;border-left:none;width:86pt'>Size
+  in bytes<br>
+    = (Option Size + 1) * 4</td>
+  <td class=xl65 width=124 style='border-top:none;border-left:none;width:93pt'>0
+  - QuadSPI SDR</td>
+  <td class=xl65 width=110 style='border-top:none;border-left:none;width:82pt'>0
+  - 1</td>
+  <td class=xl65 width=111 style='border-top:none;border-left:none;width:83pt'>0
+  - 1</td>
+  <td class=xl66 width=129 style='border-top:none;border-left:none;width:97pt'>•<span
+  style='mso-spacerun:yes'>  </span>0 - Not configured<br>
+    •<span style='mso-spacerun:yes'>  </span>1 - QE bit is bit 6 in
+  StatusReg1<br>
+    •<span style='mso-spacerun:yes'>  </span>2 - QE bit is bit 1 in
+  StatusReg2<br>
+    •<span style='mso-spacerun:yes'>  </span>3 - QE bit is in bit7 in
+  StatusReg2<br>
+    •<span style='mso-spacerun:yes'>  </span>4 - QE bit is bit 1<br>
+    in StatusReg2,enable command is 0x31</td>
+  <td class=xl65 width=87 style='border-top:none;border-left:none;width:65pt'>0
+  -<br>
+    Not confi gure d</td>
+  <td class=xl65 width=122 style='border-top:none;border-left:none;width:92pt'>Device-
+  specific, on LPC540xx/ LPC54S0xx<br>
+    flashloader:<br>
+    •<span style='mso-spacerun:yes'>  </span>1 - 24<br>
+    MHz<br>
+    •<span style='mso-spacerun:yes'>  </span>2 - 48<br>
+    MHz<br>
+    •<span style='mso-spacerun:yes'>  </span>3 - 60<br>
+    MHz<br>
+    •<span style='mso-spacerun:yes'>  </span>4 - 80<br>
+    MHz<br>
+    •<span style='mso-spacerun:yes'>  </span>5 - 96<br>
+    MHz</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td rowspan=3 height=57 class=xl70 style='height:43.2pt;border-top:none'>4</td>
+  <td rowspan=3 class=xl65 width=95 style='border-top:none;width:71pt'>Option1
+  Optional</td>
+  <td colspan=8 class=xl71 width=855 style='border-left:none;width:641pt'>&nbsp;</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td colspan=5 height=19 class=xl67 width=517 style='height:14.4pt;border-left:
+  none;width:387pt'>Reserved [31:8]</td>
+  <td colspan=3 class=xl67 width=338 style='border-left:none;width:254pt'>Dummy
+  Cycle [7:0]</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td colspan=5 height=19 class=xl65 width=517 style='height:14.4pt;border-left:
+  none;width:387pt'>Reserved for future use</td>
+  <td colspan=3 class=xl65 width=338 style='border-left:none;width:254pt'>0 -
+  Use auto-probing dummy cycle<br>
+    Others - dummy cycles provided in data sheet</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=39 style='width:29pt'></td>
+  <td width=95 style='width:71pt'></td>
+  <td width=57 style='width:43pt'></td>
+  <td width=115 style='width:86pt'></td>
+  <td width=124 style='width:93pt'></td>
+  <td width=110 style='width:82pt'></td>
+  <td width=111 style='width:83pt'></td>
+  <td width=129 style='width:97pt'></td>
+  <td width=87 style='width:65pt'></td>
+  <td width=122 style='width:92pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>

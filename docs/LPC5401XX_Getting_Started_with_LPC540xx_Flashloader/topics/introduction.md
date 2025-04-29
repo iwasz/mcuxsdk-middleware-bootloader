@@ -1,0 +1,4 @@
+# Introduction
+
+This document describes how to interface with the LPC540xx/LPC54S0xx flashloader to program a user application image into the external SPI \(Serial Peripheral Interface\) flash for the LPC540xx/LPC54S0xx device. The flashloader is the secondary bootloader program that can be loaded in the on-chip RAM of LPC device. The flashloader application provides a programming interface over serial USB peripheral in full speed or high speed mode. High speed mode is enabled by default. A host application can send commands and data to program the external Quad SPI flash of the device. The flashloader also provides commands to program the internal fuse array \(one time programmable memory\) to configure the device. In this document, flashloader is also referred to as bootloader or secondary bootloader.
+

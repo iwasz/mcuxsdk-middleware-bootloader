@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="166.57001mm"
+   height="150.34mm"
+   id="svg6009"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="protocol_sequence_for_writememory.svg">
+  <metadata
+     id="metadata6295">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview6293"
+     showgrid="false"
+     inkscape:zoom="1.7721019"
+     inkscape:cx="264.16971"
+     inkscape:cy="444.31554"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6009" />
+  <defs
+     id="defs6011" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6015"
+     d="m 22.794536,34.425995 0,494.610215"
+     style="fill:none;stroke:#000000;stroke-width:2.091;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none;stroke-miterlimit:4" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6017"
+     d="m 505.61716,32.552471 0,187.742669"
+     style="fill:none;stroke:#000000;stroke-width:2.091;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none;stroke-miterlimit:4" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6019"
+     d="m 422.86987,114.44106 0,23.96549 165.49458,0 0,-23.96549 -165.49458,0 z"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <text
+     id="text6021"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;font-family:Arial;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000"
+     y="132.39566"
+     x="423.41632"
+     xml:space="preserve">Process command</text>
+  <text
+     id="text6023"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18px;font-family:Arial;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000"
+     y="26.957415"
+     x="4.7552381"
+     xml:space="preserve">Host</text>
+  <text
+     id="text6025"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18px;font-family:Arial;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000"
+     y="24.175188"
+     x="483.21088"
+     xml:space="preserve">Target</text>
+  <path
+     inkscape:connector-curvature="0"
+     id="path6027"
+     d="m 24.121615,68.617799 84.776945,0.234191 82.35697,0.312254 80.09313,0.468381 77.75123,0.624508 75.40932,0.702571 73.06742,0.858698"
+     style="fill:none;stroke:#000000;stroke-width:0.39031741px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6029"
+     d="m 496.48374,67.212657 9.13342,4.683809 -9.21149,4.527681 0.0781,-9.21149 z"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6031"
+     d="m 89.104701,53.707675 0,31.927963 372.511049,0 0,-31.927963 -372.511049,0 z"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <g
+     id="g210">
+    <g
+       id="g184">
+      <g
+         id="g159">
+        <text
+           xml:space="preserve"
+           x="91.733025"
+           y="65.399788"
+           style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+           id="text6033">WriteMemory</text>
+        <text
+           xml:space="preserve"
+           x="173.61317"
+           y="66.19783"
+           style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+           id="text6035">: </text>
+        <text
+           xml:space="preserve"
+           x="181.10727"
+           y="66.19783"
+           style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+           id="text6037">startAddress </text>
+        <text
+           xml:space="preserve"
+           x="259.79526"
+           y="66.19783"
+           style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+           id="text6039">= </text>
+        <text
+           xml:space="preserve"
+           x="271.03641"
+           y="66.19783"
+           style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+           id="text6041">0</text>
+        <text
+           xml:space="preserve"
+           x="278.53049"
+           y="66.19783"
+           style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+           id="text6043">x</text>
+        <text
+           xml:space="preserve"
+           x="284.77557"
+           y="66.19783"
+           style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+           id="text6045">20000400</text>
+        <text
+           xml:space="preserve"
+           x="344.72833"
+           y="66.19783"
+           style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+           id="text6047">, </text>
+        <text
+           xml:space="preserve"
+           x="352.22241"
+           y="66.19783"
+           style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+           id="text6049">byteCount </text>
+        <text
+           xml:space="preserve"
+           x="415.92221"
+           y="66.19783"
+           style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+           id="text6051">= </text>
+        <text
+           xml:space="preserve"
+           x="428.41238"
+           y="66.19783"
+           style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+           id="text6053">0</text>
+        <text
+           xml:space="preserve"
+           x="435.90649"
+           y="66.19783"
+           style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+           id="text6055">x</text>
+        <text
+           xml:space="preserve"
+           x="442.15155"
+           y="66.19783"
+           style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+           id="text6057">64</text>
+        <text
+           xml:space="preserve"
+           x="102.07221"
+           y="81.18602"
+           style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+           id="text6059">0</text>
+        <text
+           xml:space="preserve"
+           x="109.56631"
+           y="81.18602"
+           style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+           id="text6061">x</text>
+        <text
+           xml:space="preserve"
+           x="117.0604"
+           y="81.18602"
+           style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+           id="text6063">5</text>
+        <text
+           xml:space="preserve"
+           x="124.5545"
+           y="81.18602"
+           style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+           id="text6065">a a</text>
+        <text
+           xml:space="preserve"
+           x="144.03581"
+           y="81.18602"
+           style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+           id="text6067">4 10</text>
+        <text
+           xml:space="preserve"
+           x="162.37204"
+           y="81.18602"
+           style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+           id="text6069"> </text>
+        <text
+           xml:space="preserve"
+           x="173.61317"
+           y="81.18602"
+           style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+           id="text6071">00 97 dd</text>
+        <text
+           xml:space="preserve"
+           x="219.32384"
+           y="80.786995"
+           style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+           id="text6073"> </text>
+        <text
+           xml:space="preserve"
+           x="228.56987"
+           y="81.18602"
+           style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+           id="text6075">04 01 00 03 00 04 00 20 64 00 00 00</text>
+      </g>
+    </g>
+  </g>
+  <path
+     inkscape:connector-curvature="0"
+     id="path6077"
+     d="m 505.61716,146.83741 -84.93306,3.59092 -82.66923,3.66898 -80.32732,3.66898 -77.98542,3.66899 -75.64351,3.74704 -73.301609,3.74705"
+     style="fill:none;stroke:#000000;stroke-width:0.39031741px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6079"
+     d="m 31.693773,164.24556 -8.899237,5.07413 9.367618,4.13736 -0.468381,-9.21149 z"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6081"
+     d="m 87.353035,141.91941 0,32.00602 331.847855,0 0,-32.00602 -331.847855,0 z"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <text
+     id="text6083"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="153.62894"
+     x="191.41112"
+     xml:space="preserve">Generic Response</text>
+  <text
+     id="text6085"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="153.62894"
+     x="304.75983"
+     xml:space="preserve">:</text>
+  <path
+     inkscape:connector-curvature="0"
+     id="path6109"
+     d="m 505.61716,94.378748 -84.93306,3.59092 -82.66923,3.668982 -80.32732,3.66899 -77.98542,3.66898 -75.64351,3.74705 -73.301609,3.74704"
+     style="fill:none;stroke:#000000;stroke-width:0.39031741px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6111"
+     d="m 31.693773,111.7869 -8.899237,5.07413 9.367618,4.13736 -0.468381,-9.21149 z"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6113"
+     d="m 208.98437,97.501287 0,16.003013 85.39302,0 0,-16.003013 -85.39302,0 z"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <text
+     id="text6115"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="109.91338"
+     x="211.53462"
+     xml:space="preserve">ACK</text>
+  <text
+     id="text6117"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="109.91338"
+     x="239.811"
+     xml:space="preserve">: </text>
+  <text
+     id="text6119"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="109.91338"
+     x="247.30511"
+     xml:space="preserve">0</text>
+  <text
+     id="text6121"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="109.91338"
+     x="254.79919"
+     xml:space="preserve">x</text>
+  <text
+     id="text6123"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="109.91338"
+     x="261.04428"
+     xml:space="preserve">5</text>
+  <text
+     id="text6125"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="109.91338"
+     x="268.53836"
+     xml:space="preserve">a a</text>
+  <text
+     id="text6127"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="109.91338"
+     x="287.27362"
+     xml:space="preserve">1</text>
+  <path
+     inkscape:connector-curvature="0"
+     id="path6129"
+     d="m 22.794536,180.56083 84.933064,2.96641 82.66923,2.96642 80.32732,3.04447 77.90735,3.04448 75.64352,3.2006 73.30161,3.2006"
+     style="fill:none;stroke:#000000;stroke-width:0.39031741px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6131"
+     d="m 496.63986,194.3 8.9773,4.99607 -9.36761,4.21542 0.39031,-9.21149 z"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6133"
+     d="m 229.64507,181.73178 0,15.92495 89.38324,0 0,-15.92495 -89.38324,0 z"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <text
+     id="text6135"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="193.59743"
+     x="232.36887"
+     xml:space="preserve">ACK</text>
+  <text
+     id="text6137"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="193.59743"
+     x="261.04428"
+     xml:space="preserve">: </text>
+  <text
+     id="text6139"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="193.59743"
+     x="268.53836"
+     xml:space="preserve">0</text>
+  <text
+     id="text6141"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="193.59743"
+     x="276.03247"
+     xml:space="preserve">x</text>
+  <text
+     id="text6143"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="193.59743"
+     x="282.27756"
+     xml:space="preserve">5</text>
+  <text
+     id="text6145"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="193.59743"
+     x="289.77164"
+     xml:space="preserve">a a</text>
+  <text
+     id="text6147"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="193.59743"
+     x="308.50687"
+     xml:space="preserve">1</text>
+  <path
+     inkscape:connector-curvature="0"
+     id="path6149"
+     d="m 22.794536,212.87911 84.933064,2.10772 82.66923,2.10771 80.32732,2.26384 77.90735,2.26384 75.64352,2.41997 73.30161,2.49803"
+     style="fill:none;stroke:#000000;stroke-width:0.39031741px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6151"
+     d="m 496.63986,221.85641 8.9773,4.918 -9.28955,4.29349 0.31225,-9.21149 z"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6153"
+     d="m 167.3681,203.51149 0,31.92797 220.32153,0 0,-31.92797 -220.32153,0 z"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <text
+     id="text6155"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="214.43169"
+     x="233.72179"
+     xml:space="preserve">Data packet</text>
+  <text
+     id="text6157"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="214.8307"
+     x="308.50687"
+     xml:space="preserve">:</text>
+  <text
+     id="text6159"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="231.0679"
+     x="167.3681"
+     xml:space="preserve">0</text>
+  <text
+     id="text6161"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="231.0679"
+     x="174.8622"
+     xml:space="preserve">x</text>
+  <text
+     id="text6163"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="231.0679"
+     x="181.10727"
+     xml:space="preserve">5</text>
+  <text
+     id="text6165"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="231.0679"
+     x="188.60136"
+     xml:space="preserve">a a</text>
+  <text
+     id="text6167"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="231.0679"
+     x="207.33659"
+     xml:space="preserve">5 20 00 </text>
+  <text
+     id="text6169"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="231.0679"
+     x="256.04822"
+     xml:space="preserve">CRC</text>
+  <text
+     id="text6171"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="231.0679"
+     x="284.77557"
+     xml:space="preserve">16 32 </text>
+  <text
+     id="text6173"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="231.0679"
+     x="320.99704"
+     xml:space="preserve">bytes data</text>
+  <path
+     inkscape:connector-curvature="0"
+     id="path6175"
+     d="m 505.61716,221.77835 0,71.19389"
+     style="fill:none;stroke:#000000;stroke-width:2.091;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none;stroke-miterlimit:4" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6177"
+     d="m 445.66441,245.43158 0,23.96549 119.98357,0 0,-23.96549 -119.98357,0 z"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <text
+     id="text6179"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;font-family:Arial;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000"
+     y="263.5423"
+     x="445.89859"
+     xml:space="preserve">Process Data</text>
+  <path
+     inkscape:connector-curvature="0"
+     id="path6181"
+     d="m 505.61716,274.23701 -85.47951,1.71739 -83.1376,1.87353 -80.79571,1.87352 -78.37573,1.95159 -76.11189,2.10771 -73.769994,2.18578"
+     style="fill:none;stroke:#000000;stroke-width:0.39031741px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6183"
+     d="m 32.629512,280.98057 -9.055363,4.918 9.367617,4.29349 -0.312254,-9.21149 z"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6185"
+     d="m 206.70311,271.81704 0,16.00301 88.5852,0 0,-16.00301 -88.5852,0 z"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <text
+     id="text6187"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="283.52655"
+     x="209.88658"
+     xml:space="preserve">ACK</text>
+  <text
+     id="text6189"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="283.52655"
+     x="238.562"
+     xml:space="preserve">: </text>
+  <text
+     id="text6191"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="283.52655"
+     x="246.05609"
+     xml:space="preserve">0</text>
+  <text
+     id="text6193"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="283.52655"
+     x="252.30116"
+     xml:space="preserve">x</text>
+  <text
+     id="text6195"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="283.52655"
+     x="259.79526"
+     xml:space="preserve">5</text>
+  <text
+     id="text6197"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="283.52655"
+     x="267.28937"
+     xml:space="preserve">a a</text>
+  <text
+     id="text6199"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="283.52655"
+     x="286.0246"
+     xml:space="preserve">1</text>
+  <path
+     inkscape:connector-curvature="0"
+     id="path6201"
+     d="m 24.66806,363.54163 84.62081,2.3419 82.27891,2.49803 80.01507,2.49804 77.67316,2.57609 75.33126,2.65416 72.98936,2.73222"
+     style="fill:none;stroke:#000000;stroke-width:0.39031741px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6203"
+     d="m 496.63986,374.23633 8.9773,4.918 -9.36761,4.29349 0.39031,-9.21149 z"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6205"
+     d="m 151.74615,355.03271 0,32.00603 249.69163,0 0,-32.00603 -249.69163,0 z"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <text
+     id="text6207"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="365.6145"
+     x="220.38164"
+     xml:space="preserve">Final Data packet</text>
+  <text
+     id="text6209"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="383.44781"
+     x="159.87401"
+     xml:space="preserve">0</text>
+  <text
+     id="text6211"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="383.44781"
+     x="166.11909"
+     xml:space="preserve">x</text>
+  <text
+     id="text6213"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="383.44781"
+     x="173.61317"
+     xml:space="preserve">5</text>
+  <text
+     id="text6215"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="383.44781"
+     x="181.10727"
+     xml:space="preserve">a a</text>
+  <text
+     id="text6217"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="383.44781"
+     x="199.84251"
+     xml:space="preserve">5 </text>
+  <text
+     id="text6219"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="383.44781"
+     x="209.83464"
+     xml:space="preserve">length</text>
+  <text
+     id="text6221"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="383.44781"
+     x="247.30511"
+     xml:space="preserve">16 </text>
+  <text
+     id="text6223"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="383.44781"
+     x="264.79132"
+     xml:space="preserve">CRC</text>
+  <text
+     id="text6225"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="383.44781"
+     x="293.51868"
+     xml:space="preserve">16 32 </text>
+  <text
+     id="text6227"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="383.44781"
+     x="330.98917"
+     xml:space="preserve">bytes data</text>
+  <path
+     inkscape:connector-curvature="0"
+     id="path6229"
+     d="m 505.61716,423.49438 -85.08919,1.09289 -82.82535,1.17095 -80.48345,1.24902 -78.14155,1.40514 -75.79964,1.48321 -73.45773,1.56127"
+     style="fill:none;stroke:#000000;stroke-width:0.39031741px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6231"
+     d="m 30.913138,426.85111 -9.133427,4.76187 9.289554,4.37156 -0.156127,-9.13343 z"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6233"
+     d="m 236.91382,419.12283 0,15.92495 31.3905,0 0,-15.92495 -31.3905,0 z"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <text
+     id="text6235"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="430.9104"
+     x="238.562"
+     xml:space="preserve">ACK</text>
+  <path
+     inkscape:connector-curvature="0"
+     id="path6237"
+     d="m 505.61716,357.06236 0,89.53881"
+     style="fill:none;stroke:#000000;stroke-width:2.085;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none;stroke-miterlimit:4" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6239"
+     d="m 445.66441,389.84902 0,23.96549 119.98357,0 0,-23.96549 -119.98357,0 z"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <text
+     id="text6241"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;font-family:Arial;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000"
+     y="408.42813"
+     x="445.89859"
+     xml:space="preserve">Process Data</text>
+  <path
+     inkscape:connector-curvature="0"
+     id="path6243"
+     d="m 506.00007,300.20672 0,3.63239 c 0,1.02653 -0.16648,1.81619 -0.38291,1.81619 -0.19977,0 -0.3829,-0.78966 -0.3829,-1.81619 l 0,-3.63239 c 0,-0.94759 0.18313,-1.81619 0.3829,-1.81619 0.21643,0 0.38291,0.8686 0.38291,1.81619 z m 0,10.97612 0,3.63239 c 0,0.94758 -0.16648,1.81619 -0.38291,1.81619 -0.19977,0 -0.3829,-0.86861 -0.3829,-1.81619 l 0,-3.63239 c 0,-1.02653 0.18313,-1.81619 0.3829,-1.81619 0.21643,0 0.38291,0.78966 0.38291,1.81619 z m 0,10.89717 0,3.63238 c 0,1.02655 -0.16648,1.8162 -0.38291,1.8162 -0.19977,0 -0.3829,-0.78965 -0.3829,-1.8162 l 0,-3.63238 c 0,-1.02655 0.18313,-1.8162 0.3829,-1.8162 0.21643,0 0.38291,0.78965 0.38291,1.8162 z m 0,10.89715 0,3.63239 c 0,1.02655 -0.16648,1.8162 -0.38291,1.8162 -0.19977,0 -0.3829,-0.78965 -0.3829,-1.8162 l 0,-3.63239 c 0,-1.02653 0.18313,-1.81619 0.3829,-1.81619 0.21643,0 0.38291,0.78966 0.38291,1.81619 z m 0,10.89717 0,1.81619 c 0,1.02655 -0.16648,1.81619 -0.38291,1.81619 -0.19977,0 -0.3829,-0.78964 -0.3829,-1.81619 l 0,-1.81619 c 0,-0.94758 0.18313,-1.8162 0.3829,-1.8162 0.21643,0 0.38291,0.86862 0.38291,1.8162 z"
+     style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.087;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6245"
+     d="m 505.61716,446.60117 -120.92033,6.16702 -119.43712,6.32314 -117.95392,6.47927 -116.548779,6.79152"
+     style="fill:none;stroke:#000000;stroke-width:0.39031741px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6247"
+     d="m 31.693773,467.75638 -8.899237,5.07412 9.445681,4.0593 -0.546444,-9.13342 z"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6249"
+     d="m 83.631553,443.32251 0,31.92796 357.774727,0 0,-31.92796 -357.774727,0 z"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <text
+     id="text6251"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="454.64172"
+     x="204.14442"
+     xml:space="preserve">Generic Response</text>
+  <text
+     id="text6253"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="470.87891"
+     x="89.929131"
+     xml:space="preserve">0</text>
+  <text
+     id="text6255"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="470.87891"
+     x="97.423225"
+     xml:space="preserve">x</text>
+  <text
+     id="text6257"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="470.87891"
+     x="103.6683"
+     xml:space="preserve">5</text>
+  <text
+     id="text6259"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="470.87891"
+     x="111.1624"
+     xml:space="preserve">a a</text>
+  <text
+     id="text6261"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="470.87891"
+     x="129.89763"
+     xml:space="preserve">4 0</text>
+  <text
+     id="text6263"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="470.87891"
+     x="148.63287"
+     xml:space="preserve">c </text>
+  <text
+     id="text6265"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="470.87891"
+     x="158.62498"
+     xml:space="preserve">00 23 72 </text>
+  <text
+     id="text6267"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="470.87891"
+     x="213.58168"
+     xml:space="preserve">a</text>
+  <text
+     id="text6269"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="470.87891"
+     x="221.07578"
+     xml:space="preserve">0 00 00 02 00 00 00 00 04 00 00 00</text>
+  <path
+     inkscape:connector-curvature="0"
+     id="path6271"
+     d="m 22.794536,491.56574 84.933064,1.63933 82.66923,1.7174 80.24926,1.79546 77.98541,1.87352 75.64352,1.95159 73.30161,2.02965"
+     style="fill:none;stroke:#000000;stroke-width:0.39031741px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6273"
+     d="m 496.5618,497.96694 9.05536,4.83994 -9.28955,4.37155 0.23419,-9.21149 z"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path6275"
+     d="m 234.03431,488.75545 0,16.00302 82.20085,0 0,-16.00302 -82.20085,0 z"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <text
+     id="text6277"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="500.85529"
+     x="233.56593"
+     xml:space="preserve">ACK</text>
+  <text
+     id="text6279"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="500.85529"
+     x="261.04428"
+     xml:space="preserve">: </text>
+  <text
+     id="text6281"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="500.85529"
+     x="268.53836"
+     xml:space="preserve">0</text>
+  <text
+     id="text6283"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="500.85529"
+     x="276.03247"
+     xml:space="preserve">x</text>
+  <text
+     id="text6285"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="500.85529"
+     x="282.27756"
+     xml:space="preserve">5</text>
+  <text
+     id="text6287"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="500.85529"
+     x="289.77164"
+     xml:space="preserve">a a</text>
+  <text
+     id="text6289"
+     style="font-style:normal;font-weight:normal;font-size:13.73917294px;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+     y="500.85529"
+     x="308.50687"
+     xml:space="preserve">1</text>
+  <path
+     inkscape:connector-curvature="0"
+     id="path6291"
+     d="m 505.61716,446.60117 0,82.43504"
+     style="fill:none;stroke:#000000;stroke-width:2.084;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none;stroke-miterlimit:4" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="91.981163"
+     y="167.5976"
+     id="text3120"><tspan
+       sodipodi:role="line"
+       id="tspan3122"
+       x="91.981163"
+       y="167.5976"
+       style="font-size:14px;line-height:1.25;font-family:sans-serif">0x5a a4 0c 00 a0 0e 04 01 00 02 00 04 00 20 40 00 00 00</tspan><tspan
+       sodipodi:role="line"
+       x="91.981163"
+       y="185.0976"
+       id="tspan3124"
+       style="font-size:14px;line-height:1.25;font-family:sans-serif"> </tspan></text>
+</svg>
