@@ -1,839 +1,839 @@
 
-menu "component"
+menu "mcu_bootloader"
     config MCUX_PRJSEG_kboot_common_settings
-        bool "Select kboot_common_settings"
+        bool "kboot_common"
     config MCUX_PRJSEG_imx_kboot_common_settings
-        bool "Select imx_kboot_common_settings"
+        bool "imx_kboot"
     config MCUX_PRJSEG_kinetis_kboot_common_settings
-        bool "Select kinetis_kboot_common_settings"
+        bool "kinetis_kboot"
     config MCUX_PRJSEG_lpc_kboot_common_settings
-        bool "Select lpc_kboot_common_settings"
+        bool "lpc_kboot"
     config MCUX_PRJSEG_evkbimxrt1050_kboot_options
-        bool "Select evkbimxrt1050_kboot_options"
+        bool "evkbimxrt1050"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_imx_kboot_common_settings
     config MCUX_PRJSEG_evkbmimxrt1060_kboot_options
-        bool "Select evkbmimxrt1060_kboot_options"
+        bool "evkbmimxrt1060"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_imx_kboot_common_settings
     config MCUX_PRJSEG_evkbmimxrt1170_cm7_kboot_options
-        bool "Select evkbmimxrt1170_cm7_kboot_options"
+        bool "evkbmimxrt1170_cm7"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_imx_kboot_common_settings
     config MCUX_PRJSEG_evkbmimxrt1170_cm4_kboot_options
-        bool "Select evkbmimxrt1170_cm4_kboot_options"
+        bool "evkbmimxrt1170_cm4"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_imx_kboot_common_settings
     config MCUX_PRJSEG_evkcmimxrt1060_kboot_options
-        bool "Select evkcmimxrt1060_kboot_options"
+        bool "evkcmimxrt1060"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_imx_kboot_common_settings
     config MCUX_PRJSEG_evkmimxrt1010_kboot_options
-        bool "Select evkmimxrt1010_kboot_options"
+        bool "evkmimxrt1010"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_imx_kboot_common_settings
     config MCUX_PRJSEG_evkmimxrt1015_kboot_options
-        bool "Select evkmimxrt1015_kboot_options"
+        bool "evkmimxrt1015"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_imx_kboot_common_settings
     config MCUX_PRJSEG_evkmimxrt1020_kboot_options
-        bool "Select evkmimxrt1020_kboot_options"
+        bool "evkmimxrt1020"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_imx_kboot_common_settings
     config MCUX_PRJSEG_evkmimxrt1024_kboot_options
-        bool "Select evkmimxrt1024_kboot_options"
+        bool "evkmimxrt1024"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_imx_kboot_common_settings
     config MCUX_PRJSEG_evkmimxrt1040_kboot_options
-        bool "Select evkmimxrt1040_kboot_options"
+        bool "evkmimxrt1040"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_imx_kboot_common_settings
     config MCUX_PRJSEG_evkmimxrt1060_kboot_options
-        bool "Select evkmimxrt1060_kboot_options"
+        bool "evkmimxrt1060"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_imx_kboot_common_settings
     config MCUX_PRJSEG_evkmimxrt1064_kboot_options
-        bool "Select evkmimxrt1064_kboot_options"
+        bool "evkmimxrt1064"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_imx_kboot_common_settings
     config MCUX_PRJSEG_evkmimxrt1160_cm4_kboot_options
-        bool "Select evkmimxrt1160_cm4_kboot_options"
+        bool "evkmimxrt1160_cm4"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_imx_kboot_common_settings
     config MCUX_PRJSEG_evkmimxrt1160_cm7_kboot_options
-        bool "Select evkmimxrt1160_cm7_kboot_options"
+        bool "evkmimxrt1160_cm7"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_imx_kboot_common_settings
     config MCUX_PRJSEG_evkmimxrt1170_kboot_options
-        bool "Select evkmimxrt1170_kboot_options"
+        bool "evkmimxrt1170"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_imx_kboot_common_settings
     config MCUX_PRJSEG_evkmimxrt1180a_kboot_options
-        bool "Select evkmimxrt1180a_kboot_options"
+        bool "evkmimxrt1180a"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_imx_kboot_common_settings
     config MCUX_PRJSEG_evkmimxrt1180_kboot_options
-        bool "Select evkmimxrt1180_kboot_options"
+        bool "evkmimxrt1180"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_imx_kboot_common_settings
     config MCUX_PRJSEG_frdmk22f_kboot_options
-        bool "Select frdmk22f_kboot_options"
+        bool "frdmk22f"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_frdmk32l2a4s_kboot_options
-        bool "Select frdmk32l2a4s_kboot_options"
+        bool "frdmk32l2a4s"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_frdmk64f_kboot_options
-        bool "Select frdmk64f_kboot_options"
+        bool "frdmk64f"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_frdmk66f_kboot_options
-        bool "Select frdmk66f_kboot_options"
+        bool "frdmk66f"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_frdmk82f_kboot_options
-        bool "Select frdmk82f_kboot_options"
+        bool "frdmk82f"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_frdmke16z_kboot_options
-        bool "Select frdmke16z_kboot_options"
+        bool "frdmke16z"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_frdmke17z_kboot_options
-        bool "Select frdmke17z_kboot_options"
+        bool "frdmke17z"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_frdmke17z512_kboot_options
-        bool "Select frdmke17z512_kboot_options"
+        bool "frdmke17z512"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_frdmkl28z_kboot_options
-        bool "Select frdmkl28z_kboot_options"
+        bool "frdmkl28z"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_frdmkl82z_kboot_options
-        bool "Select frdmkl82z_kboot_options"
+        bool "frdmkl82z"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_frdmkv11z_kboot_options
-        bool "Select frdmkv11z_kboot_options"
+        bool "frdmkv11z"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_frdmkv31f_kboot_options
-        bool "Select frdmkv31f_kboot_options"
+        bool "frdmkv31f"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_lpcxpresso54018_kboot_options
-        bool "Select lpcxpresso54018_kboot_options"
+        bool "lpcxpresso54018"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_lpc_kboot_common_settings
     config MCUX_PRJSEG_lpcxpresso54s018_kboot_options
-        bool "Select lpcxpresso54s018_kboot_options"
+        bool "lpcxpresso54s018"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_lpc_kboot_common_settings
     config MCUX_PRJSEG_lpcxpresso54s018m_kboot_options
-        bool "Select lpcxpresso54s018m_kboot_options"
+        bool "lpcxpresso54s018m"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_lpc_kboot_common_settings
     config MCUX_PRJSEG_mapsks22_kboot_options
-        bool "Select mapsks22_kboot_options"
+        bool "mapsks22"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_twrk22f120m_kboot_options
-        bool "Select twrk22f120m_kboot_options"
+        bool "twrk22f120m"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_twrk64f120m_kboot_options
-        bool "Select twrk64f120m_kboot_options"
+        bool "twrk64f120m"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_twrk65f180m_kboot_options
-        bool "Select twrk65f180m_kboot_options"
+        bool "twrk65f180m"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_twrk80f150m_kboot_options
-        bool "Select twrk80f150m_kboot_options"
+        bool "twrk80f150m"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_twrkl28z72m_kboot_options
-        bool "Select twrkl28z72m_kboot_options"
+        bool "twrkl28z72m"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_twrkl82z72m_kboot_options
-        bool "Select twrkl82z72m_kboot_options"
+        bool "twrkl82z72m"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_twrkm35z75m_kboot_options
-        bool "Select twrkm35z75m_kboot_options"
+        bool "twrkm35z75m"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_twrkv11z75m_kboot_options
-        bool "Select twrkv11z75m_kboot_options"
+        bool "twrkv11z75m"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_twrkv31f120m_kboot_options
-        bool "Select twrkv31f120m_kboot_options"
+        bool "twrkv31f120m"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_twrkv46f150m_kboot_options
-        bool "Select twrkv46f150m_kboot_options"
+        bool "twrkv46f150m"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     config MCUX_PRJSEG_twrkv58f220m_kboot_options
-        bool "Select twrkv58f220m_kboot_options"
+        bool "twrkv58f220m"
         imply MCUX_PRJSEG_kboot_common_settings
         imply MCUX_PRJSEG_kinetis_kboot_common_settings
     
     config MCUX_COMPONENT_middleware.mcu-boot.bootsources
-        bool "Component middleware.mcu-boot.bootsources"
+        bool "bootsources"
         depends on MCUX_HW_DEVICE_MK22F51212 || MCUX_HW_DEVICE_MKV11Z7 || MCUX_HW_DEVICE_MKV46F16 || MCUX_HW_DEVICE_MK65F18 || MCUX_HW_DEVICE_MKV31F51212 || MCUX_HW_DEVICE_MKV58F24 || MCUX_HW_DEVICE_MK64F12 || MCUX_HW_DEVICE_MK66F18 || MCUX_HW_DEVICE_MK80F25615 || MCUX_HW_DEVICE_MK82F25615 || MCUX_HW_DEVICE_MKM35Z7 || MCUX_HW_DEVICE_MKE16Z4 || MCUX_HW_DEVICE_MKE17Z7 || MCUX_HW_DEVICE_MIMXRT1052 || MCUX_HW_DEVICE_LPC54018 || MCUX_HW_DEVICE_LPC54S018 || MCUX_HW_DEVICE_LPC54S018M || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1024 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1176 || MCUX_HW_DEVICE_MIMXRT1166 || MCUX_HW_DEVICE_MIMXRT1015 || MCUX_HW_DEVICE_K32L2A41A || MCUX_HW_DEVICE_MIMXRT1011 || MCUX_HW_DEVICE_MIMXRT1042 || MCUX_HW_DEVICE_MIMXRT1189 || MCUX_HW_DEVICE_MIMXRT1187
     
     config MCUX_COMPONENT_middleware.mcu-boot.bootsources_kinetis
-        bool "Component middleware.mcu-boot.bootsources_kinetis"
+        bool "bootsources_kinetis"
         depends on MCUX_HW_DEVICE_MK22F51212 || MCUX_HW_DEVICE_MKV58F24 || MCUX_HW_DEVICE_MK64F12 ||  MCUX_HW_DEVICE_MK80F25615 || MCUX_HW_DEVICE_MK82F25615 || MCUX_HW_DEVICE_MKM35Z7 || MCUX_HW_DEVICE_MKE16Z4 || MCUX_HW_DEVICE_MKE17Z7 || MCUX_HW_DEVICE_K32L2A41A
     
     config MCUX_COMPONENT_middleware.mcu-boot.bootsources_imxrt
-        bool "Component middleware.mcu-boot.bootsources_imxrt"
+        bool "bootsources_imxrt"
         depends on MCUX_HW_DEVICE_MIMXRT1052 || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1024 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1015 || MCUX_HW_DEVICE_MIMXRT1176 || MCUX_HW_DEVICE_MIMXRT1166 || MCUX_HW_DEVICE_MIMXRT1042 || MCUX_HW_DEVICE_MIMXRT1189 || MCUX_HW_DEVICE_MIMXRT1187
     
     config MCUX_COMPONENT_middleware.mcu-boot.bootsources_lpc
-        bool "Component middleware.mcu-boot.bootsources_lpc"
+        bool "bootsources_lpc"
         depends on MCUX_HW_DEVICE_LPC54018 || MCUX_HW_DEVICE_LPC54S018 || MCUX_HW_DEVICE_LPC54S018M
     
     config MCUX_COMPONENT_middleware.mcu-boot.loadersources
-        bool "Component middleware.mcu-boot.loadersources"
+        bool "loadersources"
         depends on MCUX_HW_DEVICE_MK22F51212 || MCUX_HW_DEVICE_MKV58F24 || MCUX_HW_DEVICE_MK64F12 ||  MCUX_HW_DEVICE_MK80F25615 || MCUX_HW_DEVICE_MK82F25615 || MCUX_HW_DEVICE_MKM35Z7 || MCUX_HW_DEVICE_MKE16Z4 || MCUX_HW_DEVICE_MKE17Z7 || MCUX_HW_DEVICE_MKE17Z9 || MCUX_HW_DEVICE_K32L2A41A
     
     config MCUX_COMPONENT_middleware.mcu-boot.src_startup
-        bool "Component middleware.mcu-boot.src_startup"
+        bool "src_startup"
         depends on MCUX_HW_DEVICE_MK22F51212 || MCUX_HW_DEVICE_MKV58F24 || MCUX_HW_DEVICE_MK64F12 ||  MCUX_HW_DEVICE_MK80F25615 || MCUX_HW_DEVICE_MK82F25615 || MCUX_HW_DEVICE_MKM35Z7 || MCUX_HW_DEVICE_MKE16Z4 || MCUX_HW_DEVICE_MKE17Z7 || MCUX_HW_DEVICE_MKE17Z9 || MCUX_HW_DEVICE_MIMXRT1052 || MCUX_HW_DEVICE_LPC54018 || MCUX_HW_DEVICE_LPC54S018 || MCUX_HW_DEVICE_LPC54S018M || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1024 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1176 || MCUX_HW_DEVICE_MIMXRT1166 || MCUX_HW_DEVICE_MIMXRT1015 || MCUX_HW_DEVICE_K32L2A41A || MCUX_HW_DEVICE_MIMXRT1011 || MCUX_HW_DEVICE_MIMXRT1042 || MCUX_HW_DEVICE_MIMXRT1189 || MCUX_HW_DEVICE_MIMXRT1187
     
     config MCUX_COMPONENT_middleware.mcu-boot.postaction
-        bool "Component middleware.mcu-boot.postaction"
+        bool "postaction"
         depends on MCUX_HW_DEVICE_MK22F51212 || MCUX_HW_DEVICE_MKV58F24 || MCUX_HW_DEVICE_MK64F12 ||  MCUX_HW_DEVICE_MK80F25615 || MCUX_HW_DEVICE_MK82F25615 || MCUX_HW_DEVICE_MKM35Z7 || MCUX_HW_DEVICE_MKE16Z4 || MCUX_HW_DEVICE_MKE17Z7 || MCUX_HW_DEVICE_MKE17Z9 || MCUX_HW_DEVICE_K32L2A41A
     
     # config MCUX_COMPONENT_middleware.mcu-boot.kinetis_files
-        # bool "Component middleware.mcu-boot.kinetis_files"
+        # bool "kinetis_files"
         # depends on MCUX_HW_DEVICE_MK22F51212 || MCUX_HW_DEVICE_MKV58F24 || MCUX_HW_DEVICE_MK64F12 ||  MCUX_HW_DEVICE_MK80F25615 || MCUX_HW_DEVICE_MK82F25615 || MCUX_HW_DEVICE_MKM35Z7 || MCUX_HW_DEVICE_MKE16Z4 || MCUX_HW_DEVICE_MKE17Z7 || MCUX_HW_DEVICE_MKE17Z9 || MCUX_HW_DEVICE_K32L2A41A
     
     #config MCUX_COMPONENT_middleware.mcu-boot.imxrt_files
-        #bool "Component middleware.mcu-boot.imxrt_files"
+        #bool "imxrt_files"
         #depends on MCUX_HW_DEVICE_MIMXRT1052 || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1024 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1015 || MCUX_HW_DEVICE_MIMXRT1011 || MCUX_HW_DEVICE_MIMXRT1176 || MCUX_HW_DEVICE_MIMXRT1166 || MCUX_HW_DEVICE_MIMXRT1042 || MCUX_HW_DEVICE_MIMXRT1189 || MCUX_HW_DEVICE_MIMXRT1187
     
     config MCUX_COMPONENT_middleware.mcu-boot.sdphost
-        bool "Component middleware.mcu-boot.sdphost"
+        bool "sdphost"
         depends on MCUX_HW_DEVICE_MIMXRT1052 || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1024 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1015 || MCUX_HW_DEVICE_MIMXRT1011 || MCUX_HW_DEVICE_MIMXRT1042
     
     config MCUX_COMPONENT_middleware.mcu-boot.imxrt1050_files
-        bool "Component middleware.mcu-boot.imxrt1050_files"
+        bool "imxrt1050_files"
         depends on MCUX_HW_DEVICE_MIMXRT1052
     
     config MCUX_COMPONENT_middleware.mcu-boot.imxrt106x_files
-        bool "Component middleware.mcu-boot.imxrt106x_files"
+        bool "imxrt106x_files"
         depends on MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1042
     
     config MCUX_COMPONENT_middleware.mcu-boot.imxrt1020_files
-        bool "Component middleware.mcu-boot.imxrt1020_files"
+        bool "imxrt1020_files"
         depends on MCUX_HW_DEVICE_MIMXRT1021
     
     config MCUX_COMPONENT_middleware.mcu-boot.imxrt1024_files
-        bool "Component middleware.mcu-boot.imxrt1024_files"
+        bool "imxrt1024_files"
         depends on MCUX_HW_DEVICE_MIMXRT1024
     
     config MCUX_COMPONENT_middleware.mcu-boot.imxrt1015_files
-        bool "Component middleware.mcu-boot.imxrt1015_files"
+        bool "imxrt1015_files"
         depends on MCUX_HW_DEVICE_MIMXRT1015
     
     config MCUX_COMPONENT_middleware.mcu-boot.imxrt1010_files
-        bool "Component middleware.mcu-boot.imxrt1010_files"
+        bool "imxrt1010_files"
         depends on MCUX_HW_DEVICE_MIMXRT1011
     
     config MCUX_COMPONENT_middleware.mcu-boot.imxrt1170_files
-        bool "Component middleware.mcu-boot.imxrt1170_files"
+        bool "imxrt1170_files"
         depends on MCUX_HW_DEVICE_MIMXRT1176
     
     config MCUX_COMPONENT_middleware.mcu-boot.imxrt1160_files
-        bool "Component middleware.mcu-boot.imxrt1160_files"
+        bool "imxrt1160_files"
         depends on MCUX_HW_DEVICE_MIMXRT1166
     
     config MCUX_COMPONENT_middleware.mcu-boot.qspi_demo_files
-        bool "Component middleware.mcu-boot.qspi_demo_files"
+        bool "qspi_demo_files"
         depends on MCUX_HW_DEVICE_MK80F25615 || MCUX_HW_DEVICE_MK82F25615
     
     config MCUX_COMPONENT_middleware.mcu-boot.bootsources_MKE17Z9
-        bool "Component middleware.mcu-boot.bootsources_MKE17Z9"
+        bool "bootsources_MKE17Z9"
         depends on MCUX_HW_DEVICE_MKE17Z9
     
     config MCUX_COMPONENT_middleware.mcu-boot.bootsources_kinetis_MKE17Z9
-        bool "Component middleware.mcu-boot.bootsources_kinetis_MKE17Z9"
+        bool "bootsources_kinetis_MKE17Z9"
         depends on MCUX_HW_DEVICE_MKE17Z9
     config MCUX_COMPONENT_middleware.mcu-boot.CMSIS_cm7_headers
-        bool "Component middleware.mcu-boot.CMSIS_cm7_headers"
+        bool "CMSIS_cm7_headers"
     
     config MCUX_COMPONENT_middleware.mcu-boot.src_bm_usb
-        bool "Component middleware.mcu-boot.src_bm_usb"
+        bool "src_bm_usb"
         depends on MCUX_HW_DEVICE_MK22F51212 || MCUX_HW_DEVICE_MK64F12 || MCUX_HW_DEVICE_MK65F18 || MCUX_HW_DEVICE_MK66F18 || MCUX_HW_DEVICE_MK80F25615 || MCUX_HW_DEVICE_MK82F25615 || MCUX_HW_DEVICE_K32L2A41A
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1189.CMSIS
-        bool "Component middleware.mcu-boot.MIMXRT1189.CMSIS"
+        bool "MIMXRT1189.CMSIS"
         select MCUX_COMPONENT_CMSIS_Include_core_cm
         depends on MCUX_HW_DEVICE_MIMXRT1189
     
     config MCUX_COMPONENT_middleware.mcu-boot.usb.device.controller.driver
-        bool "Component middleware.mcu-boot.usb.device.controller.driver"
+        bool "usb.device.controller.driver"
         select MCUX_COMPONENT_component.osa
         depends on MCUX_HW_DEVICE_MIMXRT1052|| MCUX_HW_DEVICE_LPC54S018 || MCUX_HW_DEVICE_LPC54S018M || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1024 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1015 || MCUX_HW_DEVICE_MIMXRT1011 || MCUX_HW_DEVICE_MIMXRT1176 || MCUX_HW_DEVICE_MIMXRT1166 || MCUX_HW_DEVICE_MIMXRT1042 || MCUX_HW_DEVICE_MIMXRT1189 || MCUX_HW_DEVICE_MIMXRT1187 || MCUX_HW_DEVICE_MK22F51212 || MCUX_HW_DEVICE_K32L2A41A
     
     config MCUX_COMPONENT_middleware.mcu-boot.usb.device.ip3511fs
-        bool "Component middleware.mcu-boot.usb.device.controller.driver"
+        bool "usb.device.controller.driver"
         select MCUX_COMPONENT_middleware.mcu-boot.usb.device.controller.driver
         depends on MCUX_HW_DEVICE_LPC54018 || MCUX_HW_DEVICE_LPC54S018 || MCUX_HW_DEVICE_LPC54S018M 
     
     config MCUX_COMPONENT_middleware.mcu-boot.usb.phy
-        bool "Component middleware.mcu-boot.usb.phy"
+        bool "usb.phy"
         select MCUX_COMPONENT_middleware.usb.common_header
         depends on MCUX_HW_DEVICE_MIMXRT1052 || MCUX_HW_DEVICE_LPC54018 || MCUX_HW_DEVICE_LPC54S018 || MCUX_HW_DEVICE_LPC54S018M || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1024 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1015 || MCUX_HW_DEVICE_MIMXRT1011 || MCUX_HW_DEVICE_MIMXRT1176 || MCUX_HW_DEVICE_MIMXRT1166 || MCUX_HW_DEVICE_MIMXRT1042 || MCUX_HW_DEVICE_MIMXRT1189 || MCUX_HW_DEVICE_MIMXRT1187
     
     config MCUX_COMPONENT_middleware.mcu-boot.usb.device.common_header
-        bool "Component middleware.mcu-boot.usb.device.common_header"
+        bool "usb.device.common_header"
         depends on MCUX_HW_DEVICE_MIMXRT1052 || MCUX_HW_DEVICE_LPC54018 || MCUX_HW_DEVICE_LPC54S018 || MCUX_HW_DEVICE_LPC54S018M || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1024 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1015 || MCUX_HW_DEVICE_MIMXRT1011 || MCUX_HW_DEVICE_MIMXRT1176 || MCUX_HW_DEVICE_MIMXRT1166 || MCUX_HW_DEVICE_MIMXRT1042 || MCUX_HW_DEVICE_MIMXRT1189 || MCUX_HW_DEVICE_MIMXRT1187
     
     config MCUX_COMPONENT_middleware.mcu-boot.usb.common_header
-        bool "Component middleware.mcu-boot.usb.common_header"
+        bool "usb.common_header"
         depends on MCUX_HW_DEVICE_MIMXRT1052|| MCUX_HW_DEVICE_LPC54S018 || MCUX_HW_DEVICE_LPC54S018M || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1024 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1015 || MCUX_HW_DEVICE_MIMXRT1011 || MCUX_HW_DEVICE_MIMXRT1176 || MCUX_HW_DEVICE_MIMXRT1166 || MCUX_HW_DEVICE_MIMXRT1042 || MCUX_HW_DEVICE_MIMXRT1189 || MCUX_HW_DEVICE_MIMXRT1187 || MCUX_HW_DEVICE_MK22F51212 || MCUX_HW_DEVICE_K32L2A41A
     
     config MCUX_COMPONENT_middleware.mcu-boot.usb.device.stack
-        bool "Component middleware.mcu-boot.usb.usb.device.stack"
+        bool "usb.device.stack"
         depends on MCUX_HW_DEVICE_MIMXRT1052|| MCUX_HW_DEVICE_LPC54S018 || MCUX_HW_DEVICE_LPC54S018M || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1024 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1015 || MCUX_HW_DEVICE_MIMXRT1011 || MCUX_HW_DEVICE_MIMXRT1176 || MCUX_HW_DEVICE_MIMXRT1166 || MCUX_HW_DEVICE_MIMXRT1042 || MCUX_HW_DEVICE_MIMXRT1189 || MCUX_HW_DEVICE_MIMXRT1187 || MCUX_HW_DEVICE_MK22F51212 || MCUX_HW_DEVICE_K32L2A41A
    
     config MCUX_COMPONENT_middleware.mcu-boot.usb.device.hid
-        bool "Component middleware.mcu-boot.usb.device.hid"
+        bool "usb.device.hid"
         depends on MCUX_HW_DEVICE_MIMXRT1052|| MCUX_HW_DEVICE_LPC54S018 || MCUX_HW_DEVICE_LPC54S018M || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1024 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1015 || MCUX_HW_DEVICE_MIMXRT1011 || MCUX_HW_DEVICE_MIMXRT1176 || MCUX_HW_DEVICE_MIMXRT1166 || MCUX_HW_DEVICE_MIMXRT1042 || MCUX_HW_DEVICE_MIMXRT1189 || MCUX_HW_DEVICE_MIMXRT1187 || MCUX_HW_DEVICE_MK22F51212 || MCUX_HW_DEVICE_K32L2A41A
     
     config MCUX_COMPONENT_middleware.mcu-boot.src_bm_usb_hid
-        bool "Component middleware.mcu-boot.src_bm_usb_hid"
+        bool "src_bm_usb_hid"
         depends on MCUX_HW_DEVICE_MIMXRT1052 || MCUX_HW_DEVICE_LPC54018 || MCUX_HW_DEVICE_LPC54S018 || MCUX_HW_DEVICE_LPC54S018M || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1024 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1015 || MCUX_HW_DEVICE_MIMXRT1011 || MCUX_HW_DEVICE_MIMXRT1176 || MCUX_HW_DEVICE_MIMXRT1166 || MCUX_HW_DEVICE_MIMXRT1042 || MCUX_HW_DEVICE_MIMXRT1189 || MCUX_HW_DEVICE_MIMXRT1187
     
     config MCUX_COMPONENT_middleware.mcu-boot.src_security
-        bool "Component middleware.mcu-boot.src_security"
+        bool "src_security"
         depends on MCUX_HW_DEVICE_MK80F25615 || MCUX_HW_DEVICE_MK82F25615 || MCUX_HW_DEVICE_MKV58F24 || MCUX_HW_DEVICE_MK64F12 || MCUX_HW_DEVICE_MK65F18 || MCUX_HW_DEVICE_MK66F18 || MCUX_HW_DEVICE_K32L2A41A
     
     config MCUX_COMPONENT_middleware.mcu-boot.qspi_led_demo
-        bool "Component middleware.mcu-boot.qspi_led_demo"
+        bool "qspi_led_demo"
         depends on MCUX_HW_DEVICE_MK80F25615 || MCUX_HW_DEVICE_MK82F25615
     
     config MCUX_COMPONENT_middleware.mcu-boot.qspi_led_demo_qspi
-        bool "Component middleware.mcu-boot.qspi_led_demo_qspi"
+        bool "qspi_led_demo_qspi"
         depends on MCUX_HW_DEVICE_MK80F25615 || MCUX_HW_DEVICE_MK82F25615
     
     config MCUX_COMPONENT_middleware.mcu-boot.drv_ocotp
-        bool "Component middleware.mcu-boot.drv_ocotp"
+        bool "drv_ocotp"
         depends on MCUX_HW_DEVICE_MIMXRT1052 || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1024 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1015 || MCUX_HW_DEVICE_MIMXRT1011 || MCUX_HW_DEVICE_MIMXRT1176 || MCUX_HW_DEVICE_MIMXRT1166 || MCUX_HW_DEVICE_MIMXRT1042 || MCUX_HW_DEVICE_MIMXRT1189 || MCUX_HW_DEVICE_MIMXRT1187
     
     config MCUX_COMPONENT_middleware.mcu-boot.drv_serial_nor_eeprom
-        bool "Component middleware.mcu-boot.drv_serial_nor_eeprom"
+        bool "drv_serial_nor_eeprom"
         select MCUX_COMPONENT_driver.lpspi
         depends on MCUX_HW_DEVICE_MIMXRT1052 || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1015 || MCUX_HW_DEVICE_MIMXRT1176 || MCUX_HW_DEVICE_MIMXRT1166 || MCUX_HW_DEVICE_MIMXRT1042 || MCUX_HW_DEVICE_MIMXRT1189 || MCUX_HW_DEVICE_MIMXRT1187
     
     config MCUX_COMPONENT_middleware.mcu-boot.mem_spi_nor_eeprom
-        bool "Component middleware.mcu-boot.mem_spi_nor_eeprom"
+        bool "mem_spi_nor_eeprom"
         select MCUX_COMPONENT_middleware.mcu-boot.drv_serial_nor_eeprom
     
     config MCUX_COMPONENT_middleware.mcu-boot.drv_sdmmc
-        bool "Component middleware.mcu-boot.drv_sdmmc"
+        bool "drv_sdmmc"
         depends on MCUX_HW_DEVICE_MIMXRT1052 || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1176 || MCUX_HW_DEVICE_MIMXRT1166 || MCUX_HW_DEVICE_MIMXRT1042 || MCUX_HW_DEVICE_MIMXRT1189 || MCUX_HW_DEVICE_MIMXRT1187
     
     config MCUX_COMPONENT_middleware.mcu-boot.mem_sdmmc
-        bool "Component middleware.mcu-boot.mem_sdmmc"
+        bool "mem_sdmmc"
         select MCUX_COMPONENT_middleware.mcu-boot.drv_sdmmc
     
     config MCUX_COMPONENT_middleware.mcu-boot.drv_semc_nor
-        bool "Component middleware.mcu-boot.drv_semc_nor"
+        bool "drv_semc_nor"
         depends on MCUX_HW_DEVICE_MIMXRT1052 || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1042
     
     config MCUX_COMPONENT_middleware.mcu-boot.mem_semc_nor
-        bool "Component middleware.mcu-boot.mem_semc_nor"
+        bool "mem_semc_nor"
         select MCUX_COMPONENT_middleware.mcu-boot.drv_semc_nor
     
     config MCUX_COMPONENT_middleware.mcu-boot.drv_semc_nand
-        bool "Component middleware.mcu-boot.drv_semc_nand"
+        bool "drv_semc_nand"
         depends on MCUX_HW_DEVICE_MIMXRT1052 || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1176 || MCUX_HW_DEVICE_MIMXRT1166 || MCUX_HW_DEVICE_MIMXRT1042 || MCUX_HW_DEVICE_MIMXRT1189 || MCUX_HW_DEVICE_MIMXRT1187
     
     config MCUX_COMPONENT_middleware.mcu-boot.mem_semc_nand
-        bool "Component middleware.mcu-boot.mem_semc_nand"
+        bool "mem_semc_nand"
         select MCUX_COMPONENT_middleware.mcu-boot.drv_semc_nand
     
     config MCUX_COMPONENT_middleware.mcu-boot.usb.device.msd
-        bool "Component middleware.mcu-boot.usb.device.msd"
+        bool "usb.device.msd"
         depends on MCUX_HW_DEVICE_MIMXRT1052|| MCUX_HW_DEVICE_LPC54S018 || MCUX_HW_DEVICE_LPC54S018M || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1024 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1015 || MCUX_HW_DEVICE_MIMXRT1011 || MCUX_HW_DEVICE_MIMXRT1176 || MCUX_HW_DEVICE_MIMXRT1166 || MCUX_HW_DEVICE_MIMXRT1042 || MCUX_HW_DEVICE_MIMXRT1189 || MCUX_HW_DEVICE_MIMXRT1187 || MCUX_HW_DEVICE_MK22F51212 || MCUX_HW_DEVICE_K32L2A41A
 
     config MCUX_COMPONENT_middleware.mcu-boot.usb.device.khci
-        bool "Component middleware.mcu-boot.usb.device.khci"
+        bool "usb.device.khci"
         depends on MCUX_HW_DEVICE_MIMXRT1052|| MCUX_HW_DEVICE_LPC54S018 || MCUX_HW_DEVICE_LPC54S018M || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1024 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1015 || MCUX_HW_DEVICE_MIMXRT1011 || MCUX_HW_DEVICE_MIMXRT1176 || MCUX_HW_DEVICE_MIMXRT1166 || MCUX_HW_DEVICE_MIMXRT1042 || MCUX_HW_DEVICE_MIMXRT1189 || MCUX_HW_DEVICE_MIMXRT1187 || MCUX_HW_DEVICE_MK22F51212 || MCUX_HW_DEVICE_K32L2A41A
     
     config MCUX_COMPONENT_middleware.mcu-boot.drv_flexspi_nor
-        bool "Component middleware.mcu-boot.drv_flexspi_nor"
+        bool "drv_flexspi_nor"
         depends on MCUX_HW_DEVICE_MIMXRT1052 || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1024 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1015 || MCUX_HW_DEVICE_MIMXRT1176 || MCUX_HW_DEVICE_MIMXRT1166 || MCUX_HW_DEVICE_MIMXRT1042 || MCUX_HW_DEVICE_MIMXRT1189 || MCUX_HW_DEVICE_MIMXRT1187
     
     config MCUX_COMPONENT_middleware.mcu-boot.mem_flexspi_nor
-        bool "Component middleware.mcu-boot.mem_flexspi_nor"
+        bool "mem_flexspi_nor"
         select MCUX_COMPONENT_middleware.mcu-boot.drv_flexspi_nor
     
     config MCUX_COMPONENT_middleware.mcu-boot.drv_flexspi_nand
-        bool "Component middleware.mcu-boot.drv_flexspi_nand"
+        bool "drv_flexspi_nand"
         depends on MCUX_HW_DEVICE_MIMXRT1052 || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1024 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1015 || MCUX_HW_DEVICE_MIMXRT1011 || MCUX_HW_DEVICE_MIMXRT1176 || MCUX_HW_DEVICE_MIMXRT1166 || MCUX_HW_DEVICE_MIMXRT1042 || MCUX_HW_DEVICE_MIMXRT1189 || MCUX_HW_DEVICE_MIMXRT1187
     
     config MCUX_COMPONENT_middleware.mcu-boot.mem_spi_nand
-        bool "Component middleware.mcu-boot.mem_spi_nand"
+        bool "mem_spi_nand"
         depends on MCUX_HW_DEVICE_MIMXRT1052 || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1024 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1015 || MCUX_HW_DEVICE_MIMXRT1011 || MCUX_HW_DEVICE_MIMXRT1176 || MCUX_HW_DEVICE_MIMXRT1166 || MCUX_HW_DEVICE_MIMXRT1042 || MCUX_HW_DEVICE_MIMXRT1189 || MCUX_HW_DEVICE_MIMXRT1187
     
     config MCUX_COMPONENT_middleware.mcu-boot.drv_spifi
-        bool "Component middleware.mcu-boot.drv_spifi"
+        bool "drv_spifi"
         depends on MCUX_HW_DEVICE_LPC54018 || MCUX_HW_DEVICE_LPC54S018 || MCUX_HW_DEVICE_LPC54S018M
     
     config MCUX_COMPONENT_middleware.mcu-boot.interface_otp
-        bool "Component middleware.mcu-boot.interface_otp"
+        bool "interface_otp"
         depends on MCUX_HW_DEVICE_LPC54018 || MCUX_HW_DEVICE_LPC54S018 || MCUX_HW_DEVICE_LPC54S018M
     
     config MCUX_COMPONENT_middleware.mcu-boot.interface_aes_otp
-        bool "Component middleware.mcu-boot.interface_aes_otp"
+        bool "interface_aes_otp"
         depends on MCUX_HW_DEVICE_LPC54S018 || MCUX_HW_DEVICE_LPC54S018M
     config MCUX_COMPONENT_middleware.mcu-boot.drv_microseconds
-        bool "Component middleware.mcu-boot.drv_microseconds"
+        bool "drv_microseconds"
     config MCUX_COMPONENT_middleware.mcu-boot.drv_microseconds_pit
-        bool "Component middleware.mcu-boot.drv_microseconds_pit"
+        bool "drv_microseconds_pit"
     config MCUX_COMPONENT_middleware.mcu-boot.drv_microseconds_lpit
-        bool "Component middleware.mcu-boot.drv_microseconds_lpit"
+        bool "drv_microseconds_lpit"
     
     config MCUX_COMPONENT_middleware.mcu-boot.drv_qspi
-        bool "Component middleware.mcu-boot.drv_qspi"
+        bool "drv_qspi"
         depends on MCUX_HW_DEVICE_MK80F25615 || MCUX_HW_DEVICE_MK82F25615
     
     config MCUX_COMPONENT_middleware.mcu-boot.drv_mmcau
-        bool "Component middleware.mcu-boot.drv_mmcau"
+        bool "drv_mmcau"
         depends on MCUX_HW_DEVICE_MK80F25615 || MCUX_HW_DEVICE_MK82F25615 || MCUX_HW_DEVICE_MKV58F24 || MCUX_HW_DEVICE_MK64F12 || MCUX_HW_DEVICE_MK65F18 || MCUX_HW_DEVICE_MK66F18 || MCUX_HW_DEVICE_K32L2A41A
     
     config MCUX_COMPONENT_middleware.mcu-boot.drv_ltc
-        bool "Component middleware.mcu-boot.drv_ltc"
+        bool "drv_ltc"
         depends on MCUX_HW_DEVICE_MKL82Z7 || MCUX_HW_DEVICE_MK82F25615
     
     config MCUX_COMPONENT_middleware.mcu-boot.qspi_milliseconds
-        bool "Component middleware.mcu-boot.qspi_milliseconds"
+        bool "qspi_milliseconds"
         depends on MCUX_HW_DEVICE_MK80F25615 || MCUX_HW_DEVICE_MK82F25615
     
     config MCUX_COMPONENT_middleware.mcu-boot.milliseconds
-        bool "Component middleware.mcu-boot.milliseconds"
+        bool "milliseconds"
         depends on MCUX_HW_DEVICE_MIMXRT1052
     
     config MCUX_COMPONENT_middleware.mcu-boot.drv_otfad
-        bool "Component middleware.mcu-boot.drv_otfad"
+        bool "drv_otfad"
         depends on MCUX_HW_DEVICE_MK82F25615
     
     config MCUX_COMPONENT_middleware.mcu-boot.drv_edgelock
-        bool "Component middleware.mcu-boot.drv_edgelock"
+        bool "drv_edgelock"
         depends on MCUX_HW_DEVICE_MIMXRT1052 || MCUX_HW_DEVICE_MIMXRT1021 || MCUX_HW_DEVICE_MIMXRT1024 || MCUX_HW_DEVICE_MIMXRT1062 || MCUX_HW_DEVICE_MIMXRT1064 || MCUX_HW_DEVICE_MIMXRT1015 || MCUX_HW_DEVICE_MIMXRT1011 || MCUX_HW_DEVICE_MIMXRT1176 || MCUX_HW_DEVICE_MIMXRT1166 || MCUX_HW_DEVICE_MIMXRT1042 || MCUX_HW_DEVICE_MIMXRT1189 || MCUX_HW_DEVICE_MIMXRT1187
     
     config MCUX_COMPONENT_middleware.mcu-boot.MK22F51212_startup
-        bool "Component middleware.mcu-boot.MK22F51212_startup"
+        bool "MK22F51212_startup"
         depends on MCUX_HW_DEVICE_MK22F51212
     
     config MCUX_COMPONENT_middleware.mcu-boot.MK22F51212_sources
-        bool "Component middleware.mcu-boot.MK22F51212_sources"
+        bool "MK22F51212_sources"
         depends on MCUX_HW_DEVICE_MK22F51212
     
     config MCUX_COMPONENT_middleware.mcu-boot.MK64F12_startup
-        bool "Component middleware.mcu-boot.MK64F12_startup"
+        bool "MK64F12_startup"
         depends on MCUX_HW_DEVICE_MK64F12
     
     config MCUX_COMPONENT_middleware.mcu-boot.MK64F12_sources
-        bool "Component middleware.mcu-boot.MK64F12_sources"
+        bool "MK64F12_sources"
         depends on MCUX_HW_DEVICE_MK64F12
     
     config MCUX_COMPONENT_middleware.mcu-boot.MK80F25615_startup
-        bool "Component middleware.mcu-boot.MK80F25615_startup"
+        bool "MK80F25615_startup"
         depends on MCUX_HW_DEVICE_MK80F25615
     
     config MCUX_COMPONENT_middleware.mcu-boot.MK80F25615_sources
-        bool "Component middleware.mcu-boot.MK80F25615_sources"
+        bool "MK80F25615_sources"
         depends on MCUX_HW_DEVICE_MK80F25615
     
     config MCUX_COMPONENT_middleware.mcu-boot.MK80F25615_qspi_demo_startup
-        bool "Component middleware.mcu-boot.MK80F25615_qspi_demo_startup"
+        bool "MK80F25615_qspi_demo_startup"
         depends on MCUX_HW_DEVICE_MK80F25615
     
     config MCUX_COMPONENT_middleware.mcu-boot.MK80F25615_qspi_pflash_startup
-        bool "Component middleware.mcu-boot.MK80F25615_qspi_pflash_startup"
+        bool "MK80F25615_qspi_pflash_startup"
         depends on MCUX_HW_DEVICE_MK80F25615
     
     config MCUX_COMPONENT_middleware.mcu-boot.MK80F25615_qspi_startup
-        bool "Component middleware.mcu-boot.MK80F25615_qspi_startup"
+        bool "MK80F25615_qspi_startup"
         depends on MCUX_HW_DEVICE_MK80F25615
     
     config MCUX_COMPONENT_middleware.mcu-boot.MK82F25615_startup
-        bool "Component middleware.mcu-boot.MK82F25615_startup"
+        bool "MK82F25615_startup"
         depends on MCUX_HW_DEVICE_MK82F25615
     
     config MCUX_COMPONENT_middleware.mcu-boot.MK82F25615_sources
-        bool "Component middleware.mcu-boot.MK82F25615_sources"
+        bool "MK82F25615_sources"
         depends on MCUX_HW_DEVICE_MK82F25615
     
     config MCUX_COMPONENT_middleware.mcu-boot.MK82F25615_qspi_demo_startup
-        bool "Component middleware.mcu-boot.MK82F25615_qspi_demo_startup"
+        bool "MK82F25615_qspi_demo_startup"
         depends on MCUX_HW_DEVICE_MK82F25615
     
     config MCUX_COMPONENT_middleware.mcu-boot.MK82F25615_qspi_pflash_startup
-        bool "Component middleware.mcu-boot.MK82F25615_qspi_pflash_startup"
+        bool "MK82F25615_qspi_pflash_startup"
         depends on MCUX_HW_DEVICE_MK82F25615
     
     config MCUX_COMPONENT_middleware.mcu-boot.MK82F25615_qspi_startup
-        bool "Component middleware.mcu-boot.MK82F25615_qspi_startup"
+        bool "MK82F25615_qspi_startup"
         depends on MCUX_HW_DEVICE_MK82F25615
     
     config MCUX_COMPONENT_middleware.mcu-boot.MKV58F24_startup
-        bool "Component middleware.mcu-boot.MKV58F24_startup"
+        bool "MKV58F24_startup"
         depends on MCUX_HW_DEVICE_MKV58F24
     
     config MCUX_COMPONENT_middleware.mcu-boot.MKV58F24_sources
-        bool "Component middleware.mcu-boot.MKV58F24_sources"
+        bool "MKV58F24_sources"
         depends on MCUX_HW_DEVICE_MKV58F24
     
     config MCUX_COMPONENT_middleware.mcu-boot.K32L2A41A_startup
-        bool "Component middleware.mcu-boot.K32L2A41A_startup"
+        bool "K32L2A41A_startup"
         depends on MCUX_HW_DEVICE_K32L2A41A
     
     config MCUX_COMPONENT_middleware.mcu-boot.K32L2A41A_sources
-        bool "Component middleware.mcu-boot.K32L2A41A_sources"
+        bool "K32L2A41A_sources"
         depends on MCUX_HW_DEVICE_K32L2A41A
     
     config MCUX_COMPONENT_middleware.mcu-boot.MKM35Z7_startup
-        bool "Component middleware.mcu-boot.MKM35Z7_startup"
+        bool "MKM35Z7_startup"
         depends on MCUX_HW_DEVICE_MKM35Z7
     
     config MCUX_COMPONENT_middleware.mcu-boot.MKM35Z7_sources
-        bool "Component middleware.mcu-boot.MKM35Z7_sources"
+        bool "MKM35Z7_sources"
         depends on MCUX_HW_DEVICE_MKM35Z7
     
     config MCUX_COMPONENT_middleware.mcu-boot.MKE16Z4_startup
-        bool "Component middleware.mcu-boot.MKE16Z4_startup"
+        bool "MKE16Z4_startup"
         depends on MCUX_HW_DEVICE_MKE16Z4
     
     config MCUX_COMPONENT_middleware.mcu-boot.MKE16Z4_sources
-        bool "Component middleware.mcu-boot.MKE16Z4_sources"
+        bool "MKE16Z4_sources"
         depends on MCUX_HW_DEVICE_MKE16Z4
     
     config MCUX_COMPONENT_middleware.mcu-boot.MKE17Z7_startup
-        bool "Component middleware.mcu-boot.MKE17Z7_startup"
+        bool "MKE17Z7_startup"
         depends on MCUX_HW_DEVICE_MKE17Z7
     
     config MCUX_COMPONENT_middleware.mcu-boot.MKE17Z7_sources
-        bool "Component middleware.mcu-boot.MKE17Z7_sources"
+        bool "MKE17Z7_sources"
         depends on MCUX_HW_DEVICE_MKE17Z7
     
     config MCUX_COMPONENT_middleware.mcu-boot.MKE17Z9_startup
-        bool "Component middleware.mcu-boot.MKE17Z9_startup"
+        bool "MKE17Z9_startup"
         depends on MCUX_HW_DEVICE_MKE17Z9
     
     config MCUX_COMPONENT_middleware.mcu-boot.MKE17Z9_sources
-        bool "Component middleware.mcu-boot.MKE17Z9_sources"
+        bool "MKE17Z9_sources"
         depends on MCUX_HW_DEVICE_MKE17Z9
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1052_startup
-        bool "Component middleware.mcu-boot.MIMXRT1052_startup"
+        bool "MIMXRT1052_startup"
         depends on MCUX_HW_DEVICE_MIMXRT1052
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1052_sources
-        bool "Component middleware.mcu-boot.MIMXRT1052_sources"
+        bool "MIMXRT1052_sources"
         depends on MCUX_HW_DEVICE_MIMXRT1052
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1021_startup
-        bool "Component middleware.mcu-boot.MIMXRT1021_startup"
+        bool "MIMXRT1021_startup"
         depends on MCUX_HW_DEVICE_MIMXRT1021
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1021_sources
-        bool "Component middleware.mcu-boot.MIMXRT1021_sources"
+        bool "MIMXRT1021_sources"
         depends on MCUX_HW_DEVICE_MIMXRT1021
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1062_drivers
-        bool "Component middleware.mcu-boot.MIMXRT1062_drivers"
+        bool "MIMXRT1062_drivers"
         depends on MCUX_HW_DEVICE_MIMXRT1062
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1062_startup
-        bool "Component middleware.mcu-boot.MIMXRT1062_startup"
+        bool "MIMXRT1062_startup"
         depends on MCUX_HW_DEVICE_MIMXRT1062
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1062_sources
-        bool "Component middleware.mcu-boot.MIMXRT1062_sources"
+        bool "MIMXRT1062_sources"
         depends on MCUX_HW_DEVICE_MIMXRT1062
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1064_drivers
-        bool "Component middleware.mcu-boot.MIMXRT1064_drivers"
+        bool "MIMXRT1064_drivers"
         depends on MCUX_HW_DEVICE_MIMXRT1064
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1064_startup
-        bool "Component middleware.mcu-boot.MIMXRT1064_startup"
+        bool "MIMXRT1064_startup"
         depends on MCUX_HW_DEVICE_MIMXRT1064
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1064_sources
-        bool "Component middleware.mcu-boot.MIMXRT1064_sources"
+        bool "MIMXRT1064_sources"
         depends on MCUX_HW_DEVICE_MIMXRT1064
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1042_drivers
-        bool "Component middleware.mcu-boot.MIMXRT1042_drivers"
+        bool "MIMXRT1042_drivers"
         depends on MCUX_HW_DEVICE_MIMXRT1042
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1042_startup
-        bool "Component middleware.mcu-boot.MIMXRT1042_startup"
+        bool "MIMXRT1042_startup"
         depends on MCUX_HW_DEVICE_MIMXRT1042
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1042_sources
-        bool "Component middleware.mcu-boot.MIMXRT1042_sources"
+        bool "MIMXRT1042_sources"
         depends on MCUX_HW_DEVICE_MIMXRT1042
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1015_startup
-        bool "Component middleware.mcu-boot.MIMXRT1015_startup"
+        bool "MIMXRT1015_startup"
         depends on MCUX_HW_DEVICE_MIMXRT1015
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1015_sources
-        bool "Component middleware.mcu-boot.MIMXRT1015_sources"
+        bool "MIMXRT1015_sources"
         depends on MCUX_HW_DEVICE_MIMXRT1015
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1011_drivers
-        bool "Component middleware.mcu-boot.MIMXRT1011_drivers"
+        bool "MIMXRT1011_drivers"
         depends on MCUX_HW_DEVICE_MIMXRT1011
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1011_startup
-        bool "Component middleware.mcu-boot.MIMXRT1011_startup"
+        bool "MIMXRT1011_startup"
         depends on MCUX_HW_DEVICE_MIMXRT1011
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1011_sources
-        bool "Component middleware.mcu-boot.MIMXRT1011_sources"
+        bool "MIMXRT1011_sources"
         depends on MCUX_HW_DEVICE_MIMXRT1011
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1024_startup
-        bool "Component middleware.mcu-boot.MIMXRT1024_startup"
+        bool "MIMXRT1024_startup"
         depends on MCUX_HW_DEVICE_MIMXRT1024
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1024_sources
-        bool "Component middleware.mcu-boot.MIMXRT1024_sources"
+        bool "MIMXRT1024_sources"
         depends on MCUX_HW_DEVICE_MIMXRT1024
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1176_startup
-        bool "Component middleware.mcu-boot.MIMXRT1176_startup"
+        bool "MIMXRT1176_startup"
         depends on MCUX_HW_DEVICE_MIMXRT1176
     
     # config MCUX_COMPONENT_middleware.mcu-boot.loadersources
-        # bool "Component middleware.mcu-boot.loadersources"
+        # bool "loadersources"
         # depends on MCUX_HW_DEVICE_MK22F51212 || MCUX_HW_DEVICE_MKV58F24 || MCUX_HW_DEVICE_MK64F12 ||  MCUX_HW_DEVICE_MK80F25615 || MCUX_HW_DEVICE_MK82F25615 || MCUX_HW_DEVICE_MKM35Z7 || MCUX_HW_DEVICE_MKE16Z4 || MCUX_HW_DEVICE_MKE17Z7 || MCUX_HW_DEVICE_MKE17Z9 || MCUX_HW_DEVICE_K32L2A41A
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1176_sources
-        bool "Component middleware.mcu-boot.MIMXRT1176_sources"
+        bool "MIMXRT1176_sources"
         depends on MCUX_HW_DEVICE_MIMXRT1176
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1166_startup
-        bool "Component middleware.mcu-boot.MIMXRT1166_startup"
+        bool "MIMXRT1166_startup"
         depends on MCUX_HW_DEVICE_MIMXRT1166
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1166_sources
-        bool "Component middleware.mcu-boot.MIMXRT1166_sources"
+        bool "MIMXRT1166_sources"
         depends on MCUX_HW_DEVICE_MIMXRT1166
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1189_startup
-        bool "Component middleware.mcu-boot.MIMXRT1189_startup"
+        bool "MIMXRT1189_startup"
         depends on MCUX_HW_DEVICE_MIMXRT1189
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1189_sources
-        bool "Component middleware.mcu-boot.MIMXRT1189_sources"
+        bool "MIMXRT1189_sources"
         depends on MCUX_HW_DEVICE_MIMXRT1189
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1187_startup
-        bool "Component middleware.mcu-boot.MIMXRT1187_startup"
+        bool "MIMXRT1187_startup"
         depends on MCUX_HW_DEVICE_MIMXRT1187
     
     config MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1187_sources
-        bool "Component middleware.mcu-boot.MIMXRT1187_sources"
+        bool "MIMXRT1187_sources"
         depends on MCUX_HW_DEVICE_MIMXRT1187
     
     config MCUX_COMPONENT_middleware.mcu-boot.LPC54018_startup
-        bool "Component middleware.mcu-boot.LPC54018_startup"
+        bool "LPC54018_startup"
         depends on MCUX_HW_DEVICE_LPC54018
     
     config MCUX_COMPONENT_middleware.mcu-boot.LPC54018_sources
-        bool "Component middleware.mcu-boot.LPC54018_sources"
+        bool "LPC54018_sources"
         depends on MCUX_HW_DEVICE_LPC54018
     
     config MCUX_COMPONENT_middleware.mcu-boot.LPC54S018M_startup
-        bool "Component middleware.mcu-boot.LPC54S018M_startup"
+        bool "LPC54S018M_startup"
         depends on MCUX_HW_DEVICE_LPC54S018M
     
     config MCUX_COMPONENT_middleware.mcu-boot.LPC54S018M_sources
-        bool "Component middleware.mcu-boot.LPC54S018M_sources"
+        bool "LPC54S018M_sources"
         depends on MCUX_HW_DEVICE_LPC54S018M
     
     config MCUX_COMPONENT_middleware.mcu-boot.LPC54S018_startup
-        bool "Component middleware.mcu-boot.LPC54S018_startup"
+        bool "LPC54S018_startup"
         depends on MCUX_HW_DEVICE_LPC54S018
     
     config MCUX_COMPONENT_middleware.mcu-boot.LPC54S018_sources
-        bool "Component middleware.mcu-boot.LPC54S018_sources"
+        bool "LPC54S018_sources"
         depends on MCUX_HW_DEVICE_LPC54S018
     
     config MCUX_COMPONENT_middleware.mcu-boot.flashloader_loader_image
-        bool "Component middleware.mcu-boot.flashloader_loader_image"
+        bool "flashloader_loader_image"
         depends on MCUX_HW_DEVICE_MKE17Z9 || MCUX_HW_DEVICE_MKE17Z7 || MCUX_HW_DEVICE_MK22F51212
     
     config MCUX_PRJSEG_middleware.mcu-boot.MK22F51212_application_0x0000_linker
-        bool "Select middleware.mcu-boot.MK22F51212_application_0x0000_linker"
+        bool "MK22F51212_application_0x0000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK22F51212_application_0xA000_linker
-        bool "Select middleware.mcu-boot.MK22F51212_application_0xA000_linker"
+        bool "MK22F51212_application_0xA000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK22F51212_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.MK22F51212_ram_flashloader_linker"
+        bool "MK22F51212_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK22F51212_flashloader_loader_linker
-        bool "Select middleware.mcu-boot.MK22F51212_flashloader_loader_linker"
+        bool "MK22F51212_flashloader_loader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK64F12_application_0x0000_linker
-        bool "Select middleware.mcu-boot.MK64F12_application_0x0000_linker"
+        bool "MK64F12_application_0x0000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK64F12_application_0xA000_linker
-        bool "Select middleware.mcu-boot.MK64F12_application_0xA000_linker"
+        bool "MK64F12_application_0xA000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK64F12_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.MK64F12_ram_flashloader_linker"
+        bool "MK64F12_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK64F12_flashloader_loader_linker
-        bool "Select middleware.mcu-boot.MK64F12_flashloader_loader_linker"
+        bool "MK64F12_flashloader_loader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK65F18_application_0x0000_linker
-        bool "Select middleware.mcu-boot.MK65F18_application_0x0000_linker"
+        bool "MK65F18_application_0x0000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK65F18_application_0xA000_linker
-        bool "Select middleware.mcu-boot.MK65F18_application_0xA000_linker"
+        bool "MK65F18_application_0xA000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK65F18_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.MK65F18_ram_flashloader_linker"
+        bool "MK65F18_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK65F18_flashloader_loader_linker
-        bool "Select middleware.mcu-boot.MK65F18_flashloader_loader_linker"
+        bool "MK65F18_flashloader_loader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK66F18_application_0x0000_linker
-        bool "Select middleware.mcu-boot.MK66F18_application_0x0000_linker"
+        bool "MK66F18_application_0x0000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK66F18_application_0xA000_linker
-        bool "Select middleware.mcu-boot.MK66F18_application_0xA000_linker"
+        bool "MK66F18_application_0xA000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK66F18_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.MK66F18_ram_flashloader_linker"
+        bool "MK66F18_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK66F18_flashloader_loader_linker
-        bool "Select middleware.mcu-boot.MK66F18_flashloader_loader_linker"
+        bool "MK66F18_flashloader_loader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK80F25615_application_0x0000_linker
-        bool "Select middleware.mcu-boot.MK80F25615_application_0x0000_linker"
+        bool "MK80F25615_application_0x0000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK80F25615_application_0xA000_linker
-        bool "Select middleware.mcu-boot.MK80F25615_application_0xA000_linker"
+        bool "MK80F25615_application_0xA000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK80F25615_flash_a000_linker
-        bool "Select middleware.mcu-boot.MK80F25615_flash_a000_linker"
+        bool "MK80F25615_flash_a000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK80F25615_qspi_a000_linker
-        bool "Select middleware.mcu-boot.MK80F25615_qspi_a000_linker"
+        bool "MK80F25615_qspi_a000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK80F25615_qspi_alias_a000_linker
-        bool "Select middleware.mcu-boot.MK80F25615_qspi_alias_a000_linker"
+        bool "MK80F25615_qspi_alias_a000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK82F25615_application_0x0000_linker
-        bool "Select middleware.mcu-boot.MK82F25615_application_0x0000_linker"
+        bool "MK82F25615_application_0x0000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK82F25615_application_0xA000_linker
-        bool "Select middleware.mcu-boot.MK82F25615_application_0xA000_linker"
+        bool "MK82F25615_application_0xA000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK82F25615_flash_a000_linker
-        bool "Select middleware.mcu-boot.MK82F25615_flash_a000_linker"
+        bool "MK82F25615_flash_a000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK82F25615_qspi_a000_linker
-        bool "Select middleware.mcu-boot.MK82F25615_qspi_a000_linker"
+        bool "MK82F25615_qspi_a000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MK82F25615_qspi_alias_a000_linker
-        bool "Select middleware.mcu-boot.MK82F25615_qspi_alias_a000_linker"
+        bool "MK82F25615_qspi_alias_a000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKV11Z7_application_0x0000_linker
-        bool "Select middleware.mcu-boot.MKV11Z7_application_0x0000_linker"
+        bool "MKV11Z7_application_0x0000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKV11Z7_application_0xA000_linker
-        bool "Select middleware.mcu-boot.MKV11Z7_application_0xA000_linker"
+        bool "MKV11Z7_application_0xA000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKV11Z7_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.MKV11Z7_ram_flashloader_linker"
+        bool "MKV11Z7_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKV11Z7_flashloader_loader_linker
-        bool "Select middleware.mcu-boot.MKV11Z7_flashloader_loader_linker"
+        bool "MKV11Z7_flashloader_loader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKV31F51212_application_0x0000_linker
-        bool "Select middleware.mcu-boot.MKV31F51212_application_0x0000_linker"
+        bool "MKV31F51212_application_0x0000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKV31F51212_application_0xA000_linker
-        bool "Select middleware.mcu-boot.MKV31F51212_application_0xA000_linker"
+        bool "MKV31F51212_application_0xA000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKV31F51212_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.MKV31F51212_ram_flashloader_linker"
+        bool "MKV31F51212_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKV31F51212_flashloader_loader_linker
-        bool "Select middleware.mcu-boot.MKV31F51212_flashloader_loader_linker"
+        bool "MKV31F51212_flashloader_loader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKV46F16_application_0x0000_linker
-        bool "Select middleware.mcu-boot.MKV46F16_application_0x0000_linker"
+        bool "MKV46F16_application_0x0000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKV46F16_application_0xA000_linker
-        bool "Select middleware.mcu-boot.MKV46F16_application_0xA000_linker"
+        bool "MKV46F16_application_0xA000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKV46F16_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.MKV46F16_ram_flashloader_linker"
+        bool "MKV46F16_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKV46F16_flashloader_loader_linker
-        bool "Select middleware.mcu-boot.MKV46F16_flashloader_loader_linker"
+        bool "MKV46F16_flashloader_loader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKV58F24_application_0x10000000_linker
-        bool "Select middleware.mcu-boot.MKV58F24_application_0x10000000_linker"
+        bool "MKV58F24_application_0x10000000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKV58F24_application_0x1000a000_linker
-        bool "Select middleware.mcu-boot.MKV58F24_application_0x1000a000_linker"
+        bool "MKV58F24_application_0x1000a000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKV58F24_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.MKV58F24_ram_flashloader_linker"
+        bool "MKV58F24_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKV58F24_flashloader_loader_linker
-        bool "Select middleware.mcu-boot.MKV58F24_flashloader_loader_linker"
+        bool "MKV58F24_flashloader_loader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.K32L2A41A_application_0x0000_linker
-        bool "Select middleware.mcu-boot.K32L2A41A_application_0x0000_linker"
+        bool "K32L2A41A_application_0x0000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.K32L2A41A_application_0xA000_linker
-        bool "Select middleware.mcu-boot.K32L2A41A_application_0xA000_linker"
+        bool "K32L2A41A_application_0xA000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKM35Z7_application_0x0000_linker
-        bool "Select middleware.mcu-boot.MKM35Z7_application_0x0000_linker"
+        bool "MKM35Z7_application_0x0000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKM35Z7_application_0xA000_linker
-        bool "Select middleware.mcu-boot.MKM35Z7_application_0xA000_linker"
+        bool "MKM35Z7_application_0xA000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKE16Z4_application_0x0000_linker
-        bool "Select middleware.mcu-boot.MKE16Z4_application_0x0000_linker"
+        bool "MKE16Z4_application_0x0000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKE16Z4_application_0x8000_linker
-        bool "Select middleware.mcu-boot.MKE16Z4_application_0x8000_linker"
+        bool "MKE16Z4_application_0x8000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKE17Z7_application_0x0000_linker
-        bool "Select middleware.mcu-boot.MKE17Z7_application_0x0000_linker"
+        bool "MKE17Z7_application_0x0000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKE17Z7_application_0xA000_linker
-        bool "Select middleware.mcu-boot.MKE17Z7_application_0xA000_linker"
+        bool "MKE17Z7_application_0xA000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKE17Z7_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.MKE17Z7_ram_flashloader_linker"
+        bool "MKE17Z7_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKE17Z7_flashloader_loader_linker
-        bool "Select middleware.mcu-boot.MKE17Z7_flashloader_loader_linker"
+        bool "MKE17Z7_flashloader_loader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKE17Z9_application_0x0000_linker
-        bool "Select middleware.mcu-boot.MKE17Z9_application_0x0000_linker"
+        bool "MKE17Z9_application_0x0000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKE17Z9_application_0xA000_linker
-        bool "Select middleware.mcu-boot.MKE17Z9_application_0xA000_linker"
+        bool "MKE17Z9_application_0xA000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKE17Z9_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.MKE17Z9_ram_flashloader_linker"
+        bool "MKE17Z9_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MKE17Z9_flashloader_loader_linker
-        bool "Select middleware.mcu-boot.MKE17Z9_flashloader_loader_linker"
+        bool "MKE17Z9_flashloader_loader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MIMXRT1052_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.MIMXRT1052_ram_flashloader_linker"
+        bool "MIMXRT1052_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MIMXRT1052_application_0xa000_linker
-        bool "Select middleware.mcu-boot.MIMXRT1052_application_0xa000_linker"
+        bool "MIMXRT1052_application_0xa000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MIMXRT1052_application_0x60002000_linker
-        bool "Select middleware.mcu-boot.MIMXRT1052_application_0x60002000_linker"
+        bool "MIMXRT1052_application_0x60002000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MIMXRT1021_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.MIMXRT1021_ram_flashloader_linker"
+        bool "MIMXRT1021_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MIMXRT1021_flash_bootloader_linker
-        bool "Select middleware.mcu-boot.MIMXRT1021_flash_bootloader_linker"
+        bool "MIMXRT1021_flash_bootloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MIMXRT1021_application_0xa000_linker
-        bool "Select middleware.mcu-boot.MIMXRT1021_application_0xa000_linker"
+        bool "MIMXRT1021_application_0xa000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MIMXRT1021_application_0x60002000_linker
-        bool "Select middleware.mcu-boot.MIMXRT1021_application_0x60002000_linker"
+        bool "MIMXRT1021_application_0x60002000_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MIMXRT1062_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.MIMXRT1062_ram_flashloader_linker"
+        bool "MIMXRT1062_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MIMXRT1042_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.MIMXRT1042_ram_flashloader_linker"
+        bool "MIMXRT1042_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MIMXRT1042_flash_bootloader_linker
-        bool "Select middleware.mcu-boot.MIMXRT1042_flash_bootloader_linker"
+        bool "MIMXRT1042_flash_bootloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MIMXRT1064_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.MIMXRT1064_ram_flashloader_linker"
+        bool "MIMXRT1064_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MIMXRT1015_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.MIMXRT1015_ram_flashloader_linker"
+        bool "MIMXRT1015_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MIMXRT1011_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.MIMXRT1011_ram_flashloader_linker"
+        bool "MIMXRT1011_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MIMXRT1024_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.MIMXRT1024_ram_flashloader_linker"
+        bool "MIMXRT1024_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MIMXRT1176_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.MIMXRT1176_ram_flashloader_linker"
+        bool "MIMXRT1176_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MIMXRT1166_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.MIMXRT1166_ram_flashloader_linker"
+        bool "MIMXRT1166_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MIMXRT1189_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.MIMXRT1189_ram_flashloader_linker"
+        bool "MIMXRT1189_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.MIMXRT1187_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.MIMXRT1187_ram_flashloader_linker"
+        bool "MIMXRT1187_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.LPC54018_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.LPC54018_ram_flashloader_linker"
+        bool "LPC54018_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.LPC54S018M_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.LPC54S018M_ram_flashloader_linker"
+        bool "LPC54S018M_ram_flashloader_linker"
     config MCUX_PRJSEG_middleware.mcu-boot.LPC54S018_ram_flashloader_linker
-        bool "Select middleware.mcu-boot.LPC54S018_ram_flashloader_linker"
+        bool "LPC54S018_ram_flashloader_linker"
 endmenu
