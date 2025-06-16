@@ -83,17 +83,17 @@ endif()
 if(CONFIG_MCUX_PRJSEG_evkbmimxrt1060_kboot_options)
     mcux_add_iar_configuration(
         AS  ""
-        CC  "-Ohz -DCPU_MIMXRT1062DVL6A -DCPU_IS_ARM_CORTEX_M7=1 -DXIP_EXTERNAL_FLASH=1 -DNDEBUG"
+        CC  "-Ohz -DCPU_MIMXRT1062DVL6B -DCPU_IS_ARM_CORTEX_M7=1 -DXIP_EXTERNAL_FLASH=1 -DNDEBUG"
         CX  "-DNDEBUG"
     )
     mcux_add_mdk_configuration(
         AS  "-mcpu=cortex-m7 -DNDEBUG"
-        CC  "-mcpu=cortex-m7 -Oz -DCPU_MIMXRT1062DVL6A -DCPU_IS_ARM_CORTEX_M7=1 -DXIP_EXTERNAL_FLASH=1 -DNDEBUG"
+        CC  "-mcpu=cortex-m7 -Oz -DCPU_MIMXRT1062DVL6B -DCPU_IS_ARM_CORTEX_M7=1 -DXIP_EXTERNAL_FLASH=1 -DNDEBUG"
         CX  "-mcpu=cortex-m7 -Oz -DNDEBUG"
     )
     mcux_add_armgcc_configuration(
         AS  "-mthumb -D__STARTUP_CLEAR_BSS -DNDEBUG"
-        CC  "-mthumb -MMD -MP -Os -DCPU_MIMXRT1062DVL6A -DCPU_IS_ARM_CORTEX_M7=1 -DNDEBUG"
+        CC  "-mthumb -MMD -MP -Os -DCPU_MIMXRT1062DVL6B -DCPU_IS_ARM_CORTEX_M7=1 -DNDEBUG"
         CX  "-mthumb -MMD -MP -Os -DNDEBUG"
     )
 endif()
@@ -101,17 +101,17 @@ endif()
 if(CONFIG_MCUX_PRJSEG_evkbmimxrt1170_cm7_kboot_options)
     mcux_add_iar_configuration(
         AS  "-DNDEBUG"
-        CC  "-Ohz -DCPU_MIMXRT1176DVMAA_cm7 -DCPU_IS_ARM_CORTEX_M7=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
+        CC  "-Ohz -DCPU_MIMXRT1176DVMAB_cm7 -DCPU_IS_ARM_CORTEX_M7=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
         CX  "-DNDEBUG"
     )
     mcux_add_mdk_configuration(
         AS  "-mcpu=cortex-m7 -DNDEBUG"
-        CC  "-mcpu=cortex-m7 -Oz -DCPU_MIMXRT1176DVMAA_cm7 -DCPU_IS_ARM_CORTEX_M7=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
+        CC  "-mcpu=cortex-m7 -Oz -DCPU_MIMXRT1176DVMAB_cm7 -DCPU_IS_ARM_CORTEX_M7=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
         CX  "-mcpu=cortex-m7 -Oz -DNDEBUG"
     )
     mcux_add_armgcc_configuration(
         AS  "-mcpu=cortex-m7 -mthumb -D__STARTUP_CLEAR_BSS -DNDEBUG"
-        CC  "-mcpu=cortex-m7 -mthumb -MMD -MP -Os -DCPU_MIMXRT1176DVMAA_cm7 -DCPU_IS_ARM_CORTEX_M7=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
+        CC  "-mcpu=cortex-m7 -mthumb -MMD -MP -Os -DCPU_MIMXRT1176DVMAB_cm7 -DCPU_IS_ARM_CORTEX_M7=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
         CX  "-mcpu=cortex-m7 -mthumb -MMD -MP -Os -DNDEBUG"
     )
 endif()
@@ -119,17 +119,17 @@ endif()
 if(CONFIG_MCUX_PRJSEG_evkbmimxrt1170_cm4_kboot_options)
     mcux_add_iar_configuration(
         AS  "-DNDEBUG"
-        CC  "-Ohz -DCPU_MIMXRT1176DVMAA_cm4 -DCPU_IS_ARM_CORTEX_M4=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
+        CC  "-Ohz -DCPU_MIMXRT1176DVMAB_cm4 -DCPU_IS_ARM_CORTEX_M4=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
         CX  "-DNDEBUG"
     )
     mcux_add_mdk_configuration(
         AS  "-mcpu=cortex-m4 -DNDEBUG"
-        CC  "-mcpu=cortex-m4 -Oz -DCPU_MIMXRT1176DVMAA_cm4 -DCPU_IS_ARM_CORTEX_M4=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
+        CC  "-mcpu=cortex-m4 -Oz -DCPU_MIMXRT1176DVMAB_cm4 -DCPU_IS_ARM_CORTEX_M4=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
         CX  "-mcpu=cortex-m4 -Oz -DNDEBUG"
     )
     mcux_add_armgcc_configuration(
         AS  "-mcpu=cortex-m4 -mthumb -D__STARTUP_CLEAR_BSS -DNDEBUG"
-        CC  "-mcpu=cortex-m4 -mthumb -MMD -MP -Os -DCPU_MIMXRT1176DVMAA_cm4 -DCPU_IS_ARM_CORTEX_M4=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
+        CC  "-mcpu=cortex-m4 -mthumb -MMD -MP -Os -DCPU_MIMXRT1176DVMAB_cm4 -DCPU_IS_ARM_CORTEX_M4=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
         CX  "-mcpu=cortex-m4 -mthumb -MMD -MP -Os -DNDEBUG"
     )
 endif()
@@ -137,17 +137,17 @@ endif()
 if(CONFIG_MCUX_PRJSEG_evkcmimxrt1060_kboot_options)
     mcux_add_iar_configuration(
         AS  ""
-        CC  "-Ohz -DCPU_MIMXRT1062DVL6A -DCPU_IS_ARM_CORTEX_M7=1 -DXIP_EXTERNAL_FLASH=1 -DNDEBUG"
+        CC  "-Ohz -DCPU_MIMXRT1062DVL6B -DCPU_IS_ARM_CORTEX_M7=1 -DXIP_EXTERNAL_FLASH=1 -DNDEBUG"
         CX  "-DNDEBUG"
     )
     mcux_add_mdk_configuration(
         AS  "-mcpu=cortex-m7 -DNDEBUG"
-        CC  "-mcpu=cortex-m7 -Oz -DCPU_MIMXRT1062DVL6A -DCPU_IS_ARM_CORTEX_M7=1 -DXIP_EXTERNAL_FLASH=1 -DNDEBUG"
+        CC  "-mcpu=cortex-m7 -Oz -DCPU_MIMXRT1062DVL6B -DCPU_IS_ARM_CORTEX_M7=1 -DXIP_EXTERNAL_FLASH=1 -DNDEBUG"
         CX  "-mcpu=cortex-m7 -Oz -DNDEBUG"
     )
     mcux_add_armgcc_configuration(
         AS  "-mthumb -D__STARTUP_CLEAR_BSS -DNDEBUG"
-        CC  "-mthumb -MMD -MP -Os -DCPU_MIMXRT1062DVL6A -DCPU_IS_ARM_CORTEX_M7=1 -DXIP_EXTERNAL_FLASH=1 -DNDEBUG"
+        CC  "-mthumb -MMD -MP -Os -DCPU_MIMXRT1062DVL6B -DCPU_IS_ARM_CORTEX_M7=1 -DXIP_EXTERNAL_FLASH=1 -DNDEBUG"
         CX  "-mthumb -MMD -MP -Os -DNDEBUG"
     )
 endif()
@@ -352,17 +352,17 @@ endif()
 if(CONFIG_MCUX_PRJSEG_evkmimxrt1180_kboot_options)
     mcux_add_iar_configuration(
         AS  ""
-        CC  "-Ohz -DCPU_MIMXRT1189CVM8B_cm33 -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=0 -DNDEBUG"
+        CC  "-Ohz -DCPU_MIMXRT1189CVM8C_cm33 -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=0 -DNDEBUG"
         CX  "-DNDEBUG"
     )
     mcux_add_mdk_configuration(
         AS  "-mcpu=cortex-m33 -DNDEBUG"
-        CC  "-mcpu=cortex-m33 -mfpu=fpv5_sp_d16 -Oz -DCPU_MIMXRT1189CVM8B_cm33 -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=0 -DNDEBUG"
+        CC  "-mcpu=cortex-m33 -mfpu=fpv5_sp_d16 -Oz -DCPU_MIMXRT1189CVM8C_cm33 -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=0 -DNDEBUG"
         CX  "-mcpu=cortex-m33 -mfpu=fpv5_sp_d16 -Oz -DNDEBUG"
     )
     mcux_add_armgcc_configuration(
         AS  "-mcpu=cortex-m33 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -mthumb -D__STARTUP_CLEAR_BSS -DNDEBUG"
-        CC  "-mcpu=cortex-m33 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -mthumb -MMD -MP -Os -DCPU_MIMXRT1189CVM8B_cm33 -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
+        CC  "-mcpu=cortex-m33 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -mthumb -MMD -MP -Os -DCPU_MIMXRT1189CVM8C_cm33 -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
         CX  "-mcpu=cortex-m33 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -mthumb -MMD -MP -Os -DNDEBUG"
     )
 endif()

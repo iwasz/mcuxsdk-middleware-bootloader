@@ -1,5 +1,5 @@
 /*
- * Copyright 2021 NXP
+ * Copyright 2025 NXP
  * All rights reserved.
  *
  * SPDX-License-Identifier: BSD-3-Clause
@@ -14,11 +14,11 @@
 /*
  * TEXT BELOW IS USED AS SETTING FOR TOOLS *************************************
 !!GlobalInfo
-product: Clocks v16.0
+product: Pins v17.0
 processor: MKE17Z512xxx9
 package_id: MKE17Z512VLL9
 mcu_data: ksdk2_0
-processor_version: 0.2506.10
+processor_version: 0.2506.30
 external_user_signals: {}
 pin_labels:
 - {pin_num: '17', pin_signal: PTE14/FTM0_FLT1/TRGMUX_OUT4, label: SW3, identifier: SW3}
@@ -54,7 +54,7 @@ void BOARD_InitBootPins(void)
 /*
  * TEXT BELOW IS USED AS SETTING FOR TOOLS *************************************
 BOARD_InitPins:
-- options: {callFromInitBoot: 'true', prefix: BOARD_, coreID: core0, enableClock: 'false'}
+- options: {callFromInitBoot: 'true', coreID: cm0plus, enableClock: 'true'}
 - pin_list: []
  * BE CAREFUL MODIFYING THIS COMMENT - IT IS YAML SETTINGS FOR TOOLS ***********
  */
@@ -74,7 +74,7 @@ void BOARD_InitPins(void)
 /*
  * TEXT BELOW IS USED AS SETTING FOR TOOLS *************************************
 BOARD_InitBootPin:
-- options: {callFromInitBoot: 'false', coreID: core0, enableClock: 'false'}
+- options: {callFromInitBoot: 'false', coreID: cm0plus, enableClock: 'false'}
 - pin_list:
   - {pin_num: '17', peripheral: GPIOE, signal: 'GPIO, 14', pin_signal: PTE14/FTM0_FLT1/TRGMUX_OUT4, direction: INPUT, gpio_interrupt: no_init}
  * BE CAREFUL MODIFYING THIS COMMENT - IT IS YAML SETTINGS FOR TOOLS ***********
@@ -105,7 +105,7 @@ void BOARD_InitBootPin(void)
 /*
  * TEXT BELOW IS USED AS SETTING FOR TOOLS *************************************
 UART0_InitPins:
-- options: {callFromInitBoot: 'false', prefix: LPUART0_, coreID: core0, enableClock: 'false'}
+- options: {callFromInitBoot: 'false', prefix: LPUART0_, coreID: cm0plus, enableClock: 'false'}
 - pin_list:
   - {pin_num: '54', peripheral: LPUART0, signal: RX, pin_signal: TSI1_CH15/PTB0/LPUART0_RX/LPSPI0_PCS0/LPTMR0_ALT3/PWT_IN3}
   - {pin_num: '53', peripheral: LPUART0, signal: TX, pin_signal: TSI1_CH16/PTB1/LPUART0_TX/LPSPI0_SOUT/TCLK0}
@@ -133,7 +133,7 @@ void UART0_InitPins(void)
 /*
  * TEXT BELOW IS USED AS SETTING FOR TOOLS *************************************
 UART0_RestoreDefault:
-- options: {callFromInitBoot: 'false', coreID: core0, enableClock: 'false'}
+- options: {callFromInitBoot: 'false', coreID: cm0plus, enableClock: 'false'}
 - pin_list:
   - {pin_num: '53', peripheral: TSI1, signal: 'CH, 16', pin_signal: TSI1_CH16/PTB1/LPUART0_TX/LPSPI0_SOUT/TCLK0}
   - {pin_num: '54', peripheral: TSI1, signal: 'CH, 15', pin_signal: TSI1_CH15/PTB0/LPUART0_RX/LPSPI0_PCS0/LPTMR0_ALT3/PWT_IN3}
@@ -161,7 +161,7 @@ void UART0_RestoreDefault(void)
 /*
  * TEXT BELOW IS USED AS SETTING FOR TOOLS *************************************
 UART0_PollForActivity:
-- options: {callFromInitBoot: 'false', coreID: core0, enableClock: 'false'}
+- options: {callFromInitBoot: 'false', coreID: cm0plus, enableClock: 'false'}
 - pin_list:
   - {pin_num: '54', peripheral: LPUART0, signal: RX, pin_signal: TSI1_CH15/PTB0/LPUART0_RX/LPSPI0_PCS0/LPTMR0_ALT3/PWT_IN3}
  * BE CAREFUL MODIFYING THIS COMMENT - IT IS YAML SETTINGS FOR TOOLS ***********
@@ -185,7 +185,7 @@ void UART0_PollForActivity(void)
 /*
  * TEXT BELOW IS USED AS SETTING FOR TOOLS *************************************
 I2C0_InitPins:
-- options: {callFromInitBoot: 'false', prefix: LPI2C0_, coreID: core0, enableClock: 'false'}
+- options: {callFromInitBoot: 'false', prefix: LPI2C0_, coreID: cm0plus, enableClock: 'false'}
 - pin_list:
   - {pin_num: '72', peripheral: LPI2C0, signal: SCL, pin_signal: TSI1_CH5/PTA3/LPI2C0_SCL/EWM_IN/LPUART0_TX}
   - {pin_num: '73', peripheral: LPI2C0, signal: SDA, pin_signal: TSI1_CH4/PTA2/LPI2C0_SDA/EWM_OUT_b/LPUART0_RX}
@@ -213,7 +213,7 @@ void I2C0_InitPins(void)
 /*
  * TEXT BELOW IS USED AS SETTING FOR TOOLS *************************************
 I2C0_RestoreDefault:
-- options: {callFromInitBoot: 'false', coreID: core0, enableClock: 'false'}
+- options: {callFromInitBoot: 'false', coreID: cm0plus, enableClock: 'false'}
 - pin_list:
   - {pin_num: '72', peripheral: TSI1, signal: 'CH, 5', pin_signal: TSI1_CH5/PTA3/LPI2C0_SCL/EWM_IN/LPUART0_TX}
   - {pin_num: '73', peripheral: TSI1, signal: 'CH, 4', pin_signal: TSI1_CH4/PTA2/LPI2C0_SDA/EWM_OUT_b/LPUART0_RX}
@@ -241,7 +241,7 @@ void I2C0_RestoreDefault(void)
 /*
  * TEXT BELOW IS USED AS SETTING FOR TOOLS *************************************
 SPI0_InitPins:
-- options: {callFromInitBoot: 'false', prefix: LPSPI0_, coreID: core0, enableClock: 'false'}
+- options: {callFromInitBoot: 'false', prefix: LPSPI0_, coreID: cm0plus, enableClock: 'false'}
 - pin_list:
   - {pin_num: '48', peripheral: LPSPI0, signal: SCK, pin_signal: TSI1_CH17/PTB2/FTM1_CH0/LPSPI0_SCK/TRGMUX_IN3}
   - {pin_num: '47', peripheral: LPSPI0, signal: SIN, pin_signal: TSI1_CH18/PTB3/FTM1_CH1/LPSPI0_SIN/TRGMUX_IN2}
@@ -277,7 +277,7 @@ void SPI0_InitPins(void)
 /*
  * TEXT BELOW IS USED AS SETTING FOR TOOLS *************************************
 SPI0_RestoreDefault:
-- options: {callFromInitBoot: 'false', coreID: core0, enableClock: 'false'}
+- options: {callFromInitBoot: 'false', coreID: cm0plus, enableClock: 'false'}
 - pin_list:
   - {pin_num: '27', peripheral: ADC0, signal: 'SE, 3', pin_signal: ADC0_SE3/TSI0_CH23/PTB5/FTM0_CH5/LPSPI0_PCS1/TRGMUX_IN0}
   - {pin_num: '28', peripheral: ADC0, signal: 'SE, 5', pin_signal: ADC0_SE5/TSI0_CH24/PTB4/FTM0_CH4/LPSPI0_SOUT/TRGMUX_IN1}
