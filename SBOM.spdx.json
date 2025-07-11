@@ -1,0 +1,65 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2025-06-10T06:39:49Z",
+    "creators": [
+      "Organization: NXP"
+    ],
+    "licenseListVersion": "3.20"
+  },
+  "name": "mcuxsdk-middleware-bootloader-v25.06.00",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://nxp.com/spdx/791ec019-be82-4544-8ba6-acf01d4b218c",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-package-791ec019-be82-4544-8ba6-acf01d4b218c",
+      "name": "mcuxsdk-middleware-bootloader",
+      "versionInfo": "v25.06.00",
+      "licenseConcluded": "(BSD-3-Clause)",
+      "licenseDeclared": "(BSD-3-Clause)",
+      "downloadLocation": "https://github.com/nxp-mcuxpresso/mcuxsdk-middleware-bootloader",
+      "originator": "Organization: NXP",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-package-1578ea81-8a2f-4bbe-9dc5-56eab2cf127f",
+      "name": "python-msp430-tools",
+      "versionInfo": "0.9.2",
+      "licenseConcluded": "BSD-2-Clause",
+      "licenseDeclared": "BSD-2-Clause",
+      "homepage": "http://launchpad.net/python-msp430-tools/",
+      "downloadLocation": "https://pypi.org/project/python-msp430-tools//0.9.2",
+      "originator": "Organization: pypi",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/python-msp430-tools@0.9.2",
+          "referenceType": "purl"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceLocator": "ec56deb7-37cd-4932-8c18-0a59ab08b66e",
+          "referenceType": "BlackDuck-ComponentOrigin"
+        }
+      ],
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-package-791ec019-be82-4544-8ba6-acf01d4b218c"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-791ec019-be82-4544-8ba6-acf01d4b218c",
+      "relationshipType": "OTHER",
+      "relatedSpdxElement": "SPDXRef-package-1578ea81-8a2f-4bbe-9dc5-56eab2cf127f",
+      "comment": "Separate Work"
+    }
+  ]
+}
