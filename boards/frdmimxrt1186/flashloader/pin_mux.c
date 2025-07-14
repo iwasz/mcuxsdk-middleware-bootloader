@@ -1,5 +1,5 @@
 /*
- * Copyright 2023 NXP
+ * Copyright 2025 NXP
  *
  * SPDX-License-Identifier: BSD-3-Clause
  */
@@ -12,12 +12,11 @@
 /*
  * TEXT BELOW IS USED AS SETTING FOR TOOLS *************************************
 !!GlobalInfo
-product: Pins v13.0
-processor: MIMXRT1189xxxxx
-package_id: MIMXRT1189CVM8B
+product: Pins v17.0
+processor: MIMXRT1186xxxxx
+package_id: MIMXRT1186XVJ8C
 mcu_data: ksdk2_0
-processor_version: 0.13.4
-external_user_signals: {}
+processor_version: 0.0.0
 pin_labels:
 - {pin_num: A5, pin_signal: GPIO_AON_09, label: RX, identifier: RX;RX_GPIO}
  * BE CAREFUL MODIFYING THIS COMMENT - IT IS YAML SETTINGS FOR TOOLS ***********
