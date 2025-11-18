@@ -334,17 +334,17 @@ endif()
 if(CONFIG_MCUX_PRJSEG_evkmimxrt1180a_kboot_options)
     mcux_add_iar_configuration(
         AS  "--cpu=cortex-m33 --fpu=vfpv5_sp_d16 -DNDEBUG"
-        CC  "--cpu=cortex-m33 --fpu=vfpv5_sp_d16 -Om -DCPU_MIMXRT1187CVM8B_cm33 -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=0 -DNDEBUG"
+        CC  "--cpu=cortex-m33 --fpu=vfpv5_sp_d16 -Om -DCPU_MIMXRT1187CVM8B_cm33 -DROM_ENABLE_CMSE -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=0 -DNDEBUG"
         CX  "--cpu=cortex-m33 --fpu=vfpv5_sp_d16 -DNDEBUG"
     )
     mcux_add_mdk_configuration(
         AS  "-mcpu=cortex-m33 -DNDEBUG"
-        CC  "-mcpu=cortex-m33 -mfpu=fpv5_sp_d16 -Oz -DCPU_MIMXRT1187CVM8B_cm33 -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=0 -DNDEBUG"
+        CC  "-mcpu=cortex-m33 -mfpu=fpv5_sp_d16 -Oz -DCPU_MIMXRT1187CVM8B_cm33 -DROM_ENABLE_CMSE -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=0 -DNDEBUG"
         CX  "-mcpu=cortex-m33 -mfpu=fpv5_sp_d16 -Oz -DNDEBUG"
     )
     mcux_add_armgcc_configuration(
         AS  "-mcpu=cortex-m33 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -mthumb -D__STARTUP_CLEAR_BSS -DNDEBUG"
-        CC  "-mcpu=cortex-m33 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -mthumb -MMD -MP -Os -DCPU_MIMXRT1187CVM8B_cm33 -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
+        CC  "-mcpu=cortex-m33 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -mthumb -MMD -MP -Os -DCPU_MIMXRT1187CVM8B_cm33 -DROM_ENABLE_CMSE -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
         CX  "-mcpu=cortex-m33 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -mthumb -MMD -MP -Os -DNDEBUG"
     )
 endif()
@@ -352,17 +352,17 @@ endif()
 if(CONFIG_MCUX_PRJSEG_evkmimxrt1180_kboot_options)
     mcux_add_iar_configuration(
         AS  ""
-        CC  "-Ohz -DCPU_MIMXRT1189CVM8C_cm33 -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=0 -DNDEBUG"
+        CC  "-Ohz -DCPU_MIMXRT1189CVM8C_cm33 -DCPU_IS_ARM_CORTEX_M33=1 -DROM_ENABLE_CMSE -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=0 -DNDEBUG"
         CX  "-DNDEBUG"
     )
     mcux_add_mdk_configuration(
         AS  "-mcpu=cortex-m33 -DNDEBUG"
-        CC  "-mcpu=cortex-m33 -mfpu=fpv5_sp_d16 -Oz -DCPU_MIMXRT1189CVM8C_cm33 -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=0 -DNDEBUG"
+        CC  "-mcpu=cortex-m33 -mfpu=fpv5_sp_d16 -Oz -DCPU_MIMXRT1189CVM8C_cm33 -DROM_ENABLE_CMSE -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=0 -DNDEBUG"
         CX  "-mcpu=cortex-m33 -mfpu=fpv5_sp_d16 -Oz -DNDEBUG"
     )
     mcux_add_armgcc_configuration(
         AS  "-mcpu=cortex-m33 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -mthumb -D__STARTUP_CLEAR_BSS -DNDEBUG"
-        CC  "-mcpu=cortex-m33 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -mthumb -MMD -MP -Os -DCPU_MIMXRT1189CVM8C_cm33 -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
+        CC  "-mcpu=cortex-m33 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -mthumb -MMD -MP -Os -DCPU_MIMXRT1189CVM8C_cm33 -DROM_ENABLE_CMSE -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
         CX  "-mcpu=cortex-m33 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -mthumb -MMD -MP -Os -DNDEBUG"
     )
 endif()
@@ -370,17 +370,17 @@ endif()
 if(CONFIG_MCUX_PRJSEG_frdmimxrt1186_kboot_options)
     mcux_add_iar_configuration(
         AS  ""
-        CC  "-Ohz -DCPU_MIMXRT1186CVJ8C_cm33 -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=0 -DNDEBUG"
+        CC  "-Ohz -DCPU_MIMXRT1186CVJ8C_cm33 -DROM_ENABLE_CMSE -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=0 -DNDEBUG"
         CX  "-DNDEBUG"
     )
     mcux_add_mdk_configuration(
         AS  "-mcpu=cortex-m33 -DNDEBUG"
-        CC  "-mcpu=cortex-m33 -mfpu=fpv5_sp_d16 -Oz -DCPU_MIMXRT1186CVJ8C_cm33 -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=0 -DNDEBUG"
+        CC  "-mcpu=cortex-m33 -mfpu=fpv5_sp_d16 -Oz -DCPU_MIMXRT1186CVJ8C_cm33 -DROM_ENABLE_CMSE -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=0 -DNDEBUG"
         CX  "-mcpu=cortex-m33 -mfpu=fpv5_sp_d16 -Oz -DNDEBUG"
     )
     mcux_add_armgcc_configuration(
         AS  "-mcpu=cortex-m33 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -mthumb -D__STARTUP_CLEAR_BSS -DNDEBUG"
-        CC  "-mcpu=cortex-m33 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -mthumb -MMD -MP -Os -DCPU_MIMXRT1186CVJ8C_cm33 -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
+        CC  "-mcpu=cortex-m33 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -mthumb -MMD -MP -Os -DCPU_MIMXRT1186CVJ8C_cm33 -DROM_ENABLE_CMSE -DCPU_IS_ARM_CORTEX_M33=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
         CX  "-mcpu=cortex-m33 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -mthumb -MMD -MP -Os -DNDEBUG"
     )
 endif()
