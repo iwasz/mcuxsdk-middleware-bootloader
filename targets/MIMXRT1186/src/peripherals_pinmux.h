@@ -70,7 +70,7 @@ static inline void IOMUXC_RestoreDefault(uint32_t muxRegister,
 
 /*====================== LPSPI Slave IOMUXC Definitions (for Serial Boot) ===========================*/
 //! peripheral enable configurations
-#define BL_ENABLE_PINMUX_LPSPI1 (BL_CONFIG_LPSPI_1)
+#define BL_ENABLE_PINMUX_SPI1 (BL_CONFIG_LPSPI_1)
 
 #define SPI1_SDO_IOMUXC_MUX_FUNC IOMUXC_GPIO_AON_06_LPSPI1_SDO
 #define SPI1_SDO_IOMUXC_DEFAULT 0x5U, 0x6U
