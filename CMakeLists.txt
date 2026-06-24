@@ -385,6 +385,24 @@ if(CONFIG_MCUX_PRJSEG_frdmimxrt1186_kboot_options)
     )
 endif()
 
+if(CONFIG_MCUX_PRJSEG_frdmimxrt1150_kboot_options)
+    mcux_add_iar_configuration(
+        AS  "-DNDEBUG"
+        CC  "-Ohz -DCPU_MIMXRT1152XHM8B -DCPU_IS_ARM_CORTEX_M7=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
+        CX  "-DNDEBUG"
+    )
+    mcux_add_mdk_configuration(
+        AS  "-mcpu=cortex-m7 -DNDEBUG"
+        CC  "-mcpu=cortex-m7 -Oz -DCPU_MIMXRT1152XHM8B -DCPU_IS_ARM_CORTEX_M7=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
+        CX  "-mcpu=cortex-m7 -Oz -DNDEBUG"
+    )
+    mcux_add_armgcc_configuration(
+        AS  "-mcpu=cortex-m7 -mthumb -D__STARTUP_CLEAR_BSS -DNDEBUG"
+        CC  "-mcpu=cortex-m7 -mthumb -MMD -MP -Os -DCPU_MIMXRT1152XHM8B -DCPU_IS_ARM_CORTEX_M7=1 -DXIP_EXTERNAL_FLASH=1 -DXIP_BOOT_HEADER_ENABLE=1 -DNDEBUG"
+        CX  "-mcpu=cortex-m7 -mthumb -MMD -MP -Os -DNDEBUG"
+    )
+endif()
+
 if(CONFIG_MCUX_PRJSEG_frdmk22f_kboot_options)
     mcux_add_iar_configuration(
         AS  ""
@@ -3439,7 +3457,7 @@ if(CONFIG_MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1176_startup)
         BASE_PATH ${SdkRootDirPath}/middleware/mcu_bootloader/
     )
     mcux_add_include(
-        INCLUDES ../../devices/MIMXRT1052
+        INCLUDES ../../devices/MIMXRT1176
         BASE_PATH ${SdkRootDirPath}/middleware/mcu_bootloader/
     )
 endif()
@@ -4178,6 +4196,113 @@ if(CONFIG_MCUX_COMPONENT_middleware.mcu-boot.LPC54S018_sources)
         INCLUDES targets/LPC54S018/src
                  src/memory/src
                  src/authentication
+        BASE_PATH ${SdkRootDirPath}/middleware/mcu_bootloader/
+    )
+endif()
+
+if(CONFIG_MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1152_startup)
+    mcux_component_version(2.7.0)
+    mcux_add_source(
+        SOURCES ../../devices_int/RT/RT1150/MIMXRT1152/system_MIMXRT1152.h
+        CORES cm7f
+        BASE_PATH ${SdkRootDirPath}/middleware/mcu_bootloader/
+    )
+    mcux_add_source(
+        SOURCES targets/MIMXRT1152/src/startup/system_MIMXRT1152.c
+        CORES cm7f
+        BASE_PATH ${SdkRootDirPath}/middleware/mcu_bootloader/
+    )
+    mcux_add_source(
+        SOURCES targets/MIMXRT1152/src/startup/iar/startup_MIMXRT1152.s
+        TOOLCHAINS iar
+        CORES cm7f
+        BASE_PATH ${SdkRootDirPath}/middleware/mcu_bootloader/
+    )
+    mcux_add_source(
+        SOURCES targets/MIMXRT1152/src/startup/gcc/startup_MIMXRT1152.S
+        TOOLCHAINS mcux armgcc
+        CORES cm7f
+        BASE_PATH ${SdkRootDirPath}/middleware/mcu_bootloader/
+    )
+    mcux_add_source(
+        SOURCES src/startup/crt0_gcc.S
+        TOOLCHAINS mcux armgcc
+        BASE_PATH ${SdkRootDirPath}/middleware/mcu_bootloader/
+    )
+    mcux_add_source(
+        SOURCES targets/MIMXRT1152/src/startup/arm/startup_MIMXRT1152.S
+        TOOLCHAINS mdk
+        CORES cm7f
+        BASE_PATH ${SdkRootDirPath}/middleware/mcu_bootloader/
+    )
+    mcux_add_include(
+        INCLUDES ../../devices_int/MIMXRT1152
+        BASE_PATH ${SdkRootDirPath}/middleware/mcu_bootloader/
+    )
+endif()
+
+if(CONFIG_MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1152_sources)
+    mcux_component_version(2.7.0)
+    mcux_add_source(
+        SOURCES targets/MIMXRT1152/src/bl_lpuart_irq_config_MIMXRT1152.c
+                targets/MIMXRT1152/src/bl_mpu.h
+                targets/MIMXRT1152/src/bootloader_config.h
+                targets/MIMXRT1152/src/clock_cfg_MIMXRT1152.c
+                targets/MIMXRT1152/src/external_memory_property_map_MIMXRT1152.c
+                targets/MIMXRT1152/src/flexspi_config_MIMXRT1152.c
+                targets/MIMXRT1152/src/flexspi_nand_config_MIMXRT1152.c
+                targets/MIMXRT1152/src/flexspi_nor_config_MIMXRT1152.c
+                targets/MIMXRT1152/src/fusemap.h
+                targets/MIMXRT1152/src/hardware_init_MIMXRT1152.c
+                targets/MIMXRT1152/src/memory_config.h
+                targets/MIMXRT1152/src/memory_map_MIMXRT1152.c
+                targets/MIMXRT1152/src/ocotp_MIMXRT1152.c
+                targets/MIMXRT1152/src/periph_MIMXRT1152.c
+                targets/MIMXRT1152/src/peripherals_pinmux.h
+                targets/MIMXRT1152/src/sdmmc_config_MIMXRT1152.c
+                targets/MIMXRT1152/src/sdmmc_convert_MIMXRT1152.c
+                targets/MIMXRT1152/src/sdmmc_init.h
+                targets/MIMXRT1152/src/security_config_MIMXRT1152.c
+                targets/MIMXRT1152/src/semc_nand_config_MIMXRT1152.c
+                targets/MIMXRT1152/src/target_config.h
+                targets/common/src/pinmux_utility_imxrt_series.c
+                targets/MIMXRT1152/src/usb_device_config.h
+                targets/MIMXRT1152/src/sram_init_MIMXRT1152.c
+                src/bootloader/src/lpuart_peripheral_interface.c
+                src/bootloader/src/usb_hid_msc_peripheral_interface.c
+                src/property/src/property_imx.c
+                src/security/keyblob/src/keyblob_caam.c
+                src/security/keyblob/src/keyblob.c
+                src/security/keyblob/keyblob.h
+                src/bootloader/bl_keyblob.h
+                src/authentication/key_store_puf.c
+                src/authentication/key_store_puf.h
+                src/memory/src/semc_nand_memory.c
+                src/memory/src/semc_nand_memory.h
+                src/drivers/nand_ecc/nand_ecc.c
+                src/drivers/nand_ecc/nand_ecc.h
+                src/drivers/semc/bl_semc.c
+                src/drivers/semc/bl_semc.h
+        BASE_PATH ${SdkRootDirPath}/middleware/mcu_bootloader/
+    )
+    mcux_add_include(
+        INCLUDES targets/MIMXRT1152/src
+                 src
+                 src/bootloader
+                 src/include
+                 src/startup
+                 src/memory
+                 src/memory/src
+                 src/property
+                 src/authentication
+                 src/security/keyblob
+                 src/drivers
+                 src/drivers/flexspi_nor
+                 src/drivers/flexspi
+                 src/drivers/serial_nor_eeprom
+                 src/drivers/sdmmc/inc
+                 src/drivers/semc
+                 src/drivers/nand_ecc
         BASE_PATH ${SdkRootDirPath}/middleware/mcu_bootloader/
     )
 endif()
@@ -5802,5 +5927,28 @@ if(CONFIG_MCUX_PRJSEG_middleware.mcu-boot.LPC54S018_ram_flashloader_linker)
         TARGETS release
         BASE_PATH ${SdkRootDirPath}
         LINKER middleware/mcu_bootloader/targets/common/linker/gcc/LPC54S018/LPC54S018_ram_flashloader.ld
+    )
+endif()
+
+if(CONFIG_MCUX_PRJSEG_middleware.mcu-boot.MIMXRT1152_ram_flashloader_linker)
+    mcux_add_iar_linker_script(
+        TARGETS release
+        BASE_PATH ${SdkRootDirPath}
+        LINKER middleware/mcu_bootloader/targets/common/linker/iar/MIMXRT1152/MIMXRT1152_ram_flashloader.icf
+    )
+    mcux_add_mdk_linker_script(
+        TARGETS release
+        BASE_PATH ${SdkRootDirPath}
+        LINKER middleware/mcu_bootloader/targets/common/linker/arm/MIMXRT1152/MIMXRT1152_ram_flashloader.scf
+    )
+    # mcux_add_mcux_linker_script(
+        # TARGETS release
+        # BASE_PATH ${SdkRootDirPath}
+        # LINKER middleware/mcu_bootloader/targets/common/linker/mcuxpresso/MIMXRT1152/MIMXRT1152_ram_flashloader.ld
+    # )
+    mcux_add_armgcc_linker_script(
+        TARGETS release
+        BASE_PATH ${SdkRootDirPath}
+        LINKER middleware/mcu_bootloader/targets/common/linker/gcc/MIMXRT1152/MIMXRT1152_ram_flashloader.ld
     )
 endif()
