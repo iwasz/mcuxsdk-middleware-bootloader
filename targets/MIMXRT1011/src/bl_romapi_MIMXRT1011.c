@@ -17,7 +17,7 @@
 /*****************************************************************************************************/
 /*                                         LPUART APIs                                               */
 /*****************************************************************************************************/
-#if !defined(BL_TARGET_RAM)
+#if 0 && !defined(BL_TARGET_RAM)
 status_t LPUART_WriteBlocking(LPUART_Type *base, const uint8_t *data, size_t length)
 {
     void (*const _LPUART_WriteBlocking)(LPUART_Type *, const uint8_t *, size_t) =
@@ -196,6 +196,7 @@ status_t TRNG_GetRandomData(TRNG_Type *base, void *data, size_t dataSize)
 /*****************************************************************************************************/
 /*                                          Clocking APIs                                                */
 /*****************************************************************************************************/
+#if 0
 void clock_setup(void)
 {
 #define _SystemCoreClock (*(const uint32_t *)0x20203a00)
@@ -210,3 +211,4 @@ status_t flexspi_get_clock(uint32_t instance, flexspi_clock_type_t type, uint32_
         (status_t(*)(uint32_t, flexspi_clock_type_t, uint32_t *))0x0020c225;
     return _flexspi_get_clock(instance, type, freq);
 }
+#endif

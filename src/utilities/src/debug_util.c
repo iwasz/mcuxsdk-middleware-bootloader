@@ -24,7 +24,7 @@ static void convert_digit_to_string(uint32_t digit, char *str, uint32_t *length)
 static void convert_hexdigit_to_string(uint32_t digit, char *str, uint32_t *length);
 
 #ifdef DEBUG_UART
-extern void debug_uart_print(const uint8_t *buffer, uint32_t lengthInBytes);
+void debug_uart_print(const uint8_t *buffer, uint32_t lengthInBytes){}
 #endif
 
 /*==================================================================================================

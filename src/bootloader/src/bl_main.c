@@ -7,6 +7,10 @@
 
 #define exit exit_default
 #include <stdbool.h>
+#include "board.h"
+#include "clock_config.h"
+#include "pin_mux.h"
+#include <fsl_debug_console.h>
 #include "bl_context.h"
 #include "bl_peripheral.h"
 #include "bl_shutdown_cleanup.h"
@@ -532,6 +536,7 @@ static void bootloader_flash_init(void)
 //! jumps directly to the user application in flash.
 static void bootloader_init(void)
 {
+#if 0
     // Init the global irq lock
     lock_init();
 
@@ -550,6 +555,13 @@ static void bootloader_init(void)
 
     // Configure clocks.
     configure_clocks(kClockOption_EnterBootloader);
+#endif
+
+    // BOARD_ConfigMPU ();
+    // BOARD_InitBootPins ();
+    BOARD_InitBootClocks ();
+    BOARD_InitDebugConsole ();
+    NVIC_SetPriorityGrouping (7); // 0 preempt bits, 4 subpriority bits
 
     // Start the lifetime counter
     microseconds_init();

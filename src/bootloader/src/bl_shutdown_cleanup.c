@@ -17,6 +17,7 @@
 #endif // #if !BL_FEATURE_HAS_NO_INTERNAL_FLASH
 #include "microseconds.h"
 #include "bootloader_common.h"
+#include "bootloader_core.h"
 
 #include "bl_shutdown_cleanup.h"
 #include "bl_context.h"
@@ -24,7 +25,14 @@
 ////////////////////////////////////////////////////////////////////////////////
 // Definitions
 ////////////////////////////////////////////////////////////////////////////////
-extern void init_interrupts(void);
+void init_interrupts(void)
+{
+    // Clear any IRQs that may be enabled, we only want the IRQs we enable to be active
+    NVIC_ClearEnabledIRQs();
+
+    // Clear any pending IRQs that may have been set
+    NVIC_ClearAllPendingIRQs();
+}
 
 ////////////////////////////////////////////////////////////////////////////////
 // Code

@@ -25,7 +25,9 @@
 #define USB_DEVICE_CONFIG_KHCI (0U)
 
 /*! @brief EHCI instance count */
+#ifndef USB_DEVICE_CONFIG_EHCI
 #define USB_DEVICE_CONFIG_EHCI (2U) // (BL_CONFIG_HS_USB_HID)
+#endif
 
 #define USBIRQ_Handler USB_OTG1_IRQHandler
 
