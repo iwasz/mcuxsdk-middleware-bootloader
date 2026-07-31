@@ -12,7 +12,7 @@
 #include "bl_trng.h"
 #include "flexspi_nor_flash.h"
 #include "fsl_clock.h"
-#include "fsl_lpuart.h"
+// #include "fsl_lpuart.h"
 
 /*****************************************************************************************************/
 /*                                         LPUART APIs                                               */

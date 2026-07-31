@@ -13,7 +13,7 @@
 #include "bootloader_common.h"
 #include "fsl_assert.h"
 #include "fsl_device_registers.h"
-#include "fsl_lpuart.h"
+// #include "fsl_lpuart.h"
 #if BL_ENABLE_CRC_CHECK
 #include "bl_app_crc_check.h"
 #endif
