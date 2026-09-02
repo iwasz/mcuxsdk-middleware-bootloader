@@ -27,7 +27,7 @@ memory_map_entry_t g_memoryMap[] = {
     { 0x20200000, 0x2020ffff, kMemoryIsExecutable | kMemoryType_RAM, kMemoryInternal, &g_normalMemoryInterface },
 #if BL_FEATURE_FLEXSPI_NOR_MODULE
     // FlexSPI1 AMBA memory
-    { 0x60000000, 0x7f7fffff, kMemoryNotExecutable | kMemoryType_FLASH, kMemoryFlexSpiNor, &g_flexspiMemoryInterface },
+    { 0x60000000, 0x7f7fffff, kMemoryIsExecutable | kMemoryType_FLASH, kMemoryFlexSpiNor, &g_flexspiMemoryInterface },
 #endif // #if BL_FEATURE_FLEXSPI_NOR_MODULE
     // Terminator
     { 0 }
