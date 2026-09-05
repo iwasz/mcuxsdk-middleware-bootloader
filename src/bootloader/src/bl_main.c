@@ -40,6 +40,8 @@
 #include "bl_reliable_update.h"
 #endif
 
+#include "driver/ws2812.h"
+
 //! @addtogroup bl_core
 //! @{
 
@@ -588,6 +590,8 @@ static void bootloader_init(void)
     // Message so python instantiated debugger can tell the
     // bootloader application is running on the target.
     debug_printf("\r\n\r\nRunning bootloader...\r\n");
+    // ws2812configure ();
+    // ws2812setColor (255, 0, 0);
 
 #if defined(DEBUG) && !defined(DEBUG_PRINT_DISABLE)
     standard_version_t version = g_bootloaderContext.propertyInterface->store->bootloaderVersion;
