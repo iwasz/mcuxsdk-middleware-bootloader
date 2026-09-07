@@ -41,6 +41,7 @@
 #endif
 
 #include "driver/ws2812.h"
+#include "driver/bootloaderEnter.h"
 
 //! @addtogroup bl_core
 //! @{
@@ -164,10 +165,11 @@ static void get_user_application_entry(uint32_t *appEntry, uint32_t *appStack)
 #if !BL_FEATURE_TIMEOUT
 bool is_direct_boot(void)
 {
-    bootloader_configuration_data_t *configurationData =
-        &g_bootloaderContext.propertyInterface->store->configurationData;
+    // bootloader_configuration_data_t *configurationData =
+    //     &g_bootloaderContext.propertyInterface->store->configurationData;
 
-    return (~configurationData->bootFlags) & kBootFlag_DirectBoot;
+    // return (~configurationData->bootFlags) & kBootFlag_DirectBoot;
+    return true;
 }
 #endif // !BL_FEATURE_TIMEOUT
 
@@ -346,7 +348,7 @@ static peripheral_descriptor_t const *get_active_peripheral(void)
     // If the boot to rom option is not set AND there is a valid jump application determine the timeout value
     if (!is_boot_pin_asserted() && is_application_ready_for_executing(applicationAddress))
     {
-        if (is_direct_boot())
+        if (is_direct_boot() && !bootloaderRequested ())
         {
             jump_to_application(applicationAddress, stackPointer);
         }
@@ -385,7 +387,7 @@ static peripheral_descriptor_t const *get_active_peripheral(void)
     {
 #if !BL_FEATURE_TIMEOUT
         // If timeout is enabled, check to see if we've exceeded it.
-        if (timeoutTicks)
+        if (0 || timeoutTicks)
         {
             // Note that we assume that the tick counter won't overflow and wrap back to 0.
             // The timeout value is only up to 65536 milliseconds, and the tick count starts
@@ -400,7 +402,7 @@ static peripheral_descriptor_t const *get_active_peripheral(void)
                 {
 #endif
                     // In the case of the typical peripheral timeout, jump to the user application.
-                    jump_to_application(applicationAddress, stackPointer);
+                    // jump_to_application(applicationAddress, stackPointer);
 #if BL_FEATURE_POWERDOWN
                 }
                 else
