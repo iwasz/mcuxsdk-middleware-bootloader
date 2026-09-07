@@ -41,7 +41,8 @@
 #endif
 
 #include "driver/ws2812.h"
-#include "driver/bootloaderEnter.h"
+#include "service/bootloaderEnter.h"
+#include "service/indication.h"
 
 //! @addtogroup bl_core
 //! @{
@@ -598,7 +599,7 @@ static void bootloader_init(void)
      * but also the timings are found experimentally and the output may change
      * due to changed CPU speed or even a changed compiler optimization flag.
      */
-    ws2812setColorEnum (INDICATION_BOOTLOADER);
+    indicate (INDICATION_BOOTLOADER);
 
 #if defined(DEBUG) && !defined(DEBUG_PRINT_DISABLE)
     standard_version_t version = g_bootloaderContext.propertyInterface->store->bootloaderVersion;
