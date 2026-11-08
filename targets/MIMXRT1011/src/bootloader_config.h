@@ -29,8 +29,8 @@
 #endif
 
 #ifdef _DEBUG
-// TODO where _DEBUG mcro comes from!?
-#define DEBUG_UART LPUART1 
+// The _DEBUG macro comes from src/target/mimxrt1011/gcc-arm-none-eabi.cmake
+#define DEBUG_UART LPUART1
 #define BL_CONFIG_LPUART (0)
 #else
 #define BL_CONFIG_LPUART (BL_CONFIG_LPUART_1)
